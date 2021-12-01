@@ -9,4 +9,6 @@ The filterbank will be embedded inside efabless's Caravel frame.
 
 This work began as a class project for UCSD's [BENG 207](https://isn.ucsd.edu/courses/beng207/index.html) Integrated Neuromorphic Bioelectronics (fall 2021).
 
+All design and simulation was done using the sky1 virtual machine made by Karthi Srinivasan, shared during Telluride 2021.
+
 More documentation to follow!
