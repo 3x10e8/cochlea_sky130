@@ -8,15 +8,15 @@ T {ctrl_ is the inverse of ctrl} -360 -100 0 0 0.4 0.4 {}
 N -140 40 0 40 { lab=ctrl}
 N 0 80 0 100 { lab=GND}
 N 0 -100 0 -80 { lab=VDD}
-N -80 -80 -30 -80 { lab=#net1}
-N -80 -80 -80 80 { lab=#net1}
-N -80 80 -30 80 { lab=#net1}
-N 30 -80 80 -80 { lab=#net2}
-N 80 -80 80 80 { lab=#net2}
-N 30 80 80 80 { lab=#net2}
-N -140 -40 0 -40 {}
-N -140 0 -80 0 {}
-N 80 0 140 0 {}
+N -80 -80 -30 -80 { lab=in}
+N -80 -80 -80 80 { lab=in}
+N -80 80 -30 80 { lab=in}
+N 30 -80 80 -80 { lab=out}
+N 80 -80 80 80 { lab=out}
+N 30 80 80 80 { lab=out}
+N -140 -40 0 -40 { lab=ctrl_}
+N -140 0 -80 0 { lab=in}
+N 80 0 140 0 { lab=out}
 C {devices/iopin.sym} -140 0 2 0 {name=p1 lab=in}
 C {devices/iopin.sym} 140 0 0 0 {name=p2 lab=out}
 C {devices/ipin.sym} -140 -40 0 0 {name=p3 lab=ctrl_}
