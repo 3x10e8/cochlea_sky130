@@ -36,7 +36,7 @@ C {devices/vsource.sym} -310 150 0 0 {name=Vin value="PULSE (0 1.2 1n 1n 1n \{2*
 *SIN (0.6 0.6 1k)"}
 C {devices/gnd.sym} -310 180 0 0 {name=l3 lab=GND}
 C {devices/lab_pin.sym} 210 0 2 0 {name=l1 sig_type=std_logic lab=out}
-C {Switched_Caps/2switchcaps.sym} 110 0 0 0 {name=X1 Wcap=20 Lcap=20 }
+C {Switched_Caps/2switchcaps.sym} 110 0 0 0 {name=X1 Wcap=20 Lcap=20}
 C {devices/lab_pin.sym} 10 0 0 0 {name=l4 sig_type=std_logic lab=in}
 C {devices/lab_pin.sym} -270 120 2 0 {name=l5 sig_type=std_logic lab=in}
 C {devices/vsource.sym} -310 -50 0 0 {name=VDD value="DC 1.2"}
