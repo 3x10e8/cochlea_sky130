@@ -6,13 +6,13 @@ S {}
 E {}
 T {This assumes we only need one 50% duty cycle clk and its inverse (clkb)} -680 -270 0 0 0.2 0.2 {}
 N -580 80 -580 220 { lab=phi_clk}
-N -490 0 -470 0 { lab=#net1}
-N -330 0 -310 0 { lab=#net2}
-N -170 0 -150 0 { lab=#net3}
-N -10 0 10 0 { lab=#net4}
-N 150 0 170 0 { lab=#net5}
-N 310 0 330 0 { lab=#net6}
-N 470 0 490 0 { lab=#net7}
+N -490 0 -470 0 { lab=c2}
+N -330 0 -310 0 { lab=c4}
+N -170 0 -150 0 { lab=c6}
+N -10 0 10 0 { lab=c8}
+N 150 0 170 0 { lab=c10}
+N 310 0 330 0 { lab=c12}
+N 470 0 490 0 { lab=c14}
 N 630 0 700 0 { lab=out}
 N -420 80 -420 220 { lab=phi_clk}
 N -260 80 -260 220 { lab=phi_clk}
@@ -66,3 +66,10 @@ C {devices/iopin.sym} -700 0 2 0 {name=p1 lab=in}
 C {devices/iopin.sym} 700 0 0 0 {name=p2 lab=out}
 C {devices/ipin.sym} -660 -240 0 0 {name=p3 lab=phi_clk}
 C {devices/ipin.sym} -620 -220 0 0 {name=p4 lab=phi_clkb}
+C {devices/lab_pin.sym} -480 0 1 0 {name=l2 sig_type=std_logic lab=c2}
+C {devices/lab_pin.sym} -320 0 1 0 {name=l3 sig_type=std_logic lab=c4}
+C {devices/lab_pin.sym} -160 0 1 0 {name=l4 sig_type=std_logic lab=c6}
+C {devices/lab_pin.sym} 0 0 1 0 {name=l5 sig_type=std_logic lab=c8}
+C {devices/lab_pin.sym} 160 0 1 0 {name=l6 sig_type=std_logic lab=c10}
+C {devices/lab_pin.sym} 320 0 1 0 {name=l7 sig_type=std_logic lab=c12}
+C {devices/lab_pin.sym} 480 0 1 0 {name=l8 sig_type=std_logic lab=c14}
