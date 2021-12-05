@@ -59,11 +59,11 @@ N 400 0 460 0 { lab=out}
 N -40 200 0 200 { lab=Vbn}
 N 240 80 360 80 { lab=Vcasc}
 N 240 -100 360 -100 { lab=Vcp}
-N 0 -250 0 -30 { lab=#net4}
+N 0 -250 0 -30 { lab=o1p}
 N 200 -220 220 -220 { lab=VDD}
 N 220 -250 220 -220 { lab=VDD}
 N 200 -250 220 -250 { lab=VDD}
-N -320 -250 -320 -30 { lab=#net5}
+N -320 -250 -320 -30 { lab=o1p}
 N 200 30 250 30 { lab=Vcasc}
 N 250 30 250 80 { lab=Vcasc}
 N 200 150 250 150 { lab=#net1}
@@ -72,27 +72,27 @@ N -550 -200 -490 -200 { lab=Vbn}
 N -550 -320 -490 -320 { lab=Vcp}
 N -550 120 -490 120 { lab=thresh}
 N -550 0 -490 0 { lab=in}
-N 200 -190 200 -130 { lab=#net6}
-N -320 -100 -230 -100 { lab=#net5}
-N -230 -100 -90 -220 { lab=#net5}
-N -90 -250 -90 -220 { lab=#net5}
-N -230 -250 -230 -220 { lab=#net4}
-N -230 -220 -90 -100 { lab=#net4}
-N -90 -100 0 -100 { lab=#net4}
-N -40 -220 0 -220 { lab=#net4}
-N -40 -280 -40 -220 { lab=#net4}
-N -280 -380 280 -380 { lab=#net5}
-N -280 -280 -270 -280 { lab=#net5}
-N -320 -220 -280 -220 { lab=#net5}
-N -280 -280 -280 -220 { lab=#net5}
-N -280 -380 -280 -280 { lab=#net5}
-N -50 -280 -40 -280 { lab=#net4}
+N 200 -190 200 -130 { lab=#net4}
+N -320 -100 -230 -100 { lab=o1p}
+N -230 -100 -90 -220 { lab=o1p}
+N -90 -250 -90 -220 { lab=o1p}
+N -230 -250 -230 -220 { lab=o1p}
+N -230 -220 -90 -100 { lab=o1p}
+N -90 -100 0 -100 { lab=o1p}
+N -40 -220 0 -220 { lab=o1p}
+N -40 -280 -40 -220 { lab=o1p}
+N -280 -380 280 -380 { lab=o1p}
+N -280 -280 -270 -280 { lab=o1p}
+N -320 -220 -280 -220 { lab=o1p}
+N -280 -280 -280 -220 { lab=o1p}
+N -280 -380 -280 -280 { lab=o1p}
+N -50 -280 -40 -280 { lab=o1p}
 N 0 -280 20 -280 { lab=VDD}
 N 20 -310 20 -280 { lab=VDD}
 N 0 -310 20 -310 { lab=VDD}
-N -0 -220 160 -220 {}
-N 280 -380 280 -220 {}
-N 280 -220 360 -220 {}
+N -0 -220 160 -220 { lab=o1p}
+N 280 -380 280 -220 { lab=o1p}
+N 280 -220 360 -220 { lab=o1p}
 C {sky130_fd_pr/nfet_01v8.sym} -340 0 0 0 {name=M1
 L=1
 W=2
@@ -362,3 +362,5 @@ C {devices/vsource.sym} -550 30 0 0 {name=Vin value="DC 0.6 SIN(0.6 0.1 1k)"}
 C {devices/gnd.sym} -550 60 0 0 {name=l32 lab=GND}
 C {devices/lab_pin.sym} -490 0 2 0 {name=l33 sig_type=std_logic lab=in}
 C {devices/lab_pin.sym} -160 120 3 1 {name=l34 sig_type=std_logic lab=Vs}
+C {devices/lab_pin.sym} 0 -100 0 1 {name=l35 sig_type=std_logic lab=o1p}
+C {devices/lab_pin.sym} -320 -100 2 1 {name=l36 sig_type=std_logic lab=o1m}
