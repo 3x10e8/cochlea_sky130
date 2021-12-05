@@ -21,77 +21,78 @@ N -240 230 -220 230 { lab=GND}
 N -100 200 -80 200 { lab=GND}
 N -100 200 -100 230 { lab=GND}
 N -100 230 -80 230 { lab=GND}
-N -260 -160 -240 -160 { lab=VDD}
-N -260 -190 -260 -160 { lab=VDD}
-N -260 -190 -240 -190 { lab=VDD}
-N -200 -160 -190 -160 { lab=#net1}
-N -130 -160 -120 -160 { lab=#net2}
-N -80 -160 -60 -160 { lab=VDD}
-N -60 -190 -60 -160 { lab=VDD}
-N -80 -190 -60 -190 { lab=VDD}
-N -20 -220 0 -220 { lab=VDD}
-N -20 -250 -20 -220 { lab=VDD}
-N -20 -250 0 -250 { lab=VDD}
+N -110 -280 -90 -280 { lab=VDD}
+N -110 -310 -110 -280 { lab=VDD}
+N -110 -310 -90 -310 { lab=VDD}
+N -230 -280 -210 -280 { lab=VDD}
+N -210 -310 -210 -280 { lab=VDD}
+N -230 -310 -210 -310 { lab=VDD}
 N -320 120 0 120 { lab=Vs}
-N -190 -100 -130 -160 { lab=#net2}
-N -190 -160 -130 -100 { lab=#net1}
-N -340 -300 -320 -300 { lab=VDD}
-N -340 -330 -340 -300 { lab=VDD}
-N -340 -330 -320 -330 { lab=VDD}
-N 220 -100 240 -100 { lab=VDD}
-N 220 -110 220 -100 { lab=VDD}
-N -320 -100 -240 -100 { lab=#net2}
-N -240 -100 -190 -100 { lab=#net2}
-N -130 -100 -80 -100 { lab=#net1}
-N -80 -100 0 -100 { lab=#net1}
-N 240 -70 240 50 { lab=Vcasc}
-N 240 110 240 170 { lab=#net3}
-N 440 -190 440 -130 { lab=#net4}
-N 440 -70 440 50 { lab=out}
-N 440 110 440 170 { lab=#net5}
-N 460 -110 460 -100 { lab=VDD}
-N 440 -100 460 -100 { lab=VDD}
-N 440 -220 460 -220 { lab=VDD}
-N 460 -250 460 -220 { lab=VDD}
-N 440 -250 460 -250 { lab=VDD}
+N -340 -280 -320 -280 { lab=VDD}
+N -340 -310 -340 -280 { lab=VDD}
+N -340 -310 -320 -310 { lab=VDD}
+N 180 -100 200 -100 { lab=VDD}
+N 180 -110 180 -100 { lab=VDD}
+N 200 -70 200 50 { lab=Vcasc}
+N 200 110 200 170 { lab=#net1}
+N 400 -190 400 -130 { lab=#net2}
+N 400 -70 400 50 { lab=out}
+N 400 110 400 170 { lab=#net3}
+N 420 -110 420 -100 { lab=VDD}
+N 400 -100 420 -100 { lab=VDD}
+N 400 -220 420 -220 { lab=VDD}
+N 420 -250 420 -220 { lab=VDD}
+N 400 -250 420 -250 { lab=VDD}
 N 40 0 80 0 { lab=thresh}
-N 40 -220 400 -220 { lab=#net1}
-N 280 200 400 200 { lab=#net3}
-N 220 230 240 230 { lab=GND}
-N 220 200 220 230 { lab=GND}
-N 220 200 240 200 { lab=GND}
-N 210 80 210 110 { lab=GND}
-N 210 80 240 80 { lab=GND}
-N 470 80 470 110 { lab=GND}
-N 440 80 470 80 { lab=GND}
-N 440 230 460 230 { lab=GND}
-N 460 200 460 230 { lab=GND}
-N 440 200 460 200 { lab=GND}
-N 440 0 500 0 { lab=out}
+N 240 200 360 200 { lab=#net1}
+N 180 230 200 230 { lab=GND}
+N 180 200 180 230 { lab=GND}
+N 180 200 200 200 { lab=GND}
+N 170 80 170 110 { lab=GND}
+N 170 80 200 80 { lab=GND}
+N 430 80 430 110 { lab=GND}
+N 400 80 430 80 { lab=GND}
+N 400 230 420 230 { lab=GND}
+N 420 200 420 230 { lab=GND}
+N 400 200 420 200 { lab=GND}
+N 400 0 460 0 { lab=out}
 N -40 200 0 200 { lab=Vbn}
-N -240 -130 -240 -100 { lab=#net2}
-N -80 -130 -80 -100 { lab=#net1}
-N 280 80 400 80 { lab=Vcasc}
-N 280 -100 400 -100 { lab=Vcp}
-N 0 -190 0 -30 { lab=#net1}
-N 240 -300 260 -300 { lab=VDD}
-N 260 -330 260 -300 { lab=VDD}
-N 240 -330 260 -330 { lab=VDD}
-N -320 -270 -320 -30 { lab=#net2}
-N -280 -300 200 -300 { lab=#net2}
-N -320 -250 -270 -250 { lab=#net2}
-N -270 -300 -270 -250 { lab=#net2}
-N 0 -170 50 -170 { lab=#net1}
-N 50 -220 50 -170 { lab=#net1}
-N 240 30 290 30 { lab=Vcasc}
-N 290 30 290 80 { lab=Vcasc}
-N 240 150 290 150 { lab=#net3}
-N 290 150 290 200 { lab=#net3}
+N 240 80 360 80 { lab=Vcasc}
+N 240 -100 360 -100 { lab=Vcp}
+N 0 -250 0 -30 { lab=#net4}
+N 200 -220 220 -220 { lab=VDD}
+N 220 -250 220 -220 { lab=VDD}
+N 200 -250 220 -250 { lab=VDD}
+N -320 -250 -320 -30 { lab=#net5}
+N 200 30 250 30 { lab=Vcasc}
+N 250 30 250 80 { lab=Vcasc}
+N 200 150 250 150 { lab=#net1}
+N 250 150 250 200 { lab=#net1}
 N -550 -200 -490 -200 { lab=Vbn}
 N -550 -320 -490 -320 { lab=Vcp}
 N -550 120 -490 120 { lab=thresh}
 N -550 0 -490 0 { lab=in}
-N 240 -270 240 -130 { lab=#net6}
+N 200 -190 200 -130 { lab=#net6}
+N -320 -100 -230 -100 { lab=#net5}
+N -230 -100 -90 -220 { lab=#net5}
+N -90 -250 -90 -220 { lab=#net5}
+N -230 -250 -230 -220 { lab=#net4}
+N -230 -220 -90 -100 { lab=#net4}
+N -90 -100 0 -100 { lab=#net4}
+N -40 -220 0 -220 { lab=#net4}
+N -40 -280 -40 -220 { lab=#net4}
+N -280 -380 280 -380 { lab=#net5}
+N -280 -280 -270 -280 { lab=#net5}
+N -320 -220 -280 -220 { lab=#net5}
+N -280 -280 -280 -220 { lab=#net5}
+N -280 -380 -280 -280 { lab=#net5}
+N -50 -280 -40 -280 { lab=#net4}
+N 0 -280 20 -280 { lab=VDD}
+N 20 -310 20 -280 { lab=VDD}
+N 0 -310 20 -310 { lab=VDD}
+N -0 -220 160 -220 {}
+N 280 -380 280 -220 {}
+N 280 -220 360 -220 {}
 C {sky130_fd_pr/nfet_01v8.sym} -340 0 0 0 {name=M1
 L=1
 W=2
@@ -164,7 +165,7 @@ spiceprefix=X
 }
 C {devices/gnd.sym} -240 230 0 0 {name=l8 lab=GND}
 C {devices/gnd.sym} -80 230 0 0 {name=l9 lab=GND}
-C {sky130_fd_pr/pfet_01v8.sym} -220 -160 0 1 {name=M6
+C {sky130_fd_pr/pfet_01v8.sym} -70 -280 0 1 {name=M6
 L=1
 W=4
 nf=1
@@ -178,8 +179,8 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/vdd.sym} -240 -190 0 0 {name=l11 lab=VDD}
-C {sky130_fd_pr/pfet_01v8.sym} 20 -220 0 1 {name=M7
+C {devices/vdd.sym} -90 -310 0 0 {name=l11 lab=VDD}
+C {sky130_fd_pr/pfet_01v8.sym} -20 -280 0 0 {name=M7
 L=1
 W=4
 nf=1
@@ -193,8 +194,8 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/vdd.sym} 0 -250 0 1 {name=l12 lab=VDD}
-C {sky130_fd_pr/pfet_01v8.sym} -100 -160 0 0 {name=M8
+C {devices/vdd.sym} 0 -310 0 1 {name=l12 lab=VDD}
+C {sky130_fd_pr/pfet_01v8.sym} -250 -280 0 0 {name=M8
 L=1
 W=4
 nf=1
@@ -208,8 +209,8 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/vdd.sym} -80 -190 0 1 {name=l13 lab=VDD}
-C {sky130_fd_pr/pfet_01v8.sym} -300 -300 0 1 {name=M9
+C {devices/vdd.sym} -230 -310 0 1 {name=l13 lab=VDD}
+C {sky130_fd_pr/pfet_01v8.sym} -300 -280 0 1 {name=M9
 L=1
 W=4
 nf=1
@@ -223,8 +224,8 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/vdd.sym} -320 -330 0 0 {name=l14 lab=VDD}
-C {sky130_fd_pr/pfet_01v8.sym} 260 -100 0 1 {name=M10
+C {devices/vdd.sym} -320 -310 0 0 {name=l14 lab=VDD}
+C {sky130_fd_pr/pfet_01v8.sym} 220 -100 0 1 {name=M10
 L=0.5
 W=0.5
 nf=1
@@ -238,8 +239,8 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/vdd.sym} 220 -110 0 0 {name=l15 lab=VDD}
-C {sky130_fd_pr/nfet_01v8.sym} 260 80 0 1 {name=M11
+C {devices/vdd.sym} 180 -110 0 0 {name=l15 lab=VDD}
+C {sky130_fd_pr/nfet_01v8.sym} 220 80 0 1 {name=M11
 L=0.5
 W=0.5
 nf=1 
@@ -253,7 +254,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/nfet_01v8.sym} 260 200 0 1 {name=M12
+C {sky130_fd_pr/nfet_01v8.sym} 220 200 0 1 {name=M12
 L=0.7
 W=3
 nf=1 
@@ -267,9 +268,9 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/gnd.sym} 240 230 0 0 {name=l18 lab=GND}
-C {devices/lab_pin.sym} 500 0 0 1 {name=l19 sig_type=std_logic lab=out}
-C {sky130_fd_pr/pfet_01v8.sym} 420 -220 0 0 {name=M13
+C {devices/gnd.sym} 200 230 0 0 {name=l18 lab=GND}
+C {devices/lab_pin.sym} 460 0 0 1 {name=l19 sig_type=std_logic lab=out}
+C {sky130_fd_pr/pfet_01v8.sym} 380 -220 0 0 {name=M13
 L=1
 W=4
 nf=1
@@ -283,8 +284,8 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/vdd.sym} 440 -250 0 1 {name=l20 lab=VDD}
-C {sky130_fd_pr/pfet_01v8.sym} 420 -100 0 0 {name=M14
+C {devices/vdd.sym} 400 -250 0 1 {name=l20 lab=VDD}
+C {sky130_fd_pr/pfet_01v8.sym} 380 -100 0 0 {name=M14
 L=0.5
 W=0.5
 nf=1
@@ -298,9 +299,9 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/vdd.sym} 460 -110 0 1 {name=l21 lab=VDD}
-C {devices/lab_pin.sym} 340 -100 3 1 {name=l22 sig_type=std_logic lab=Vcp}
-C {sky130_fd_pr/nfet_01v8.sym} 420 80 0 0 {name=M15
+C {devices/vdd.sym} 420 -110 0 1 {name=l21 lab=VDD}
+C {devices/lab_pin.sym} 300 -100 3 1 {name=l22 sig_type=std_logic lab=Vcp}
+C {sky130_fd_pr/nfet_01v8.sym} 380 80 0 0 {name=M15
 L=0.5
 W=0.5
 nf=1 
@@ -314,8 +315,8 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/lab_pin.sym} 340 80 3 1 {name=l23 sig_type=std_logic lab=Vcasc}
-C {sky130_fd_pr/nfet_01v8.sym} 420 200 0 0 {name=M16
+C {devices/lab_pin.sym} 300 80 3 1 {name=l23 sig_type=std_logic lab=Vcasc}
+C {sky130_fd_pr/nfet_01v8.sym} 380 200 0 0 {name=M16
 L=0.7
 W=3
 nf=1 
@@ -329,11 +330,11 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/gnd.sym} 440 230 0 1 {name=l24 lab=GND}
-C {devices/gnd.sym} 210 110 0 0 {name=l25 lab=GND}
-C {devices/gnd.sym} 470 110 0 0 {name=l26 lab=GND}
+C {devices/gnd.sym} 400 230 0 1 {name=l24 lab=GND}
+C {devices/gnd.sym} 170 110 0 0 {name=l25 lab=GND}
+C {devices/gnd.sym} 430 110 0 0 {name=l26 lab=GND}
 C {devices/lab_pin.sym} 0 200 2 0 {name=l27 sig_type=std_logic lab=Vbn}
-C {sky130_fd_pr/pfet_01v8.sym} 220 -300 0 0 {name=M17
+C {sky130_fd_pr/pfet_01v8.sym} 180 -220 0 0 {name=M17
 L=1
 W=4
 nf=1
@@ -347,7 +348,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/vdd.sym} 240 -330 0 1 {name=l16 lab=VDD}
+C {devices/vdd.sym} 200 -250 0 1 {name=l16 lab=VDD}
 C {devices/vsource.sym} -550 -170 0 0 {name=Vbias value=0.4}
 C {devices/gnd.sym} -550 -140 0 0 {name=l10 lab=GND}
 C {devices/lab_pin.sym} -490 -200 2 0 {name=l17 sig_type=std_logic lab=Vbn}
