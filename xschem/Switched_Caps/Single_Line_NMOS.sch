@@ -55,7 +55,6 @@ N 3820 -1040 3860 -1040 { lab=V14}
 N 3980 -1040 3980 -980 { lab=V15}
 N 3960 -1040 3980 -1040 { lab=V15}
 N 3960 -1040 4000 -1040 { lab=V15}
-N 4120 -1040 4120 -980 { lab=Vout}
 N 4100 -1040 4120 -1040 { lab=Vout}
 N 4100 -1040 4140 -1040 { lab=Vout}
 N 1880 -1000 1950 -1000 { lab=Phi1}
@@ -129,12 +128,20 @@ N 2510 -1070 2510 -1040 { lab=GND}
 N 2370 -1070 2370 -1040 { lab=GND}
 N 2230 -1070 2230 -1040 { lab=GND}
 N 2090 -1070 2090 -1040 { lab=GND}
+N 1480 -980 1560 -980 { lab=#net1}
+N 1480 -920 1560 -920 { lab=GND}
+N 4120 -1040 4120 -1010 { lab=Vout}
+N 4120 -1010 4190 -1010 { lab=Vout}
+N 4190 -1010 4190 -1000 { lab=Vout}
+N 4120 -980 4170 -980 { lab=#net2}
+N 4170 -980 4170 -940 { lab=#net2}
+N 4170 -940 4190 -940 { lab=#net2}
 C {devices/gnd.sym} 1580 -1140 0 0 {name=l1 lab=GND}
 C {devices/gnd.sym} 1680 -1260 0 0 {name=l2 lab=GND}
 C {devices/gnd.sym} 1780 -860 0 0 {name=l3 lab=GND}
-C {devices/vsource.sym} 1580 -1190 0 0 {name=V1 value="PULSE 0 1.2 0 1u 1u 20u 40u 0"}
-C {devices/vsource.sym} 1680 -1310 0 0 {name=V2 value="PULSE 0 1.2 0 1u 1u 20u 40u 180"}
-C {devices/vsource.sym} 1780 -950 0 0 {name=Vin value="PULSE 0 0.5 0 1u 1u 10u 10 0"}
+C {devices/vsource.sym} 1580 -1190 0 0 {name=V1 value="PULSE 0 1.2 0 1n 1n 1u 5u 0"}
+C {devices/vsource.sym} 1680 -1310 0 0 {name=V2 value="PULSE 0 1.2 0 1n 1n 1u 5u 180"}
+C {devices/vsource.sym} 1480 -950 0 0 {name=Vin value="PULSE 0 0.5 0 1u 1u 5u 10 0"}
 C {devices/lab_pin.sym} 1580 -1240 0 0 {name=l4 sig_type=std_logic lab=Phi1}
 C {devices/lab_pin.sym} 1680 -1360 0 0 {name=l5 sig_type=std_logic lab=Phi2}
 C {devices/capa.sym} 2020 -950 0 0 {name=C1
@@ -227,7 +234,7 @@ C {devices/lab_pin.sym} 1880 -1000 3 0 {name=l16 sig_type=std_logic lab=Phi1}
 C {devices/code_shown.sym} 2250 -1280 0 0 {name=SPICE only_toplevel=false value="
 .lib /home/sky/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 .options abstol=1e-14 reltol=1e-4
-.tran 1u 300m
+.tran 0.5u 5m
 .save all
 "}
 C {devices/lab_pin.sym} 1780 -1040 1 0 {name=l17 sig_type=std_logic lab=Vin}
@@ -471,3 +478,11 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/gnd.sym} 2190 -1070 2 0 {name=l13 lab=GND}
+C {devices/vsource.sym} 1780 -950 0 0 {name=VDD1 value=0.5}
+C {devices/gnd.sym} 1480 -920 0 0 {name=l9 lab=GND}
+C {devices/res.sym} 1560 -950 0 0 {name=R1
+value=1k
+footprint=1206
+device=resistor
+m=1}
+C {devices/vsource.sym} 4190 -970 0 0 {name=V3 value=0}
