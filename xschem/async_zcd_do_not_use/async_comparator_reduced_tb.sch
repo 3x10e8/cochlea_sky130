@@ -4,7 +4,8 @@ K {}
 V {}
 S {}
 E {}
-T {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=643647} -230 -430 0 0 0.4 0.4 {}
+T {This is derived from a design by Siddharth Joshi, using:
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=643647} -230 -430 0 0 0.4 0.4 {}
 N -400 0 -360 0 { lab=in}
 N -320 0 -290 0 { lab=GND}
 N -290 0 -290 30 { lab=GND}
@@ -31,15 +32,6 @@ N -320 120 0 120 { lab=Vs}
 N -340 -280 -320 -280 { lab=VDD}
 N -340 -310 -340 -280 { lab=VDD}
 N -340 -310 -320 -310 { lab=VDD}
-N 180 -100 200 -100 { lab=VDD}
-N 180 -110 180 -100 { lab=VDD}
-N 200 -70 200 50 { lab=Vcasc}
-N 200 110 200 170 { lab=#net1}
-N 400 -190 400 -130 { lab=#net2}
-N 400 -70 400 50 { lab=out}
-N 400 110 400 170 { lab=#net3}
-N 420 -110 420 -100 { lab=VDD}
-N 400 -100 420 -100 { lab=VDD}
 N 400 -220 420 -220 { lab=VDD}
 N 420 -250 420 -220 { lab=VDD}
 N 400 -250 420 -250 { lab=VDD}
@@ -48,51 +40,43 @@ N 240 200 360 200 { lab=#net1}
 N 180 230 200 230 { lab=GND}
 N 180 200 180 230 { lab=GND}
 N 180 200 200 200 { lab=GND}
-N 170 80 170 110 { lab=GND}
-N 170 80 200 80 { lab=GND}
-N 430 80 430 110 { lab=GND}
-N 400 80 430 80 { lab=GND}
 N 400 230 420 230 { lab=GND}
 N 420 200 420 230 { lab=GND}
 N 400 200 420 200 { lab=GND}
-N 400 0 460 0 { lab=out}
 N -40 200 0 200 { lab=Vbn}
-N 240 80 360 80 { lab=Vcasc}
-N 240 -100 360 -100 { lab=Vcp}
 N 0 -250 0 -30 { lab=o1p}
 N 200 -220 220 -220 { lab=VDD}
 N 220 -250 220 -220 { lab=VDD}
 N 200 -250 220 -250 { lab=VDD}
-N -320 -250 -320 -30 { lab=o1p}
-N 200 30 250 30 { lab=Vcasc}
-N 250 30 250 80 { lab=Vcasc}
+N -320 -250 -320 -30 { lab=o1m}
 N 200 150 250 150 { lab=#net1}
 N 250 150 250 200 { lab=#net1}
 N -550 -200 -490 -200 { lab=Vbn}
 N -550 -320 -490 -320 { lab=Vcp}
 N -550 120 -490 120 { lab=thresh}
 N -550 0 -490 0 { lab=in}
-N 200 -190 200 -130 { lab=#net4}
-N -320 -100 -230 -100 { lab=o1p}
-N -230 -100 -90 -220 { lab=o1p}
-N -90 -250 -90 -220 { lab=o1p}
+N -320 -100 -230 -100 { lab=o1m}
+N -230 -100 -90 -220 { lab=o1m}
+N -90 -250 -90 -220 { lab=o1m}
 N -230 -250 -230 -220 { lab=o1p}
 N -230 -220 -90 -100 { lab=o1p}
 N -90 -100 0 -100 { lab=o1p}
 N -40 -220 0 -220 { lab=o1p}
 N -40 -280 -40 -220 { lab=o1p}
-N -280 -380 280 -380 { lab=o1p}
-N -280 -280 -270 -280 { lab=o1p}
-N -320 -220 -280 -220 { lab=o1p}
-N -280 -280 -280 -220 { lab=o1p}
-N -280 -380 -280 -280 { lab=o1p}
+N -280 -380 280 -380 { lab=o1m}
+N -280 -280 -270 -280 { lab=o1m}
+N -320 -220 -280 -220 { lab=o1m}
+N -280 -280 -280 -220 { lab=o1m}
+N -280 -380 -280 -280 { lab=o1m}
 N -50 -280 -40 -280 { lab=o1p}
 N 0 -280 20 -280 { lab=VDD}
 N 20 -310 20 -280 { lab=VDD}
 N 0 -310 20 -310 { lab=VDD}
 N -0 -220 160 -220 { lab=o1p}
-N 280 -380 280 -220 { lab=o1p}
-N 280 -220 360 -220 { lab=o1p}
+N 280 -380 280 -220 { lab=o1m}
+N 280 -220 360 -220 { lab=o1m}
+N 200 -190 200 170 { lab=#net1}
+N 400 -190 400 170 { lab=thresh}
 C {sky130_fd_pr/nfet_01v8.sym} -340 0 0 0 {name=M1
 L=1
 W=2
@@ -225,35 +209,6 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {devices/vdd.sym} -320 -310 0 0 {name=l14 lab=VDD}
-C {sky130_fd_pr/pfet_01v8.sym} 220 -100 0 1 {name=M10
-L=0.5
-W=0.5
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
-C {devices/vdd.sym} 180 -110 0 0 {name=l15 lab=VDD}
-C {sky130_fd_pr/nfet_01v8.sym} 220 80 0 1 {name=M11
-L=0.5
-W=0.5
-nf=1 
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
 C {sky130_fd_pr/nfet_01v8.sym} 220 200 0 1 {name=M12
 L=0.7
 W=3
@@ -269,7 +224,6 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/gnd.sym} 200 230 0 0 {name=l18 lab=GND}
-C {devices/lab_pin.sym} 460 0 0 1 {name=l19 sig_type=std_logic lab=out}
 C {sky130_fd_pr/pfet_01v8.sym} 380 -220 0 0 {name=M13
 L=1
 W=4
@@ -285,37 +239,6 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {devices/vdd.sym} 400 -250 0 1 {name=l20 lab=VDD}
-C {sky130_fd_pr/pfet_01v8.sym} 380 -100 0 0 {name=M14
-L=0.5
-W=0.5
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
-C {devices/vdd.sym} 420 -110 0 1 {name=l21 lab=VDD}
-C {devices/lab_pin.sym} 300 -100 3 1 {name=l22 sig_type=std_logic lab=Vcp}
-C {sky130_fd_pr/nfet_01v8.sym} 380 80 0 0 {name=M15
-L=0.5
-W=0.5
-nf=1 
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {devices/lab_pin.sym} 300 80 3 1 {name=l23 sig_type=std_logic lab=Vcasc}
 C {sky130_fd_pr/nfet_01v8.sym} 380 200 0 0 {name=M16
 L=0.7
 W=3
@@ -331,8 +254,6 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/gnd.sym} 400 230 0 1 {name=l24 lab=GND}
-C {devices/gnd.sym} 170 110 0 0 {name=l25 lab=GND}
-C {devices/gnd.sym} 430 110 0 0 {name=l26 lab=GND}
 C {devices/lab_pin.sym} 0 200 2 0 {name=l27 sig_type=std_logic lab=Vbn}
 C {sky130_fd_pr/pfet_01v8.sym} 180 -220 0 0 {name=M17
 L=1
@@ -364,3 +285,4 @@ C {devices/lab_pin.sym} -490 0 2 0 {name=l33 sig_type=std_logic lab=in}
 C {devices/lab_pin.sym} -160 120 3 1 {name=l34 sig_type=std_logic lab=Vs}
 C {devices/lab_pin.sym} 0 -100 0 1 {name=l35 sig_type=std_logic lab=o1p}
 C {devices/lab_pin.sym} -320 -100 2 1 {name=l36 sig_type=std_logic lab=o1m}
+C {devices/lab_pin.sym} 400 0 2 0 {name=l15 sig_type=std_logic lab=out}
