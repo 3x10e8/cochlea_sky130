@@ -16,8 +16,8 @@ N 20 210 20 250 { lab=phi_clk}
 C {devices/netlist.sym} -240 -340 0 0 {name=SPICE only_toplevel=false value="
 .lib /home/sky/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 .options abstol=1e-14 reltol=1e-4
-.param f=500k
-.param duty_cycle=0.3
+.param f=75k
+.param duty_cycle=0.5
 .param tau=\{(16^2)*1/f\}
 .param tend=\{4*tau\}
 
@@ -31,7 +31,7 @@ C {devices/netlist.sym} -240 -340 0 0 {name=SPICE only_toplevel=false value="
 .tran \{1/f/100\} \{tend\}
 .save all
 "}
-C {devices/vsource.sym} -340 230 0 0 {name=Vin value="DC 0 PULSE (0 \{500u * f\} 1n 1n 1n \{2*duty_cycle*1/f\} \{tend\}"
+C {devices/vsource.sym} -340 230 0 0 {name=Vin value="DC 0 PULSE (0 \{12u * f\} 1n 1n 1n \{2*duty_cycle*1/f\} \{tend\}"
 *SIN (0.6 0.6 1k)"}
 C {devices/gnd.sym} -340 260 0 0 {name=l3 lab=GND}
 C {devices/lab_pin.sym} 180 0 2 0 {name=l1 sig_type=std_logic lab=out}
