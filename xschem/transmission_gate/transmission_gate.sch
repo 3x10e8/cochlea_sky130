@@ -35,7 +35,11 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
+<<<<<<< HEAD
 C {sky130_fd_pr/pfet_01v8.sym} 0 -100 3 1 {name=M4
+=======
+C {sky130_fd_pr/pfet_01v8.sym} 0 -60 3 0 {name=M4
+>>>>>>> 044615596443e8d4539421d621996bd0a50625c8
 L=0.18
 W=1
 nf=1
