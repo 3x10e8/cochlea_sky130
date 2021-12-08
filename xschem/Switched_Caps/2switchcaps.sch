@@ -28,3 +28,4 @@ C {devices/ipin.sym} -100 -120 1 0 {name=p4 lab=phi1_clk_p}
 C {devices/ipin.sym} 100 -120 1 0 {name=p5 lab=phi2_clk_p}
 C {devices/ipin.sym} 100 120 3 0 {name=p6 lab=phi2_clk_n}
 C {devices/lab_pin.sym} 0 0 1 0 {name=l1 sig_type=std_logic lab=c1}
+C {devices/netlist.sym} -40 -280 0 0 {name=s1 value=".ic v(c1)=0 v(out)=0"}
