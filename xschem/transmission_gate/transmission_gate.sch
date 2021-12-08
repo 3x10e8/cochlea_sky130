@@ -14,12 +14,12 @@ N -80 80 -30 80 { lab=in}
 N 30 -80 80 -80 { lab=out}
 N 80 -80 80 80 { lab=out}
 N 30 80 80 80 { lab=out}
-N -140 -40 0 -40 { lab=ctrl_}
+N -140 -120 0 -120 { lab=ctrl_}
 N -140 0 -80 0 { lab=in}
 N 80 0 140 0 { lab=out}
 C {devices/iopin.sym} -140 0 2 0 {name=p1 lab=in}
 C {devices/iopin.sym} 140 0 0 0 {name=p2 lab=out}
-C {devices/ipin.sym} -140 -40 0 0 {name=p3 lab=ctrl_}
+C {devices/ipin.sym} -140 -120 0 0 {name=p3 lab=ctrl_}
 C {devices/ipin.sym} -140 40 0 0 {name=p4 lab=ctrl}
 C {sky130_fd_pr/nfet_01v8.sym} 0 60 3 1 {name=M3
 L=0.18
@@ -35,7 +35,11 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/pfet_01v8.sym} 0 -60 1 1 {name=M4
+<<<<<<< HEAD
+C {sky130_fd_pr/pfet_01v8.sym} 0 -100 3 1 {name=M4
+=======
+C {sky130_fd_pr/pfet_01v8.sym} 0 -60 3 0 {name=M4
+>>>>>>> 044615596443e8d4539421d621996bd0a50625c8
 L=0.18
 W=1
 nf=1
@@ -50,4 +54,4 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {devices/gnd.sym} 0 100 0 0 {name=l10 lab=GND}
-C {devices/vdd.sym} 0 -100 0 0 {name=l11 lab=VDD}
+C {devices/vdd.sym} 0 -80 2 0 {name=l11 lab=VDD}
