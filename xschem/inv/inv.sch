@@ -18,7 +18,7 @@ N 20 60 20 90 { lab=GND}
 N 0 90 20 90 { lab=GND}
 C {sky130_fd_pr/nfet_01v8.sym} -20 60 0 0 {name=M1
 L=0.18
-W=1
+W=0.5
 nf=1 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -32,7 +32,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} -20 -60 0 0 {name=M2
 L=0.18
-W=2
+W=1
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 

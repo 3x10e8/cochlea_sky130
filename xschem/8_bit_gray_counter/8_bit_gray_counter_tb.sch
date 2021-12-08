@@ -4,6 +4,7 @@ K {}
 V {}
 S {}
 E {}
+T {Only issue is that it starts from in between states. } 3510 -1060 0 0 0.4 0.4 {}
 N 3170 -880 3170 -860 { lab=Clk}
 C {8_bit_gray_counter/8_bit_gray_counter.sym} 1590 -500 0 0 {name=X1}
 C {devices/netlist.sym} 3430 -1330 0 0 {name=SPICE value="
@@ -12,8 +13,8 @@ C {devices/netlist.sym} 3430 -1330 0 0 {name=SPICE value="
 .options abstol=1e-14 reltol=1e-4
 .param f=2560k
 .param duty_cycle=0.5
-.ic v(Q)=0 v(Q_inv)=1 v(x1.net1)=0
-.tran \{(1/100)*(1/f)\} \{40/f\}
+*.ic v(Q)=0 v(Q_inv)=1 v(x1.net1)=0
+.tran \{(1/100)*(1/f)\} \{100/f\}
 .save all
 "}
 C {devices/gnd.sym} 3170 -800 0 0 {name=l4 lab=GND}
