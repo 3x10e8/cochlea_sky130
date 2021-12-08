@@ -35,7 +35,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/pfet_01v8.sym} 0 -60 1 1 {name=M4
+C {sky130_fd_pr/pfet_01v8.sym} 0 -60 3 0 {name=M4
 L=0.18
 W=1
 nf=1
