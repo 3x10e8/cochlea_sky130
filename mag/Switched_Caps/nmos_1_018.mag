@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1638945043
+timestamp 1638948812
 << nmos >>
 rect 53 142 71 242
 << ndiff >>
@@ -62,4 +62,17 @@ rect 45 120 79 128
 rect 45 102 53 120
 rect 71 102 79 120
 rect 45 94 79 102
+<< labels >>
+rlabel locali 62 94 62 94 1 Gate
+port 1 n
+rlabel locali 61 289 61 289 5 Gate
+port 2 s
+rlabel locali 12 162 12 162 1 Drain
+port 4 n
+rlabel locali 111 219 111 219 1 Source
+port 5 n
+rlabel locali 110 162 110 162 1 Source
+port 6 n
+rlabel locali 14 219 14 219 1 Drain
+port 3 n
 << end >>
