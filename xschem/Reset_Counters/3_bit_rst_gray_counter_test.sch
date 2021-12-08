@@ -16,7 +16,6 @@ N 2940 -1200 2940 -1160 { lab=RST}
 N 2940 -1080 2940 -1000 { lab=#net2}
 N 3160 -1190 3160 -1000 { lab=#net2}
 N 3020 -1040 4210 -1040 { lab=Clk}
-N 3500 -1170 3500 -1000 { lab=#net2}
 N 3510 -1250 3530 -1250 { lab=RST}
 N 3510 -1400 3510 -1250 { lab=RST}
 N 3530 -1320 3530 -1290 { lab=#net3}
@@ -42,20 +41,24 @@ N 4620 -1340 4620 -1210 { lab=Q2}
 N 4460 -1040 4510 -1040 { lab=Clk}
 N 3020 -1000 4110 -1000 { lab=#net2}
 N 2990 -1400 4130 -1400 { lab=RST}
-N 4620 -1210 4620 -970 { lab=Q2}
-N 3990 -1210 3990 -970 { lab=#net3}
 N 3480 -1230 3500 -1230 { lab=#net1}
 N 3480 -1230 3480 -960 { lab=#net1}
-N 3480 -960 3710 -960 { lab=#net1}
 N 3750 -960 3990 -960 { lab=#net3}
-N 3990 -970 3990 -960 { lab=#net3}
 N 3990 -960 4320 -960 { lab=#net3}
 N 4360 -960 4610 -960 { lab=Q2}
-N 4620 -970 4620 -900 { lab=Q2}
 N 4610 -960 4620 -960 { lab=Q2}
-C {T_flip_flop/t_ff_sc_lp.sym} 3390 -1170 0 0 {name=X1}
-C {T_flip_flop/t_ff_sc_lp.sym} 3880 -1170 0 0 {name=X2}
-C {T_flip_flop/t_ff_sc_lp.sym} 4510 -1170 0 0 {name=X3}
+N 3740 -960 3750 -960 { lab=#net3}
+N 4350 -960 4360 -960 { lab=Q2}
+N 3990 -1210 4010 -1210 { lab=#net3}
+N 4010 -1210 4010 -960 { lab=#net3}
+N 4620 -1210 4640 -1210 { lab=Q2}
+N 4640 -1210 4640 -960 { lab=Q2}
+N 4620 -960 4640 -960 { lab=Q2}
+N 4620 -960 4620 -900 { lab=Q2}
+N 3480 -960 3710 -960 { lab=#net1}
+N 3500 -1170 3500 -1140 { lab=#net2}
+N 3500 -1140 3520 -1140 { lab=#net2}
+N 3520 -1140 3520 -1000 { lab=#net2}
 C {sky130_stdcells/or2_1.sym} 3710 -1210 0 0 {name=x1 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_lp__ }
 C {sky130_stdcells/and2_1.sym} 4050 -1340 0 0 {name=x4 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_lp__ }
 C {sky130_stdcells/and2_1.sym} 3100 -1230 0 0 {name=x5 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_lp__ }
@@ -65,13 +68,11 @@ C {sky130_stdcells/and2_1.sym} 3560 -1190 0 0 {name=x8 VGND=GND VNB=GND VPB=VDD 
 C {sky130_stdcells/and2_1.sym} 3590 -1270 0 0 {name=x9 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_lp__ }
 C {sky130_stdcells/and2_1.sym} 4170 -1200 0 0 {name=x10 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_lp__ }
 C {sky130_stdcells/and2_1.sym} 4220 -1290 0 0 {name=x11 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_lp__ }
-C {sky130_stdcells/xor2_1.sym} 3730 -900 1 0 {name=x12 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_lp__ }
 C {devices/lab_pin.sym} 2820 -1200 0 0 {name=l1 sig_type=std_logic lab=RST}
-C {devices/lab_pin.sym} 4340 -840 3 0 {name=l4 sig_type=std_logic lab=Q1}
+C {devices/lab_pin.sym} 4340 -830 3 0 {name=l4 sig_type=std_logic lab=Q1}
 C {devices/lab_pin.sym} 4620 -900 3 0 {name=l5 sig_type=std_logic lab=Q2}
 C {sky130_stdcells/or2_1.sym} 4340 -1210 0 0 {name=x2 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_lp__ }
-C {sky130_stdcells/xor2_1.sym} 4340 -900 1 0 {name=x3 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_lp__ }
-C {devices/lab_pin.sym} 3730 -840 3 0 {name=l6 sig_type=std_logic lab=Q0}
+C {devices/lab_pin.sym} 3730 -830 3 0 {name=l6 sig_type=std_logic lab=Q0}
 C {devices/vsource.sym} 2670 -1360 0 0 {name=V1 value=1.2}
 C {devices/vdd.sym} 2670 -1390 0 0 {name=l3 lab=VDD}
 C {devices/gnd.sym} 2670 -1330 0 0 {name=l7 lab=GND}
@@ -90,3 +91,8 @@ C {devices/vsource.sym} 3020 -1010 0 0 {name=V3 value="DC 0 PULSE(0 1.2 1n 1n 1n
 C {devices/lab_pin.sym} 3020 -1040 0 0 {name=l9 sig_type=std_logic lab=Clk}
 C {devices/vsource.sym} 2820 -1170 0 0 {name=V2 value="DC 0 PWL(0 1.2 6u 1.2 6.1u 0 40u 0)"}
 C {devices/gnd.sym} 2820 -1140 0 0 {name=l2 lab=GND}
+C {exor_gate/exor_gate.sym} 3630 -1470 1 0 {name=X4}
+C {exor_gate/exor_gate.sym} 4240 -1470 1 0 {name=X5}
+C {T_flip_flop/T_flip_flop.sym} 3790 -910 0 0 {name=X6}
+C {T_flip_flop/T_flip_flop.sym} 4420 -910 0 0 {name=X1}
+C {T_flip_flop/T_flip_flop.sym} 3300 -910 0 0 {name=X2}
