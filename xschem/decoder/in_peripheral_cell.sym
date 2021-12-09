@@ -20,10 +20,10 @@ B 5 447.5 -102.5 452.5 -97.5 {name=gnd
 dir=inout}
 B 5 467.5 -102.5 472.5 -97.5 {name=vdd
 dir=inout}
-B 5 487.5 -202.5 492.5 -197.5 {name=out_p
-dir=out}
-B 5 487.5 -122.5 492.5 -117.5 {name=out_n
-dir=out}
+B 5 487.5 -202.5 492.5 -197.5 {name=vdd
+dir=inout}
+B 5 487.5 -122.5 492.5 -117.5 {name=gnd
+dir=inout}
 T {@name} 460 -170 0 0 0.2 0.2 {}
 T {Vdd} 470 -220 0 0 0.2 0.2 {}
 T {Vdd} 470 -113 0 0 0.2 0.2 {}
