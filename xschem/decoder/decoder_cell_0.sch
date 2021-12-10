@@ -19,7 +19,6 @@ N 960 220 980 220 { lab=Vdd}
 N 960 300 980 300 { lab=out}
 N 960 380 980 380 { lab=h1}
 N 1020 280 1020 340 { lab=in_bar}
-N 1020 160 1020 195 { lab=in_bar}
 N 1020 400 1020 440 { lab=in_bar}
 N 1020 230 1020 240 { lab=in_bar}
 N 1020 380 1020 390 { lab=in_bar}
@@ -36,7 +35,7 @@ C {devices/iopin.sym} 970 220 2 0 {name=p7 lab=Vdd}
 C {devices/iopin.sym} 1100 210 3 0 {name=p6 lab=in}
 C {devices/iopin.sym} 1100 390 1 0 {name=p3 lab=in}
 C {devices/iopin.sym} 1020 430 1 0 {name=p4 lab=in_bar}
-C {devices/iopin.sym} 1020 170 3 0 {name=p5 lab=in_bar}
+C {devices/iopin.sym} 1020 200 3 0 {name=p5 lab=in_bar}
 C {sky130_fd_pr/nfet3_01v8.sym} 1020 360 1 0 {name=M1
 L=0.18
 W=1
@@ -67,3 +66,12 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
+C {devices/iopin.sym} 1130 300 0 0 {name=p10 lab=out}
+C {devices/iopin.sym} 1130 380 2 1 {name=p9 lab=h2}
+C {devices/iopin.sym} 1130 220 0 0 {name=p11 lab=Vdd}
+C {devices/iopin.sym} 970 380 0 1 {name=p1 lab=h1}
+C {devices/iopin.sym} 970 300 2 0 {name=p2 lab=out}
+C {devices/iopin.sym} 970 220 2 0 {name=p7 lab=Vdd}
+C {devices/iopin.sym} 1100 210 3 0 {name=p6 lab=in}
+C {devices/iopin.sym} 1100 390 1 0 {name=p3 lab=in}
+C {devices/netlist.sym} 1250 190 0 0 {name=s1 value=".ic v(h1)=0 v(h2)=0"}
