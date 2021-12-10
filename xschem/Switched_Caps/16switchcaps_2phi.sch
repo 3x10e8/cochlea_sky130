@@ -54,8 +54,8 @@ N -700 0 -630 -0 { lab=in}
 N 630 40 700 40 { lab=thresh}
 N 620 -260 620 -60 { lab=phi3_clkb}
 N -590 -260 620 -260 { lab=phi3_clkb}
-N 620 80 620 260 { lab=phi2_clk}
-N -580 260 620 260 { lab=phi2_clk}
+N 620 80 620 260 { lab=phi3_clk}
+N -580 260 620 260 { lab=phi3_clk}
 C {Switched_Caps/2switchcaps.sym} -560 0 0 0 {name=X1 Wcap=W Lcap=L }
 C {Switched_Caps/2switchcaps.sym} -400 0 0 0 {name=X2 Wcap=W Lcap=L }
 C {Switched_Caps/2switchcaps.sym} -240 0 0 0 {name=X3 Wcap=W Lcap=L }
@@ -76,7 +76,7 @@ C {devices/lab_pin.sym} 320 0 1 0 {name=l7 sig_type=std_logic lab=c12}
 C {devices/lab_pin.sym} 480 0 1 0 {name=l8 sig_type=std_logic lab=c14}
 C {devices/ipin.sym} -620 240 0 0 {name=p5 lab=phi2_clk}
 C {devices/ipin.sym} -650 220 0 0 {name=p6 lab=phi1_clk}
-C {Switched_Caps/2switchcaps_thresh.sym} 560 0 0 0 {name=X8 Wcap=20 Lcap=20}
+C {Switched_Caps/2switchcaps_thresh.sym} 560 0 0 0 {name=X8 Wcap=W Lcap=L}
 C {devices/ipin.sym} 700 40 2 0 {name=p7 lab=thresh}
 C {devices/ipin.sym} -590 -260 0 0 {name=p8 lab=phi3_clkb}
 C {devices/ipin.sym} -580 260 0 0 {name=p9 lab=phi3_clk}

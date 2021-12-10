@@ -59,3 +59,4 @@ C {devices/iopin.sym} 1100 210 3 0 {name=p6 lab=in}
 C {devices/iopin.sym} 1100 390 1 0 {name=p3 lab=in}
 C {devices/iopin.sym} 1020 390 1 0 {name=p4 lab=in_bar}
 C {devices/iopin.sym} 1020 210 3 0 {name=p5 lab=in_bar}
+C {devices/netlist.sym} 1250 190 0 0 {name=s1 value=".ic v(h1)=0 v(h2)=0"}
