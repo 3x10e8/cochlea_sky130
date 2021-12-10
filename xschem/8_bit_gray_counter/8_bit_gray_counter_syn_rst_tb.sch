@@ -4,8 +4,8 @@ K {}
 V {}
 S {}
 E {}
-T {Only issue is that it starts from in between states. } -3220 -1030 0 0 0.4 0.4 {}
-N -3560 -850 -3560 -830 { lab=Clk}
+T {} -3220 -1030 0 0 0.4 0.4 {}
+N -3560 -860 -3560 -840 { lab=Clk}
 C {devices/netlist.sym} -3300 -1300 0 0 {name=SPICE value="
 .lib /home/sky/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 .include /home/sky/sky130A/libs.ref/sky130_fd_sc_lp/spice/sky130_fd_sc_lp.spice
@@ -16,11 +16,11 @@ C {devices/netlist.sym} -3300 -1300 0 0 {name=SPICE value="
 .tran \{(1/100)*(1/f)\} \{40/f\}
 .save all
 "}
-C {devices/gnd.sym} -3560 -770 0 0 {name=l4 lab=GND}
-C {devices/vsource.sym} -3560 -800 0 0 {name=V3 value="DC 0 PULSE(0 1.2 \{2/f\} 1n 1n \{duty_cycle*1/f\} \{1/f\})"}
+C {devices/gnd.sym} -3560 -780 0 0 {name=l4 lab=GND}
+C {devices/vsource.sym} -3560 -810 0 0 {name=V3 value="DC 0 PULSE(0 1.2 \{2/f\} 1n 1n \{duty_cycle*1/f\} \{1/f\})"}
 C {devices/vsource.sym} -3680 -1000 0 0 {name=V1 value=1.2}
 C {devices/gnd.sym} -3680 -970 0 0 {name=l2 lab=GND}
-C {devices/lab_pin.sym} -3560 -830 0 0 {name=l1 sig_type=std_logic lab=Clk}
+C {devices/lab_pin.sym} -3560 -840 0 0 {name=l1 sig_type=std_logic lab=Clk}
 C {devices/lab_pin.sym} -3680 -1030 0 0 {name=l3 sig_type=std_logic lab=EN}
 C {devices/lab_pin.sym} -3450 -1050 2 0 {name=l5 sig_type=std_logic lab=Q0}
 C {devices/lab_pin.sym} -3450 -1030 2 0 {name=l6 sig_type=std_logic lab=Q1}
@@ -36,4 +36,4 @@ C {devices/vdd.sym} -3830 -1060 0 0 {name=l15 lab=VDD}
 C {devices/lab_pin.sym} -3680 -930 0 0 {name=l14 sig_type=std_logic lab=RST}
 C {devices/vsource.sym} -3680 -900 0 1 {name=V4 value="DC 0 PWL(0 1.2 2u 1.2 2.01u 0 10u 0)"}
 C {devices/gnd.sym} -3680 -870 0 0 {name=l16 lab=GND}
-C {8_bit_gray_counter/8_bit_gray_counter_rst.sym} -610 -170 0 0 {name=X1}
+C {8_bit_gray_counter/8_bit_gray_counter_syn_rst.sym} -880 -170 0 0 {name=X2}
