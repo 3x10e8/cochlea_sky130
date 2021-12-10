@@ -35,11 +35,9 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-<<<<<<< HEAD
-C {sky130_fd_pr/pfet_01v8.sym} 0 -100 3 1 {name=M4
-=======
-C {sky130_fd_pr/pfet_01v8.sym} 0 -60 3 0 {name=M4
->>>>>>> 044615596443e8d4539421d621996bd0a50625c8
+C {devices/gnd.sym} 0 100 0 0 {name=l10 lab=GND}
+C {devices/vdd.sym} 0 -80 2 0 {name=l11 lab=VDD}
+C {sky130_fd_pr/pfet_01v8.sym} 0 -100 1 0 {name=M1
 L=0.18
 W=1
 nf=1
@@ -53,5 +51,3 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/gnd.sym} 0 100 0 0 {name=l10 lab=GND}
-C {devices/vdd.sym} 0 -80 2 0 {name=l11 lab=VDD}
