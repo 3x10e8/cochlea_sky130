@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1639194835
+timestamp 1639201375
 << nwell >>
 rect -16 301 140 519
 << nmos >>
@@ -292,40 +292,40 @@ rect -614 -1468 -371 -1406
 rect 754 -1468 929 542
 rect -623 -1516 929 -1468
 rect -623 -1644 926 -1516
-use 1  1_1
-timestamp 1639189202
-transform 1 0 420 0 1 -1016
-box -89 47 335 561
-use 1  1_2
-timestamp 1639189202
-transform 1 0 0 0 1 -1016
+use 0_unit  0_unit_2
+timestamp 1639199462
+transform 1 0 419 0 1 -1518
 box -89 47 335 561
 use 1  1_3
-timestamp 1639189202
+timestamp 1639199554
 transform 1 0 0 0 1 -1518
 box -89 47 335 561
-use 0_unit  0_unit_2
-timestamp 1639188389
-transform 1 0 419 0 1 -1518
+use 1  1_2
+timestamp 1639199554
+transform 1 0 0 0 1 -1016
+box -89 47 335 561
+use 1  1_1
+timestamp 1639199554
+transform 1 0 420 0 1 -1016
 box -89 47 335 561
 use inv_customized  inv_customized_3
 timestamp 1639194575
 transform 1 0 933 0 1 -1520
 box -194 128 180 481
-use 1  1_0
-timestamp 1639189202
-transform 1 0 420 0 1 -512
-box -89 47 335 561
 use 0_unit  0_unit_1
-timestamp 1639188389
+timestamp 1639199462
 transform 1 0 0 0 1 -512
+box -89 47 335 561
+use 1  1_0
+timestamp 1639199554
+transform 1 0 420 0 1 -512
 box -89 47 335 561
 use inv_customized  inv_customized_2
 timestamp 1639194575
 transform 1 0 933 0 1 -1018
 box -194 128 180 481
 use 0_unit  0_unit_0
-timestamp 1639188389
+timestamp 1639199462
 transform 1 0 420 0 1 -1
 box -89 47 335 561
 use inv_customized  inv_customized_1
@@ -335,6 +335,22 @@ box -194 128 180 481
 use inv_customized  inv_customized_0
 timestamp 1639194575
 transform 1 0 943 0 1 -1
+box -194 128 180 481
+use inv_customized  inv_customized_7
+timestamp 1639194575
+transform 1 0 502 0 1 -2474
+box -194 128 180 481
+use inv_customized  inv_customized_6
+timestamp 1639194575
+transform 1 0 47 0 1 -2468
+box -194 128 180 481
+use inv_customized  inv_customized_5
+timestamp 1639194575
+transform 1 0 35 0 1 -2010
+box -194 128 180 481
+use inv_customized  inv_customized_4
+timestamp 1639194575
+transform 1 0 498 0 1 -2010
 box -194 128 180 481
 << labels >>
 rlabel locali 62 290 62 290 5 Gate
@@ -355,4 +371,6 @@ rlabel metal2 183 48 183 48 5 S2
 rlabel metal2 61 49 61 49 5 S1
 rlabel locali 63 95 63 95 1 Gate
 port 2 s
+rlabel metal3 -493 592 -493 592 1 GND
+rlabel metal1 -248 570 -248 570 1 VDD
 << end >>

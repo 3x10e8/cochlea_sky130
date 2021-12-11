@@ -1,7 +1,0 @@
-* SPICE3 file created from /home/sky/Desktop/cochlea_sky130/mag/HW4_layout/1_unit.ext - technology: sky130A
-
-.subckt x/home/sky/Desktop/cochlea_sky130/mag/HW4_layout/1_unit Gate Source Drain
-+
-X0 Drain Gate Source w_n16_301# sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=180000u
-X1 Drain Gate Source SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=180000u
-.ends
