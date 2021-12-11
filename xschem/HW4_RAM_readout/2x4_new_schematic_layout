@@ -452,4 +452,3 @@ C {inv/inv.sym} 1470 -700 3 0 {name=X8 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
 C {devices/lab_pin.sym} 1290 -1350 0 0 {name=l1 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} 1310 -1360 0 0 {name=l2 sig_type=std_logic lab=Vdd}
 C {devices/lab_pin.sym} 1310 -1360 0 0 {name=l1 sig_type=std_logic lab=Vdd}
-C {devices/lab_pin.sym} 1290 -630 0 0 {name=l2 sig_type=std_logic lab=GND}
