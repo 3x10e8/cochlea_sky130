@@ -1,3 +1,38 @@
+Flattening unmatched subcell inv_1 in circuit 2x4_2.spice (0)(8 instances)
 
-Equate elements:  no current cell.
-Verify:  no current cell to verify.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 has no definition, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 has no definition, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Removing zero-valued device vsrc from cell 2x4_2.spice makes a better match
+Removing zero-valued device vsrc from cell 2x4_2.spice makes a better match
+Making another compare attempt.
+
+Equate pins:  cell 2x4_2.spice and/or 2x4_circuit.spice has no elements.
+Cells have no pins;  pin matching not needed.
+Device classes 2x4_2.spice and 2x4_circuit.spice are equivalent.
+Verify:  cell 2x4_circuit.spice has no elements and/or nodes.  Not checked.
