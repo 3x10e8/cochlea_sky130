@@ -148,12 +148,6 @@ N 1670 -910 1670 -760 { lab=A0}
 N 1560 -900 1740 -900 { lab=VDD}
 N 1650 -840 1740 -840 { lab=#net7}
 N 1640 -780 1740 -780 { lab=#net7}
-N 830 -1270 830 -1260 { lab=VDD}
-N 830 -1200 830 -1190 { lab=GND}
-N 920 -1260 920 -1250 { lab=GND}
-N 920 -1150 920 -1140 { lab=GND}
-N 920 -1220 920 -1210 { lab=A11}
-N 920 -1330 920 -1320 { lab=A00}
 N 1670 -650 1670 -630 { lab=NA0}
 N 1670 -760 1670 -750 { lab=A0}
 N 1640 -640 1670 -640 { lab=NA0}
@@ -434,38 +428,23 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/vsource.sym} 830 -1230 0 0 {name=V1 value=1.8}
-C {devices/vsource.sym} 920 -1290 0 0 {name=V2 value="PULSE(0 1 0 0 0 0.05 0.1 180)"}
-C {devices/vsource.sym} 920 -1180 0 0 {name=V3 value="PULSE(0 1 0 0 0 0.05 0.1 0)"}
-C {devices/vdd.sym} 830 -1270 0 0 {name=l1 lab=VDD}
-C {devices/gnd.sym} 830 -1190 0 0 {name=l2 lab=GND}
-C {devices/gnd.sym} 920 -1250 0 0 {name=l3 lab=GND}
-C {devices/gnd.sym} 920 -1140 0 0 {name=l4 lab=GND}
-C {devices/lab_pin.sym} 920 -1330 0 0 {name=l7 sig_type=std_logic lab=A00}
-C {devices/lab_pin.sym} 920 -1220 0 0 {name=l8 sig_type=std_logic lab=A11}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1670 -700 3 0 {name=X9}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1670 -580 3 0 {name=X10}
 C {devices/lab_pin.sym} 1670 -520 0 0 {name=l9 sig_type=std_logic lab=A00}
 C {devices/lab_pin.sym} 1610 -640 0 0 {name=l12 sig_type=std_logic lab=NA0}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1470 -700 3 0 {name=X1}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1470 -580 3 0 {name=X2}
 C {devices/lab_pin.sym} 1470 -520 0 0 {name=l5 sig_type=std_logic lab=A11}
 C {devices/lab_pin.sym} 1410 -640 0 0 {name=l6 sig_type=std_logic lab=NA1}
 C {devices/lab_pin.sym} 1670 -770 0 0 {name=l10 sig_type=std_logic lab=A0}
 C {devices/lab_pin.sym} 1470 -770 0 0 {name=l11 sig_type=std_logic lab=A1}
-C {devices/vdd.sym} 1310 -1360 0 0 {name=l13 lab=VDD}
-C {devices/gnd.sym} 1290 -630 0 0 {name=l14 lab=GND}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1800 -1290 0 0 {name=X3}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1800 -1140 0 0 {name=X4}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1800 -990 0 0 {name=X5}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1800 -840 0 0 {name=X6}
-C {devices/code.sym} 850 -1010 0 0 {name=2x4_decoder only_toplevel=false value="
-.lib /home/sky/sky130A/libs.tech/ngspice/sky130.lib.spice tt
-.options abstol=1e-18 reltol=1e-4
-.tran 100u 1
-.save all
-"}
 C {devices/lab_pin.sym} 1860 -840 2 0 {name=l15 sig_type=std_logic lab=SEL0}
 C {devices/lab_pin.sym} 1860 -990 2 0 {name=l16 sig_type=std_logic lab=SEL1}
 C {devices/lab_pin.sym} 1860 -1140 2 0 {name=l17 sig_type=std_logic lab=SEL2}
 C {devices/lab_pin.sym} 1860 -1290 2 0 {name=l18 sig_type=std_logic lab=SEL3}
+C {inv/inv.sym} 1800 -1290 0 0 {name=X1 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1800 -1140 0 0 {name=X2 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1800 -990 0 0 {name=X3 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1800 -840 0 0 {name=X4 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1670 -700 3 0 {name=X5 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1670 -580 3 0 {name=X6 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1470 -580 3 0 {name=X7 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1470 -700 3 0 {name=X8 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {devices/lab_pin.sym} 1290 -1350 0 0 {name=l1 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} 1310 -1360 0 0 {name=l2 sig_type=std_logic lab=Vdd}
