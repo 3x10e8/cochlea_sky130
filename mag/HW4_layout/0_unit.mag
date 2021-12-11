@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1639172646
+timestamp 1639188389
 << nwell >>
 rect -16 301 140 519
 << nmos >>
@@ -208,38 +208,14 @@ rect 77 95 84 122
 rect 41 48 84 95
 rect 162 47 206 560
 << labels >>
-rlabel viali 110 165 110 165 5 Drain
-port 3 n
-rlabel locali 14 222 14 222 5 Source
-port 6 n
-rlabel locali 112 222 112 222 5 Drain
-port 4 n
-rlabel locali 63 95 63 95 1 Gate
-port 2 s
-rlabel viali 13 165 13 165 5 Source
-port 5 n
-rlabel locali 62 290 62 290 5 Gate
-port 1 n
-rlabel viali 62 508 62 508 1 Gate
-port 1 n
-rlabel viali 62 313 62 313 1 Gate
-port 2 n
-rlabel locali 15 440 15 440 1 Source
-port 3 n
-rlabel locali 14 382 14 382 1 Source
-port 4 n
-rlabel locali 109 437 109 437 1 Drain
-port 5 n
-rlabel viali 110 381 110 381 1 Drain
-port 6 n
 rlabel metal2 60 560 60 560 1 N1
 rlabel metal2 185 559 185 559 1 N2
-rlabel metal2 61 49 61 49 5 S1
-rlabel metal2 183 48 183 48 5 S2
 rlabel metal1 -87 440 -87 440 7 W1
 rlabel metal1 -88 371 -88 371 7 W2
 rlabel metal1 -88 156 -88 156 7 W3
 rlabel metal1 333 440 333 440 3 E1
 rlabel metal1 334 373 334 373 3 E2
 rlabel metal1 333 157 333 157 3 E3
+rlabel metal2 183 48 183 48 5 S2
+rlabel metal2 61 49 61 49 5 S1
 << end >>
