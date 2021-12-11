@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1639206151
+timestamp 1639208310
 << nwell >>
 rect -16 483 140 519
 rect -16 333 525 483
@@ -19,6 +19,7 @@ rect 130 -1684 544 -1534
 rect 146 -2145 560 -1995
 << pwell >>
 rect 261 -331 431 -167
+rect 275 -1330 387 -1216
 << nmos >>
 rect 53 142 71 242
 << pmos >>
@@ -68,6 +69,10 @@ rect 261 -233 431 -167
 rect 261 -274 325 -233
 rect 366 -274 431 -233
 rect 261 -331 431 -274
+rect 275 -1248 387 -1216
+rect 275 -1305 306 -1248
+rect 351 -1305 387 -1248
+rect 275 -1330 387 -1305
 << nsubdiff >>
 rect 211 455 367 459
 rect 211 419 262 455
@@ -95,6 +100,7 @@ rect 282 -2051 317 -2034
 rect 239 -2074 317 -2051
 << psubdiffcont >>
 rect 325 -274 366 -233
+rect 306 -1305 351 -1248
 << nsubdiffcont >>
 rect 262 419 305 455
 rect 315 -80 367 -54
@@ -195,6 +201,10 @@ rect 286 -1070 375 -1050
 rect 286 -1087 311 -1070
 rect 342 -1087 375 -1070
 rect 286 -1101 375 -1087
+rect 275 -1248 387 -1216
+rect 275 -1305 306 -1248
+rect 351 -1305 387 -1248
+rect 275 -1330 387 -1305
 rect 217 -1562 298 -1552
 rect 217 -1573 248 -1562
 rect 270 -1573 298 -1562
@@ -242,6 +252,7 @@ rect 323 -78 351 -61
 rect 333 -266 354 -245
 rect 361 -583 383 -566
 rect 311 -1087 342 -1070
+rect 318 -1286 336 -1266
 rect 248 -1573 270 -1562
 rect 248 -1581 270 -1573
 rect 259 -2051 282 -2034
@@ -318,7 +329,11 @@ rect -34 -891 -26 -833
 rect -98 -898 -26 -891
 rect -328 -1096 -77 -1053
 rect -328 -1469 -163 -1096
+rect 300 -1262 357 -1244
+rect 300 -1293 312 -1262
+rect 346 -1293 357 -1262
 rect 1096 -1265 1126 -1226
+rect 300 -1305 357 -1293
 rect -98 -1329 -26 -1322
 rect -98 -1387 -91 -1329
 rect -34 -1387 -26 -1329
@@ -368,6 +383,11 @@ rect 354 -266 362 -245
 rect 326 -271 362 -266
 rect -95 -388 -38 -330
 rect -91 -891 -34 -833
+rect 312 -1266 346 -1262
+rect 312 -1286 318 -1266
+rect 318 -1286 336 -1266
+rect 336 -1286 346 -1266
+rect 312 -1293 346 -1286
 rect -91 -1387 -34 -1329
 rect -142 -1743 -111 -1707
 rect 166 -1741 198 -1710
@@ -408,6 +428,10 @@ rect -98 -833 -26 -826
 rect -98 -891 -91 -833
 rect -34 -891 -26 -833
 rect -98 -898 -26 -891
+rect 300 -1254 357 -1244
+rect 300 -1300 310 -1254
+rect 346 -1300 357 -1254
+rect 300 -1305 357 -1300
 rect -98 -1329 -26 -1322
 rect -98 -1387 -91 -1329
 rect -34 -1387 -26 -1329
@@ -466,6 +490,10 @@ rect 326 -271 362 -239
 rect 325 -276 362 -271
 rect -95 -388 -38 -330
 rect -91 -891 -34 -833
+rect 310 -1262 346 -1254
+rect 310 -1293 312 -1262
+rect 312 -1293 346 -1262
+rect 310 -1300 346 -1293
 rect -91 -1387 -34 -1329
 << metal3 >>
 rect -614 203 -371 602
@@ -492,7 +520,14 @@ rect -614 -891 -91 -833
 rect -34 -891 -26 -833
 rect -614 -898 -26 -891
 rect -614 -908 -27 -898
-rect -614 -1320 -371 -908
+rect -614 -1238 -371 -908
+rect -614 -1254 365 -1238
+rect -614 -1272 310 -1254
+rect -614 -1320 -371 -1272
+rect 300 -1300 310 -1272
+rect 346 -1272 365 -1254
+rect 346 -1300 357 -1272
+rect 300 -1305 357 -1300
 rect -614 -1322 -27 -1320
 rect -614 -1329 -26 -1322
 rect -614 -1387 -91 -1329
@@ -513,6 +548,22 @@ rect -123 -2200 -73 -1914
 rect -143 -2239 -73 -2200
 rect -123 -2326 -73 -2239
 rect 336 -2332 386 -1868
+use inv_customized  inv_customized_4 ~/Desktop/BENG207_Project/cochlea_sky130/mag/HW4_layout/3x8
+timestamp 1639201766
+transform 1 0 498 0 1 -2010
+box -194 128 180 481
+use inv_customized  inv_customized_5
+timestamp 1639201766
+transform 1 0 35 0 1 -2010
+box -194 128 180 481
+use inv_customized  inv_customized_6
+timestamp 1639201766
+transform 1 0 47 0 1 -2468
+box -194 128 180 481
+use inv_customized  inv_customized_7
+timestamp 1639201766
+transform 1 0 502 0 1 -2474
+box -194 128 180 481
 use 0_unit  0_unit_2
 timestamp 1639199462
 transform 1 0 419 0 1 -1518
@@ -521,6 +572,10 @@ use 1  1_3
 timestamp 1639199554
 transform 1 0 0 0 1 -1518
 box -89 47 335 561
+use inv_customized  inv_customized_3
+timestamp 1639201766
+transform 1 0 933 0 1 -1520
+box -194 128 180 481
 use 1  1_2
 timestamp 1639199554
 transform 1 0 0 0 1 -1016
@@ -529,9 +584,9 @@ use 1  1_1
 timestamp 1639199554
 transform 1 0 420 0 1 -1016
 box -89 47 335 561
-use inv_customized  inv_customized_3
-timestamp 1639194575
-transform 1 0 933 0 1 -1520
+use inv_customized  inv_customized_2
+timestamp 1639201766
+transform 1 0 933 0 1 -1018
 box -194 128 180 481
 use 0_unit  0_unit_1
 timestamp 1639199462
@@ -541,37 +596,17 @@ use 1  1_0
 timestamp 1639199554
 transform 1 0 420 0 1 -512
 box -89 47 335 561
-use inv_customized  inv_customized_2
-timestamp 1639194575
-transform 1 0 933 0 1 -1018
+use inv_customized  inv_customized_1
+timestamp 1639201766
+transform 1 0 937 0 1 -513
 box -194 128 180 481
 use 0_unit  0_unit_0
 timestamp 1639199462
 transform 1 0 420 0 1 -1
 box -89 47 335 561
-use inv_customized  inv_customized_1
-timestamp 1639194575
-transform 1 0 937 0 1 -513
-box -194 128 180 481
 use inv_customized  inv_customized_0
-timestamp 1639194575
+timestamp 1639201766
 transform 1 0 943 0 1 -1
-box -194 128 180 481
-use inv_customized  inv_customized_7
-timestamp 1639194575
-transform 1 0 502 0 1 -2474
-box -194 128 180 481
-use inv_customized  inv_customized_6
-timestamp 1639194575
-transform 1 0 47 0 1 -2468
-box -194 128 180 481
-use inv_customized  inv_customized_5
-timestamp 1639194575
-transform 1 0 35 0 1 -2010
-box -194 128 180 481
-use inv_customized  inv_customized_4
-timestamp 1639194575
-transform 1 0 498 0 1 -2010
 box -194 128 180 481
 << labels >>
 rlabel locali 62 290 62 290 5 Gate
