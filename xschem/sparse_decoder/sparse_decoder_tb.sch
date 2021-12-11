@@ -60,7 +60,7 @@ C {devices/lab_pin.sym} 660 845 0 0 {name=l20 sig_type=std_logic lab=A0}
 C {devices/vsource.sym} 310 895 0 0 {name=V8 value=1.2}
 C {devices/gnd.sym} 310 925 0 0 {name=l85 lab=GND}
 C {devices/lab_pin.sym} 310 865 0 0 {name=l86 sig_type=std_logic lab=EN}
-C {devices/lab_pin.sym} 310 960 0 0 {name=l87 sig_type=std_logic lab=RST}
+C {devices/lab_pin.sym} 310 960 0 0 {name=l87 sig_type=std_logic lab=RST_bar}
 C {devices/vsource.sym} 310 990 0 1 {name=V9 value="DC 0 PWL(0 0 2u 0 2.01u 1.2 10u 1.2)"}
 C {devices/gnd.sym} 310 1020 0 0 {name=l88 lab=GND}
 C {devices/gnd.sym} 430 1115 0 0 {name=l89 lab=GND}
