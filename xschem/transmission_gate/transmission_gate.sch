@@ -36,12 +36,6 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/gnd.sym} 0 100 0 0 {name=l10 lab=GND}
-<<<<<<< HEAD
-C {devices/vdd.sym} 0 -80 2 0 {name=l11 lab=VDD}
-C {sky130_fd_pr/pfet_01v8.sym} 0 -100 1 0 {name=M1
-L=0.18
-W=1
-=======
 C {devices/vdd.sym} 0 -130 0 0 {name=l11 lab=VDD}
 C {sky130_fd_pr/pfet_01v8.sym} 0 -60 3 0 {name=M2
 L=Lpmos
