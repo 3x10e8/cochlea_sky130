@@ -15,7 +15,7 @@ X0 W2 N1 W1 w_n16_301# sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u 
 X1 E3 N1 W3 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=180000u
 .ends
 
-.subckt x2x4_circuit Gate
+*.subckt x2x4_circuit Gate
 X1_0 W1 1_0/W3 1_0/E3 1_0/W3 1_1/N1 1_1/N2 W1 W3 x1
 X1_1 W1 1_2/E2 1_2/W3 1_2/E2 1_1/N1 1_1/N2 W1 W3 x1
 X1_2 W1 1_2/E2 W3 1_2/W3 S2 Gate W1 W3 x1
@@ -33,10 +33,10 @@ Xinv_customized_6 W1 A1 W3 Gate W3 W1 inv_customized
 Xinv_customized_7 W1 A0 W3 1_1/N2 W3 W1 inv_customized
 X0 W2 Gate W1 W1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=180000u
 X1 E3 Gate W3 W3 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=180000u
-C0 1_1/N2 W3 -3.24fF
-C1 S2 W3 -2.37fF
-C2 Gate W3 -4.38fF
-C3 W1 W3 -16.74fF
-C4 1_1/N1 W3 -2.77fF
-.ends
+*C0 1_1/N2 W3 -3.24fF
+*C1 S2 W3 -2.37fF
+*C2 Gate W3 -4.38fF
+*C3 W1 W3 -16.74fF
+*C4 1_1/N1 W3 -2.77fF
+*.ends
 

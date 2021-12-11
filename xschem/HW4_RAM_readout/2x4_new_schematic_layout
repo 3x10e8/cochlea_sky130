@@ -441,14 +441,14 @@ C {devices/lab_pin.sym} 1860 -840 2 0 {name=l15 sig_type=std_logic lab=SEL0}
 C {devices/lab_pin.sym} 1860 -990 2 0 {name=l16 sig_type=std_logic lab=SEL1}
 C {devices/lab_pin.sym} 1860 -1140 2 0 {name=l17 sig_type=std_logic lab=SEL2}
 C {devices/lab_pin.sym} 1860 -1290 2 0 {name=l18 sig_type=std_logic lab=SEL3}
-C {inv/inv.sym} 1800 -1290 0 0 {name=X1 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
-C {inv/inv.sym} 1800 -1140 0 0 {name=X2 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
-C {inv/inv.sym} 1800 -990 0 0 {name=X3 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
-C {inv/inv.sym} 1800 -840 0 0 {name=X4 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
-C {inv/inv.sym} 1670 -700 3 0 {name=X5 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
-C {inv/inv.sym} 1670 -580 3 0 {name=X6 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
-C {inv/inv.sym} 1470 -580 3 0 {name=X7 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
-C {inv/inv.sym} 1470 -700 3 0 {name=X8 Wpmos=3 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1800 -1290 0 0 {name=X1 Wpmos=1 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1800 -1140 0 0 {name=X2 Wpmos=1 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1800 -990 0 0 {name=X3 Wpmos=1 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1800 -840 0 0 {name=X4 Wpmos=1 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1670 -700 3 0 {name=X5 Wpmos=1 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1670 -580 3 0 {name=X6 Wpmos=1 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1470 -580 3 0 {name=X7 Wpmos=1 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
+C {inv/inv.sym} 1470 -700 3 0 {name=X8 Wpmos=1 Lpmos=0.18 Wnmos=1 Lnmos=0.18}
 C {devices/lab_pin.sym} 1290 -1350 0 0 {name=l1 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} 1310 -1360 0 0 {name=l2 sig_type=std_logic lab=Vdd}
 C {devices/lab_pin.sym} 1310 -1360 0 0 {name=l1 sig_type=std_logic lab=Vdd}
