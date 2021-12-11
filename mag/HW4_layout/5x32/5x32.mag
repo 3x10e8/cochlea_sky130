@@ -1,6 +1,44 @@
 magic
 tech sky130A
-timestamp 1639213633
+timestamp 1639220931
+<< nwell >>
+rect 2067 283 4452 439
+rect 2067 -229 4452 -73
+rect 2067 -758 4452 -602
+rect 2067 -1280 4452 -1124
+rect 2065 -1806 4450 -1650
+rect 2067 -2330 4452 -2174
+rect 2067 -2854 4452 -2698
+rect 2063 -3372 4448 -3216
+rect 2065 -3901 4450 -3745
+rect 2067 -4419 4452 -4263
+rect 2065 -4947 4450 -4791
+rect 2067 -5469 4452 -5313
+rect 2067 -5985 4452 -5829
+rect 2067 -6510 4452 -6354
+rect 2067 -7034 4452 -6878
+rect 2067 -7558 4452 -7402
+rect 2189 -8076 4449 -7923
+rect 2189 -8603 4449 -8450
+rect 2189 -9122 4449 -8969
+rect 2187 -9647 4447 -9494
+rect 2189 -10164 4449 -10011
+rect 2189 -10687 4449 -10534
+rect 2189 -11214 4449 -11061
+rect 2189 -11733 4449 -11580
+rect 2189 -12260 4449 -12107
+rect 2189 -12787 4449 -12634
+rect 2189 -13307 4449 -13154
+rect 2189 -13828 4449 -13675
+rect 2189 -14348 4449 -14195
+rect 2189 -14872 4449 -14719
+rect 2189 -15395 4449 -15242
+rect 2185 -15908 4445 -15755
+rect 2074 -16919 2187 -16520
+rect 2507 -16925 2620 -16526
+rect 2929 -16923 3042 -16524
+rect 3355 -16925 3468 -16526
+rect 3777 -16927 3890 -16528
 << metal1 >>
 rect 1534 360 1826 508
 rect 1534 305 2029 360
@@ -659,7 +697,9 @@ rect 1892 -15167 1970 -15089
 rect 1892 -15690 1970 -15612
 rect 1956 -16208 2029 -16125
 << metal3 >>
-rect 1006 83 1477 515
+rect 1006 198 1477 515
+rect 1006 146 3284 198
+rect 1006 83 1477 146
 rect 1006 78 1979 83
 rect 1006 0 1892 78
 rect 1970 0 1979 78
@@ -669,7 +709,9 @@ rect 1006 -445 1979 -440
 rect 1006 -523 1892 -445
 rect 1970 -523 1979 -445
 rect 1006 -532 1979 -523
-rect 1006 -963 1477 -532
+rect 1006 -864 1477 -532
+rect 1006 -916 3276 -864
+rect 1006 -963 1477 -916
 rect 1006 -968 1979 -963
 rect 1006 -1046 1892 -968
 rect 1970 -1046 1979 -968
@@ -679,7 +721,9 @@ rect 1006 -1491 1979 -1486
 rect 1006 -1569 1892 -1491
 rect 1970 -1569 1979 -1491
 rect 1006 -1578 1979 -1569
-rect 1006 -2009 1477 -1578
+rect 1006 -1906 1477 -1578
+rect 1006 -1958 3288 -1906
+rect 1006 -2009 1477 -1958
 rect 1006 -2014 1979 -2009
 rect 1006 -2092 1892 -2014
 rect 1970 -2092 1979 -2014
@@ -689,7 +733,9 @@ rect 1006 -2537 1979 -2532
 rect 1006 -2615 1892 -2537
 rect 1970 -2615 1979 -2537
 rect 1006 -2624 1979 -2615
-rect 1006 -3055 1477 -2624
+rect 1006 -2956 1477 -2624
+rect 1006 -3008 2920 -2956
+rect 1006 -3055 1477 -3008
 rect 1006 -3060 1979 -3055
 rect 1006 -3138 1892 -3060
 rect 1970 -3138 1979 -3060
@@ -699,7 +745,9 @@ rect 1006 -3583 1979 -3578
 rect 1006 -3661 1892 -3583
 rect 1970 -3661 1979 -3583
 rect 1006 -3670 1979 -3661
-rect 1006 -4101 1477 -3670
+rect 1006 -3994 1477 -3670
+rect 1006 -4046 2956 -3994
+rect 1006 -4101 1477 -4046
 rect 1006 -4106 1979 -4101
 rect 1006 -4184 1892 -4106
 rect 1970 -4184 1979 -4106
@@ -709,7 +757,9 @@ rect 1006 -4629 1979 -4624
 rect 1006 -4707 1892 -4629
 rect 1970 -4707 1979 -4629
 rect 1006 -4716 1979 -4707
-rect 1006 -5147 1477 -4716
+rect 1006 -5044 1477 -4716
+rect 1006 -5096 2908 -5044
+rect 1006 -5147 1477 -5096
 rect 1006 -5152 1979 -5147
 rect 1006 -5230 1892 -5152
 rect 1970 -5230 1979 -5152
@@ -719,7 +769,9 @@ rect 1006 -5675 1979 -5670
 rect 1006 -5753 1892 -5675
 rect 1970 -5753 1979 -5675
 rect 1006 -5762 1979 -5753
-rect 1006 -6193 1477 -5762
+rect 1006 -6086 1477 -5762
+rect 1006 -6138 3256 -6086
+rect 1006 -6193 1477 -6138
 rect 1006 -6198 1979 -6193
 rect 1006 -6276 1892 -6198
 rect 1970 -6276 1979 -6198
@@ -729,7 +781,9 @@ rect 1006 -6721 1979 -6716
 rect 1006 -6799 1892 -6721
 rect 1970 -6799 1979 -6721
 rect 1006 -6808 1979 -6799
-rect 1006 -7239 1477 -6808
+rect 1006 -7136 1477 -6808
+rect 1006 -7188 3264 -7136
+rect 1006 -7239 1477 -7188
 rect 1006 -7244 1979 -7239
 rect 1006 -7322 1892 -7244
 rect 1970 -7322 1979 -7244
@@ -739,7 +793,9 @@ rect 1006 -7767 1979 -7762
 rect 1006 -7845 1892 -7767
 rect 1970 -7845 1979 -7767
 rect 1006 -7854 1979 -7845
-rect 1006 -8285 1477 -7854
+rect 1006 -8186 1477 -7854
+rect 1006 -8238 3264 -8186
+rect 1006 -8285 1477 -8238
 rect 1006 -8290 1979 -8285
 rect 1006 -8368 1892 -8290
 rect 1970 -8368 1979 -8290
@@ -749,7 +805,9 @@ rect 1006 -8813 1979 -8808
 rect 1006 -8891 1892 -8813
 rect 1970 -8891 1979 -8813
 rect 1006 -8900 1979 -8891
-rect 1006 -9331 1477 -8900
+rect 1006 -9216 1477 -8900
+rect 1006 -9268 3288 -9216
+rect 1006 -9331 1477 -9268
 rect 1006 -9336 1979 -9331
 rect 1006 -9414 1892 -9336
 rect 1970 -9414 1979 -9336
@@ -759,7 +817,9 @@ rect 1006 -9859 1979 -9854
 rect 1006 -9937 1892 -9859
 rect 1970 -9937 1979 -9859
 rect 1006 -9946 1979 -9937
-rect 1006 -10377 1477 -9946
+rect 1006 -10262 1477 -9946
+rect 1006 -10314 3288 -10262
+rect 1006 -10377 1477 -10314
 rect 1006 -10382 1979 -10377
 rect 1006 -10460 1892 -10382
 rect 1970 -10460 1979 -10382
@@ -769,7 +829,9 @@ rect 1006 -10905 1979 -10900
 rect 1006 -10983 1892 -10905
 rect 1970 -10983 1979 -10905
 rect 1006 -10992 1979 -10983
-rect 1006 -11423 1477 -10992
+rect 1006 -11324 1477 -10992
+rect 1006 -11376 2948 -11324
+rect 1006 -11423 1477 -11376
 rect 1006 -11428 1979 -11423
 rect 1006 -11506 1892 -11428
 rect 1970 -11506 1979 -11428
@@ -779,7 +841,9 @@ rect 1006 -11951 1979 -11946
 rect 1006 -12029 1892 -11951
 rect 1970 -12029 1979 -11951
 rect 1006 -12038 1979 -12029
-rect 1006 -12469 1477 -12038
+rect 1006 -12357 1477 -12038
+rect 1006 -12409 2900 -12357
+rect 1006 -12469 1477 -12409
 rect 1006 -12474 1979 -12469
 rect 1006 -12552 1892 -12474
 rect 1970 -12552 1979 -12474
@@ -789,7 +853,9 @@ rect 1006 -12997 1979 -12992
 rect 1006 -13075 1892 -12997
 rect 1970 -13075 1979 -12997
 rect 1006 -13084 1979 -13075
-rect 1006 -13515 1477 -13084
+rect 1006 -13403 1477 -13084
+rect 1006 -13455 2888 -13403
+rect 1006 -13515 1477 -13455
 rect 1006 -13520 1979 -13515
 rect 1006 -13598 1892 -13520
 rect 1970 -13598 1979 -13520
@@ -799,7 +865,9 @@ rect 1006 -14043 1979 -14038
 rect 1006 -14121 1892 -14043
 rect 1970 -14121 1979 -14043
 rect 1006 -14130 1979 -14121
-rect 1006 -14561 1477 -14130
+rect 1006 -14453 1477 -14130
+rect 1006 -14505 3260 -14453
+rect 1006 -14561 1477 -14505
 rect 1006 -14566 1979 -14561
 rect 1006 -14644 1892 -14566
 rect 1970 -14644 1979 -14566
@@ -809,12 +877,16 @@ rect 1006 -15089 1979 -15084
 rect 1006 -15167 1892 -15089
 rect 1970 -15167 1979 -15089
 rect 1006 -15176 1979 -15167
-rect 1006 -15607 1477 -15176
+rect 1006 -15499 1477 -15176
+rect 1006 -15551 3260 -15499
+rect 1006 -15607 1477 -15551
 rect 1006 -15612 1979 -15607
 rect 1006 -15690 1892 -15612
 rect 1970 -15690 1979 -15612
 rect 1006 -15699 1979 -15690
-rect 1006 -16120 1477 -15699
+rect 1006 -16020 1477 -15699
+rect 1006 -16072 2911 -16020
+rect 1006 -16120 1477 -16072
 rect 1947 -16120 2039 -16116
 rect 1006 -16125 2039 -16120
 rect 1006 -16208 1956 -16125
@@ -829,6 +901,10 @@ rect 3619 -17055 3696 -16471
 rect 4047 -17055 4124 -16476
 rect 4157 -17055 4361 477
 rect 1006 -17300 4415 -17055
+use pbulk  pbulk_32 ~/Desktop/BENG207_Project/cochlea_sky130/mag/HW4_layout/3x8
+timestamp 1639210801
+transform 0 -1 2158 1 0 -16701
+box -18 -18 119 75
 use inv_customized_3  inv_customized_3_9
 timestamp 1639205400
 transform 0 -1 2552 1 0 -16515
@@ -837,6 +913,10 @@ use inv_customized_3  inv_customized_3_6
 timestamp 1639205400
 transform 0 -1 2550 1 0 -16916
 box -85 128 180 481
+use pbulk  pbulk_33
+timestamp 1639210801
+transform 0 -1 2594 1 0 -16701
+box -18 -18 119 75
 use inv_customized_3  inv_customized_3_8
 timestamp 1639205400
 transform 0 -1 2975 1 0 -16916
@@ -845,6 +925,10 @@ use inv_customized_3  inv_customized_3_7
 timestamp 1639205400
 transform 0 -1 2977 1 0 -16515
 box -85 128 180 481
+use pbulk  pbulk_34
+timestamp 1639210801
+transform 0 -1 3013 1 0 -16701
+box -18 -18 119 75
 use inv_customized_3  inv_customized_3_1
 timestamp 1639205400
 transform 0 -1 3402 1 0 -16515
@@ -853,6 +937,10 @@ use inv_customized_3  inv_customized_3_0
 timestamp 1639205400
 transform 0 -1 3400 1 0 -16916
 box -85 128 180 481
+use pbulk  pbulk_35
+timestamp 1639210801
+transform 0 -1 3442 1 0 -16709
+box -18 -18 119 75
 use inv_customized_3  inv_customized_3_3
 timestamp 1639205400
 transform 0 -1 3827 1 0 -16515
@@ -861,6 +949,10 @@ use inv_customized_3  inv_customized_3_2
 timestamp 1639205400
 transform 0 -1 3825 1 0 -16916
 box -85 128 180 481
+use pbulk  pbulk_36
+timestamp 1639210801
+transform 0 -1 3866 1 0 -16701
+box -18 -18 119 75
 use inv_customized_3  inv_customized_3_5
 timestamp 1639205400
 transform 0 -1 4252 1 0 -16515
@@ -877,6 +969,10 @@ use 0  0_143
 timestamp 1639200303
 transform 1 0 2508 0 1 -16321
 box -89 43 336 566
+use nbulk  nbulk_17
+timestamp 1639219942
+transform 1 0 2794 0 1 -16127
+box -35 6 106 113
 use 0  0_142
 timestamp 1639200303
 transform 1 0 2933 0 1 -16321
@@ -905,6 +1001,14 @@ use 0  0_138
 timestamp 1639200303
 transform 1 0 2933 0 1 -15798
 box -89 43 336 566
+use nbulk  nbulk_16
+timestamp 1639219942
+transform 1 0 3218 0 1 -15599
+box -35 6 106 113
+use pbulk  pbulk_31
+timestamp 1639210801
+transform 1 0 3094 0 1 -15889
+box -18 -18 119 75
 use 0  0_137
 timestamp 1639200303
 transform 1 0 3358 0 1 -15798
@@ -933,6 +1037,10 @@ use 0  0_135
 timestamp 1639200303
 transform -1 0 3605 0 1 -15275
 box -89 43 336 566
+use pbulk  pbulk_30
+timestamp 1639210801
+transform 1 0 3654 0 1 -15377
+box -18 -18 119 75
 use 0  0_132
 timestamp 1639200303
 transform -1 0 4030 0 1 -15275
@@ -953,6 +1061,14 @@ use 0  0_129
 timestamp 1639200303
 transform 1 0 2933 0 1 -14752
 box -89 43 336 566
+use nbulk  nbulk_15
+timestamp 1639219942
+transform 1 0 3230 0 1 -14545
+box -35 6 106 113
+use pbulk  pbulk_29
+timestamp 1639210801
+transform 1 0 3240 0 1 -14853
+box -18 -18 119 75
 use 0  0_131
 timestamp 1639200303
 transform -1 0 3605 0 1 -14752
@@ -977,6 +1093,10 @@ use 0  0_126
 timestamp 1639200303
 transform -1 0 3180 0 1 -14229
 box -89 43 336 566
+use pbulk  pbulk_28
+timestamp 1639210801
+transform 1 0 3166 0 1 -14330
+box -18 -18 119 75
 use 0  0_125
 timestamp 1639200303
 transform -1 0 3605 0 1 -14229
@@ -997,6 +1117,14 @@ use 0  0_121
 timestamp 1639200303
 transform 1 0 2508 0 1 -13706
 box -89 43 336 566
+use nbulk  nbulk_14
+timestamp 1639219942
+transform 1 0 2810 0 1 -13495
+box -35 6 106 113
+use pbulk  pbulk_27
+timestamp 1639210801
+transform 1 0 2811 0 1 -13806
+box -18 -18 119 75
 use 0  0_122
 timestamp 1639200303
 transform -1 0 3180 0 1 -13706
@@ -1021,6 +1149,10 @@ use 0  0_119
 timestamp 1639200303
 transform 1 0 2508 0 1 -13183
 box -89 43 336 566
+use pbulk  pbulk_26
+timestamp 1639210801
+transform 1 0 2804 0 1 -13280
+box -18 -18 119 75
 use 0  0_118
 timestamp 1639200303
 transform -1 0 3180 0 1 -13183
@@ -1045,6 +1177,14 @@ use 0  0_113
 timestamp 1639200303
 transform 1 0 2508 0 1 -12660
 box -89 43 336 566
+use nbulk  nbulk_13
+timestamp 1639219942
+transform 1 0 2808 0 1 -12453
+box -35 6 106 113
+use pbulk  pbulk_25
+timestamp 1639210801
+transform 1 0 2809 0 1 -12766
+box -18 -18 119 75
 use 0  0_114
 timestamp 1639200303
 transform -1 0 3180 0 1 -12660
@@ -1069,6 +1209,10 @@ use 0  0_111
 timestamp 1639200303
 transform -1 0 2755 0 1 -12137
 box -89 43 336 566
+use pbulk  pbulk_24
+timestamp 1639210801
+transform 1 0 2806 0 1 -12238
+box -18 -18 119 75
 use 0  0_110
 timestamp 1639200303
 transform -1 0 3180 0 1 -12137
@@ -1085,6 +1229,10 @@ use inv_customized  inv_customized_25
 timestamp 1639201766
 transform 1 0 4309 0 1 -12140
 box -194 128 180 481
+use pbulk  pbulk_23
+timestamp 1639210801
+transform 1 0 2395 0 1 -11714
+box -18 -18 119 75
 use 0  0_150
 timestamp 1639200303
 transform -1 0 2330 0 1 -11614
@@ -1093,6 +1241,10 @@ use 0  0_107
 timestamp 1639200303
 transform -1 0 2755 0 1 -11614
 box -89 43 336 566
+use nbulk  nbulk_12
+timestamp 1639219942
+transform 1 0 2840 0 1 -11411
+box -35 6 106 113
 use 0  0_106
 timestamp 1639200303
 transform -1 0 3180 0 1 -11614
@@ -1125,6 +1277,10 @@ use 0  0_101
 timestamp 1639200303
 transform -1 0 3605 0 1 -11091
 box -89 43 336 566
+use pbulk  pbulk_22
+timestamp 1639210801
+transform 1 0 3659 0 1 -11193
+box -18 -18 119 75
 use 0  0_100
 timestamp 1639200303
 transform -1 0 4030 0 1 -11091
@@ -1145,6 +1301,14 @@ use 0  0_98
 timestamp 1639200303
 transform -1 0 3180 0 1 -10568
 box -89 43 336 566
+use nbulk  nbulk_11
+timestamp 1639219942
+transform 1 0 3268 0 1 -10357
+box -35 6 106 113
+use pbulk  pbulk_21
+timestamp 1639210801
+transform 1 0 3249 0 1 -10667
+box -18 -18 119 75
 use 0  0_99
 timestamp 1639200303
 transform -1 0 3605 0 1 -10568
@@ -1169,6 +1333,10 @@ use 0  0_94
 timestamp 1639200303
 transform 1 0 2933 0 1 -10045
 box -89 43 336 566
+use pbulk  pbulk_20
+timestamp 1639210801
+transform 1 0 3278 0 1 -10146
+box -18 -18 119 75
 use 0  0_93
 timestamp 1639200303
 transform -1 0 3605 0 1 -10045
@@ -1193,6 +1361,14 @@ use 0  0_90
 timestamp 1639200303
 transform 1 0 2933 0 1 -9522
 box -89 43 336 566
+use nbulk  nbulk_10
+timestamp 1639219942
+transform 1 0 3240 0 1 -9313
+box -35 6 106 113
+use pbulk  pbulk_19
+timestamp 1639210801
+transform 1 0 3228 0 1 -9622
+box -18 -18 119 75
 use 0  0_89
 timestamp 1639200303
 transform -1 0 3605 0 1 -9522
@@ -1217,6 +1393,10 @@ use 0  0_86
 timestamp 1639200303
 transform 1 0 2933 0 1 -8999
 box -89 43 336 566
+use pbulk  pbulk_18
+timestamp 1639210801
+transform 1 0 3218 0 1 -9101
+box -18 -18 119 75
 use 0  0_85
 timestamp 1639200303
 transform 1 0 3358 0 1 -8999
@@ -1241,10 +1421,18 @@ use 0  0_82
 timestamp 1639200303
 transform 1 0 2933 0 1 -8476
 box -89 43 336 566
+use nbulk  nbulk_9
+timestamp 1639219942
+transform 1 0 3210 0 1 -8281
+box -35 6 106 113
 use 0  0_81
 timestamp 1639200303
 transform 1 0 3358 0 1 -8476
 box -89 43 336 566
+use pbulk  pbulk_17
+timestamp 1639210801
+transform 1 0 3657 0 1 -8575
+box -18 -18 119 75
 use 0  0_80
 timestamp 1639200303
 transform 1 0 3783 0 1 -8476
@@ -1253,6 +1441,10 @@ use inv_customized  inv_customized_31
 timestamp 1639201766
 transform 1 0 4309 0 1 -8479
 box -194 128 180 481
+use pbulk  pbulk_16
+timestamp 1639210801
+transform 1 0 2422 0 1 -8054
+box -18 -18 119 75
 use 0  0_79
 timestamp 1639200303
 transform 1 0 2083 0 1 -7953
@@ -1277,6 +1469,10 @@ use inv_customized  inv_customized_15
 timestamp 1639201766
 transform 1 0 4309 0 1 -7956
 box -194 128 180 481
+use pbulk  pbulk_15
+timestamp 1639210801
+transform 1 0 2360 0 1 -7530
+box -18 -18 119 75
 use 0  0_78
 timestamp 1639200303
 transform 1 0 2083 0 1 -7430
@@ -1289,6 +1485,10 @@ use 0  0_50
 timestamp 1639200303
 transform 1 0 2933 0 1 -7430
 box -89 43 336 566
+use nbulk  nbulk_8
+timestamp 1639219942
+transform 1 0 3212 0 1 -7237
+box -35 6 106 113
 use 0  0_52
 timestamp 1639200303
 transform 1 0 3358 0 1 -7430
@@ -1313,6 +1513,10 @@ use 0  0_47
 timestamp 1639200303
 transform 1 0 2933 0 1 -6907
 box -89 43 336 566
+use pbulk  pbulk_14
+timestamp 1639210801
+transform 1 0 3205 0 1 -7006
+box -18 -18 119 75
 use 0  0_49
 timestamp 1639200303
 transform -1 0 3605 0 1 -6907
@@ -1337,6 +1541,14 @@ use 0  0_44
 timestamp 1639200303
 transform 1 0 2933 0 1 -6384
 box -89 43 336 566
+use nbulk  nbulk_7
+timestamp 1639219942
+transform 1 0 3234 0 1 -6177
+box -35 6 106 113
+use pbulk  pbulk_13
+timestamp 1639210801
+transform 1 0 3230 0 1 -6480
+box -18 -18 119 75
 use 0  0_46
 timestamp 1639200303
 transform -1 0 3605 0 1 -6384
@@ -1361,6 +1573,10 @@ use 0  0_41
 timestamp 1639200303
 transform -1 0 3180 0 1 -5861
 box -89 43 336 566
+use pbulk  pbulk_12
+timestamp 1639210801
+transform 1 0 3223 0 1 -5959
+box -18 -18 119 75
 use 0  0_43
 timestamp 1639200303
 transform -1 0 3605 0 1 -5861
@@ -1381,6 +1597,14 @@ use 0  0_58
 timestamp 1639200303
 transform -1 0 2755 0 1 -5338
 box -89 43 336 566
+use nbulk  nbulk_6
+timestamp 1639219942
+transform 1 0 2844 0 1 -5141
+box -35 6 106 113
+use pbulk  pbulk_11
+timestamp 1639210801
+transform 1 0 2846 0 1 -5441
+box -18 -18 119 75
 use 0  0_38
 timestamp 1639200303
 transform -1 0 3180 0 1 -5338
@@ -1405,6 +1629,10 @@ use 0  0_57
 timestamp 1639200303
 transform -1 0 2755 0 1 -4815
 box -89 43 336 566
+use pbulk  pbulk_10
+timestamp 1639210801
+transform 1 0 2844 0 1 -4917
+box -18 -18 119 75
 use 0  0_35
 timestamp 1639200303
 transform -1 0 3180 0 1 -4815
@@ -1429,6 +1657,14 @@ use 0  0_56
 timestamp 1639200303
 transform -1 0 2755 0 1 -4292
 box -89 43 336 566
+use nbulk  nbulk_5
+timestamp 1639219942
+transform 1 0 2850 0 1 -4089
+box -35 6 106 113
+use pbulk  pbulk_9
+timestamp 1639210801
+transform 1 0 2839 0 1 -4391
+box -18 -18 119 75
 use 0  0_32
 timestamp 1639200303
 transform -1 0 3180 0 1 -4292
@@ -1453,6 +1689,10 @@ use 0  0_31
 timestamp 1639200303
 transform 1 0 2508 0 1 -3769
 box -89 43 336 566
+use pbulk  pbulk_8
+timestamp 1639210801
+transform 1 0 2841 0 1 -3870
+box -18 -18 119 75
 use 0  0_23
 timestamp 1639200303
 transform -1 0 3180 0 1 -3769
@@ -1477,6 +1717,14 @@ use 0  0_30
 timestamp 1639200303
 transform 1 0 2508 0 1 -3246
 box -89 43 336 566
+use nbulk  nbulk_4
+timestamp 1639219942
+transform 1 0 2814 0 1 -3041
+box -35 6 106 113
+use pbulk  pbulk_7
+timestamp 1639210801
+transform 1 0 2799 0 1 -3346
+box -18 -18 119 75
 use 0  0_22
 timestamp 1639200303
 transform -1 0 3180 0 1 -3246
@@ -1501,6 +1749,10 @@ use 0  0_29
 timestamp 1639200303
 transform 1 0 2508 0 1 -2723
 box -89 43 336 566
+use pbulk  pbulk_6
+timestamp 1639210801
+transform 1 0 2809 0 1 -2822
+box -18 -18 119 75
 use 0  0_21
 timestamp 1639200303
 transform -1 0 3180 0 1 -2723
@@ -1525,10 +1777,18 @@ use 0  0_28
 timestamp 1639200303
 transform 1 0 2508 0 1 -2200
 box -89 43 336 566
+use pbulk  pbulk_5
+timestamp 1639210801
+transform 1 0 2796 0 1 -2299
+box -18 -18 119 75
 use 0  0_20
 timestamp 1639200303
 transform -1 0 3180 0 1 -2200
 box -89 43 336 566
+use nbulk  nbulk_3
+timestamp 1639219942
+transform 1 0 3266 0 1 -1993
+box -35 6 106 113
 use 0  0_12
 timestamp 1639200303
 transform -1 0 3605 0 1 -2200
@@ -1549,6 +1809,10 @@ use 0  0_27
 timestamp 1639200303
 transform 1 0 2508 0 1 -1677
 box -89 43 336 566
+use pbulk  pbulk_4
+timestamp 1639210801
+transform 1 0 2789 0 1 -1773
+box -18 -18 119 75
 use 0  0_11
 timestamp 1639200303
 transform 1 0 2933 0 1 -1677
@@ -1573,10 +1837,18 @@ use 0  0_26
 timestamp 1639200303
 transform 1 0 2508 0 1 -1154
 box -89 43 336 566
+use pbulk  pbulk_3
+timestamp 1639210801
+transform 1 0 2767 0 1 -1254
+box -18 -18 119 75
 use 0  0_10
 timestamp 1639200303
 transform 1 0 2933 0 1 -1154
 box -89 43 336 566
+use nbulk  nbulk_1
+timestamp 1639219942
+transform 1 0 3222 0 1 -949
+box -35 6 106 113
 use 0  0_4
 timestamp 1639200303
 transform -1 0 3605 0 1 -1154
@@ -1597,6 +1869,10 @@ use 0  0_25
 timestamp 1639200303
 transform 1 0 2508 0 1 -631
 box -89 43 336 566
+use pbulk  pbulk_2
+timestamp 1639210801
+transform 1 0 2757 0 1 -730
+box -18 -18 119 75
 use 0  0_9
 timestamp 1639200303
 transform 1 0 2933 0 1 -631
@@ -1621,10 +1897,18 @@ use 0  0_24
 timestamp 1639200303
 transform 1 0 2508 0 1 -108
 box -89 43 336 566
+use pbulk  pbulk_1
+timestamp 1639210801
+transform 1 0 2779 0 1 -202
+box -18 -18 119 75
 use 0  0_8
 timestamp 1639200303
 transform 1 0 2933 0 1 -108
 box -89 43 336 566
+use nbulk  nbulk_0
+timestamp 1639219942
+transform 1 0 3186 0 1 109
+box -35 6 106 113
 use 0  0_0
 timestamp 1639200303
 transform 1 0 3358 0 1 -108
@@ -1637,6 +1921,10 @@ use inv_customized  inv_customized_0
 timestamp 1639201766
 transform 1 0 4309 0 1 -111
 box -194 128 180 481
+use pbulk  pbulk_0
+timestamp 1639210801
+transform 1 0 2777 0 1 319
+box -18 -18 119 75
 << labels >>
 rlabel metal1 1996 -191 1996 -191 7 W1
 port 1 w
@@ -1760,4 +2048,41 @@ rlabel metal1 1995 -15119 1995 -15119 7 W3
 port 3 w
 rlabel metal1 1995 -15642 1995 -15642 7 W3
 port 3 w
+rlabel space 4472 -16045 4472 -16045 1 sel0
+rlabel space 4477 -15523 4477 -15523 1 sel1
+rlabel space 4483 -14998 4483 -14998 1 sel2
+rlabel space 4479 -14475 4479 -14475 1 sel3
+rlabel space 4477 -13951 4477 -13951 1 sel4
+rlabel space 4475 -13426 4475 -13426 1 sel5
+rlabel space 4480 -12900 4480 -12900 1 sel6
+rlabel space 4480 -12370 4480 -12370 1 sel7
+rlabel space 4483 -11864 4483 -11864 1 sel8
+rlabel space 4482 -11332 4482 -11332 1 sel9
+rlabel space 4484 -10812 4484 -10812 7 sel10
+rlabel space 4483 -10289 4483 -10289 1 sel11
+rlabel space 4480 -9765 4480 -9765 1 sel12
+rlabel space 4479 -9240 4479 -9240 1 sel13
+rlabel space 4482 -8724 4482 -8724 1 sel14
+rlabel space 4478 -8200 4478 -8200 1 sel15
+rlabel space 4483 -7673 4483 -7673 1 sel16
+rlabel space 4483 -7149 4483 -7149 1 sel17
+rlabel space 4486 -6627 4486 -6627 7 sel18
+rlabel space 4485 -6105 4485 -6105 7 sel19
+rlabel space 4487 -5582 4487 -5582 7 sel20
+rlabel space 4485 -5056 4485 -5056 7 sel21
+rlabel space 4483 -4538 4483 -4538 1 sel22
+rlabel space 4482 -4013 4482 -4013 1 sel23
+rlabel space 4484 -3490 4484 -3490 7 sel24
+rlabel space 4478 -2966 4478 -2966 1 sel25
+rlabel space 4481 -2440 4481 -2440 1 sel26
+rlabel space 4483 -1922 4483 -1922 1 sel27
+rlabel space 4483 -1394 4483 -1394 1 sel28
+rlabel space 4483 -877 4483 -877 1 sel29
+rlabel space 4484 -351 4484 -351 7 sel30
+rlabel space 4481 173 4481 173 1 sel31
+rlabel metal2 3953 -17017 3953 -17017 1 A0
+rlabel metal2 3518 -17014 3518 -17014 1 A1
+rlabel metal2 3095 -17013 3095 -17013 1 A2
+rlabel metal2 2671 -17016 2671 -17016 1 A3
+rlabel metal2 2252 -17014 2252 -17014 1 A4
 << end >>

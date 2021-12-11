@@ -1,0 +1,42 @@
+magic
+tech sky130A
+timestamp 1639219942
+<< pwell >>
+rect -35 6 106 113
+<< psubdiff >>
+rect -35 83 106 113
+rect -35 33 -6 83
+rect 73 33 106 83
+rect -35 6 106 33
+<< psubdiffcont >>
+rect -6 33 73 83
+<< locali >>
+rect -35 83 106 113
+rect -35 33 -6 83
+rect 73 33 106 83
+rect -35 6 106 33
+<< viali >>
+rect 2 39 63 76
+<< metal1 >>
+rect -6 76 73 83
+rect -6 39 2 76
+rect 63 39 73 76
+rect -6 33 73 39
+<< via1 >>
+rect 2 39 63 76
+<< metal2 >>
+rect -6 76 73 83
+rect -6 39 2 76
+rect 63 39 73 76
+rect -6 33 73 39
+<< via2 >>
+rect 2 39 63 76
+<< metal3 >>
+rect -6 76 73 83
+rect -6 39 2 76
+rect 63 39 73 76
+rect -6 33 73 39
+<< labels >>
+rlabel psubdiffcont 33 56 33 56 1 Out
+port 1 n
+<< end >>
