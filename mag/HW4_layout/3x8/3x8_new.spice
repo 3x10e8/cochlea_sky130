@@ -1,4 +1,4 @@
-* SPICE3 file created from 3x8_new.ext - technology: sky130A
+* SPICE3 file created from /home/sky/Desktop/BENG207_Project/cochlea_sky130/mag/HW4_layout/3x8/3x8_new.ext - technology: sky130A
 
 .subckt inv_customized_3 OUT GND IN VDD SUB w_n16_301#
 X0 OUT IN VDD w_n16_301# sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=180000u
@@ -15,56 +15,45 @@ X0 W2 N1 W1 w_n16_301# sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u 
 X1 E3 N1 W3 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=180000u
 .ends
 
-.subckt x3x8_new OUT
-Xinv_customized_3_1 0_4/N1 GND OUT VDD GND VDD inv_customized_3
-Xinv_customized_3_0 0_9/N2 GND 0_9/N1 VDD GND VDD inv_customized_3
-Xinv_customized_3_2 0_7/N2 GND 0_7/N1 VDD GND VDD inv_customized_3
-Xinv_customized_3_3 0_9/N1 GND inv_customized_3_3/IN VDD GND VDD inv_customized_3
-Xinv_customized_3_4 0_7/N1 GND inv_customized_3_4/IN VDD GND VDD inv_customized_3
-Xinv_customized_3_5 OUT GND inv_customized_3_5/IN VDD GND VDD inv_customized_3
-Xinv_customized_0 VDD 0_8/W2 GND inv_customized_0/OUT GND VDD inv_customized
-Xinv_customized_1 VDD 0_9/W2 GND inv_customized_1/OUT GND VDD inv_customized
-X0_20 VDD 0_20/W2 0_20/W3 GND 0_9/N1 0_9/N2 GND VDD x0
-X0_0 VDD 0_8/W2 0_8/E3 0_1/W3 0_4/N1 OUT GND VDD x0
-Xinv_customized_2 VDD 0_6/W3 GND inv_customized_2/OUT GND VDD inv_customized
-X0_10 VDD 0_6/W3 GND 0_4/E3 0_9/N2 0_9/N1 GND VDD x0
-Xinv_customized_3 VDD 0_7/W2 GND inv_customized_3/OUT GND VDD inv_customized
-X0_21 VDD 0_21/W2 0_21/W3 GND 0_9/N1 0_9/N2 GND VDD x0
-X0_1 VDD 0_8/W2 0_1/W3 0_8/W2 0_7/N2 0_7/N1 GND VDD x0
-X0_11 VDD 0_7/W2 GND 0_2/E3 0_9/N2 0_9/N1 GND VDD x0
-Xinv_customized_4 VDD 0_20/W2 GND inv_customized_4/OUT GND VDD inv_customized
-X0_22 VDD 0_22/W2 0_22/W3 GND 0_9/N1 0_9/N2 GND VDD x0
-X0_2 VDD 0_7/W2 0_7/W3 0_2/E3 OUT 0_4/N1 GND VDD x0
-X0_12 VDD 0_20/W2 0_13/W3 0_20/W3 OUT 0_4/N1 GND VDD x0
-Xinv_customized_5 VDD 0_21/W2 GND inv_customized_5/OUT GND VDD inv_customized
-X0_23 VDD 0_23/W2 0_23/W3 GND 0_9/N1 0_9/N2 GND VDD x0
-X0_3 VDD 0_9/W2 0_9/E3 0_5/E3 0_4/N1 OUT GND VDD x0
-X0_13 VDD 0_20/W2 0_13/W3 0_20/W2 0_7/N2 0_7/N1 GND VDD x0
-X0_14 VDD 0_21/W2 0_21/W2 0_15/W3 0_7/N1 0_7/N2 GND VDD x0
-Xinv_customized_6 VDD 0_22/W2 GND inv_customized_6/OUT GND VDD inv_customized
-X0_5 VDD 0_9/W2 0_9/W2 0_5/E3 0_7/N1 0_7/N2 GND VDD x0
-X0_4 VDD 0_6/W3 0_6/E3 0_4/E3 OUT 0_4/N1 GND VDD x0
-X0_15 VDD 0_21/W2 0_15/W3 0_21/W3 OUT 0_4/N1 GND VDD x0
-Xinv_customized_7 VDD 0_23/W2 GND inv_customized_7/OUT GND VDD inv_customized
-X0_6 VDD 0_6/W3 0_6/W3 0_6/E3 0_7/N1 0_7/N2 GND VDD x0
-X0_16 VDD 0_22/W2 0_22/W3 0_17/E3 0_4/N1 OUT GND VDD x0
-X0_7 VDD 0_7/W2 0_7/W3 0_7/W2 0_7/N2 0_7/N1 GND VDD x0
-X0_17 VDD 0_22/W2 0_22/W2 0_17/E3 0_7/N1 0_7/N2 GND VDD x0
-X0_8 VDD 0_8/W2 GND 0_8/E3 0_9/N2 0_9/N1 GND VDD x0
-X0_18 VDD 0_23/W2 0_23/W3 0_19/W3 0_4/N1 OUT GND VDD x0
-X0_9 VDD 0_9/W2 GND 0_9/E3 0_9/N2 0_9/N1 GND VDD x0
-X0_19 VDD 0_23/W2 0_19/W3 0_23/W2 0_7/N2 0_7/N1 GND VDD x0
-C0 VDD GND 8.71fF
-C1 0_23/W2 GND 2.15fF
-C2 0_21/W2 GND 2.01fF
-C3 0_20/W2 GND 2.12fF
-C4 0_7/W2 GND 2.12fF
-C5 0_8/W2 GND 2.12fF
-C6 OUT GND 7.33fF
-C7 0_7/N1 GND 7.77fF
-C8 0_9/N1 GND 6.20fF
-C9 0_7/N2 GND 6.33fF
-C10 0_9/N2 GND 6.20fF
-C11 0_4/N1 GND 5.87fF
-.ends
+
+* Top level circuit /home/sky/Desktop/BENG207_Project/cochlea_sky130/mag/HW4_layout/3x8/3x8_new
+
+Xinv_customized_3_1 0_4/N1 0_9/W3 0_4/N2 0_9/W1 0_9/W3 0_9/W1 inv_customized_3
+Xinv_customized_3_0 0_9/N2 0_9/W3 0_9/N1 0_9/W1 0_9/W3 0_9/W1 inv_customized_3
+Xinv_customized_3_2 0_7/N2 0_9/W3 0_7/N1 0_9/W1 0_9/W3 0_9/W1 inv_customized_3
+Xinv_customized_3_3 0_9/N1 0_9/W3 inv_customized_3_3/IN 0_9/W1 0_9/W3 0_9/W1 inv_customized_3
+Xinv_customized_3_4 0_7/N1 0_9/W3 inv_customized_3_4/IN 0_9/W1 0_9/W3 0_9/W1 inv_customized_3
+Xinv_customized_3_5 0_4/N2 0_9/W3 inv_customized_3_5/IN 0_9/W1 0_9/W3 0_9/W1 inv_customized_3
+Xinv_customized_0 0_9/W1 0_8/W2 0_9/W3 inv_customized_0/OUT 0_9/W3 0_9/W1 inv_customized
+Xinv_customized_1 0_9/W1 0_9/W2 0_9/W3 inv_customized_1/OUT 0_9/W3 0_9/W1 inv_customized
+X0_20 0_9/W1 0_20/W2 0_20/W3 0_9/W3 0_9/N1 0_9/N2 0_9/W3 0_9/W1 x0
+X0_0 0_9/W1 0_8/W2 0_8/E3 0_1/W3 0_4/N1 0_4/N2 0_9/W3 0_9/W1 x0
+Xinv_customized_2 0_9/W1 0_6/W3 0_9/W3 inv_customized_2/OUT 0_9/W3 0_9/W1 inv_customized
+X0_10 0_9/W1 0_6/W3 0_9/W3 0_4/E3 0_9/N2 0_9/N1 0_9/W3 0_9/W1 x0
+Xinv_customized_3 0_9/W1 0_7/W2 0_9/W3 inv_customized_3/OUT 0_9/W3 0_9/W1 inv_customized
+X0_21 0_9/W1 0_21/W2 0_21/W3 0_9/W3 0_9/N1 0_9/N2 0_9/W3 0_9/W1 x0
+X0_1 0_9/W1 0_8/W2 0_1/W3 0_8/W2 0_7/N2 0_7/N1 0_9/W3 0_9/W1 x0
+X0_11 0_9/W1 0_7/W2 0_9/W3 0_2/E3 0_9/N2 0_9/N1 0_9/W3 0_9/W1 x0
+Xinv_customized_4 0_9/W1 0_20/W2 0_9/W3 inv_customized_4/OUT 0_9/W3 0_9/W1 inv_customized
+X0_22 0_9/W1 0_22/W2 0_22/W3 0_9/W3 0_9/N1 0_9/N2 0_9/W3 0_9/W1 x0
+X0_2 0_9/W1 0_7/W2 0_7/W3 0_2/E3 0_4/N2 0_4/N1 0_9/W3 0_9/W1 x0
+X0_12 0_9/W1 0_20/W2 0_13/W3 0_20/W3 0_4/N2 0_4/N1 0_9/W3 0_9/W1 x0
+Xinv_customized_5 0_9/W1 0_21/W2 0_9/W3 inv_customized_5/OUT 0_9/W3 0_9/W1 inv_customized
+X0_23 0_9/W1 0_23/W2 0_23/W3 0_9/W3 0_9/N1 0_9/N2 0_9/W3 0_9/W1 x0
+X0_3 0_9/W1 0_9/W2 0_9/E3 0_5/E3 0_4/N1 0_4/N2 0_9/W3 0_9/W1 x0
+X0_13 0_9/W1 0_20/W2 0_13/W3 0_20/W2 0_7/N2 0_7/N1 0_9/W3 0_9/W1 x0
+X0_14 0_9/W1 0_21/W2 0_21/W2 0_15/W3 0_7/N1 0_7/N2 0_9/W3 0_9/W1 x0
+Xinv_customized_6 0_9/W1 0_22/W2 0_9/W3 inv_customized_6/OUT 0_9/W3 0_9/W1 inv_customized
+X0_5 0_9/W1 0_9/W2 0_9/W2 0_5/E3 0_7/N1 0_7/N2 0_9/W3 0_9/W1 x0
+X0_4 0_9/W1 0_6/W3 0_6/E3 0_4/E3 0_4/N2 0_4/N1 0_9/W3 0_9/W1 x0
+X0_15 0_9/W1 0_21/W2 0_15/W3 0_21/W3 0_4/N2 0_4/N1 0_9/W3 0_9/W1 x0
+Xinv_customized_7 0_9/W1 0_23/W2 0_9/W3 inv_customized_7/OUT 0_9/W3 0_9/W1 inv_customized
+X0_6 0_9/W1 0_6/W3 0_6/W3 0_6/E3 0_7/N1 0_7/N2 0_9/W3 0_9/W1 x0
+X0_16 0_9/W1 0_22/W2 0_22/W3 0_17/E3 0_4/N1 0_4/N2 0_9/W3 0_9/W1 x0
+X0_7 0_9/W1 0_7/W2 0_7/W3 0_7/W2 0_7/N2 0_7/N1 0_9/W3 0_9/W1 x0
+X0_17 0_9/W1 0_22/W2 0_22/W2 0_17/E3 0_7/N1 0_7/N2 0_9/W3 0_9/W1 x0
+X0_8 0_9/W1 0_8/W2 0_9/W3 0_8/E3 0_9/N2 0_9/N1 0_9/W3 0_9/W1 x0
+X0_18 0_9/W1 0_23/W2 0_23/W3 0_19/W3 0_4/N1 0_4/N2 0_9/W3 0_9/W1 x0
+X0_9 0_9/W1 0_9/W2 0_9/W3 0_9/E3 0_9/N2 0_9/N1 0_9/W3 0_9/W1 x0
+X0_19 0_9/W1 0_23/W2 0_19/W3 0_23/W2 0_7/N2 0_7/N1 0_9/W3 0_9/W1 x0
 

@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1639217340
+timestamp 1639264877
 << nwell >>
 rect -371 527 1084 544
 rect -439 519 1084 527
@@ -472,175 +472,159 @@ timestamp 1639205400
 transform 0 -1 895 1 0 -3823
 box -85 128 180 481
 use 0  0_23
-timestamp 1639200303
+timestamp 1639254092
 transform -1 0 -178 0 1 -3658
 box -89 43 336 566
 use 0  0_18
-timestamp 1639200303
+timestamp 1639254092
 transform 1 0 0 0 1 -3658
 box -89 43 336 566
 use 0  0_19
-timestamp 1639200303
+timestamp 1639254092
 transform 1 0 425 0 1 -3658
 box -89 43 336 566
 use inv_customized  inv_customized_7
 timestamp 1639201766
 transform 1 0 951 0 1 -3661
 box -194 128 180 481
+use 0  0_22
+timestamp 1639254092
+transform -1 0 -178 0 1 -3135
+box -89 43 336 566
+use 0  0_16
+timestamp 1639254092
+transform 1 0 0 0 1 -3135
+box -89 43 336 566
 use pbulk  pbulk_6
 timestamp 1639210801
 transform 1 0 -129 0 1 -3172
 box -18 -18 119 75
-use 0  0_22
-timestamp 1639200303
-transform -1 0 -178 0 1 -3135
-box -89 43 336 566
-use 0  0_16
-timestamp 1639200303
-transform 1 0 0 0 1 -3135
-box -89 43 336 566
 use 0  0_17
-timestamp 1639200303
+timestamp 1639254092
 transform -1 0 672 0 1 -3135
 box -89 43 336 566
 use inv_customized  inv_customized_6
 timestamp 1639201766
 transform 1 0 951 0 1 -3138
 box -194 128 180 481
+use 0  0_21
+timestamp 1639254092
+transform -1 0 -178 0 1 -2612
+box -89 43 336 566
+use 0  0_15
+timestamp 1639254092
+transform -1 0 247 0 1 -2612
+box -89 43 336 566
 use pbulk  pbulk_5
 timestamp 1639210801
 transform 1 0 -124 0 1 -2637
 box -18 -18 119 75
-use 0  0_21
-timestamp 1639200303
-transform -1 0 -178 0 1 -2612
-box -89 43 336 566
-use 0  0_15
-timestamp 1639200303
-transform -1 0 247 0 1 -2612
-box -89 43 336 566
 use 0  0_14
-timestamp 1639200303
+timestamp 1639254092
 transform -1 0 672 0 1 -2612
 box -89 43 336 566
 use inv_customized  inv_customized_5
 timestamp 1639201766
 transform 1 0 951 0 1 -2615
 box -194 128 180 481
+use 0  0_20
+timestamp 1639254092
+transform -1 0 -178 0 1 -2089
+box -89 43 336 566
+use 0  0_12
+timestamp 1639254092
+transform -1 0 247 0 1 -2089
+box -89 43 336 566
 use pbulk  pbulk_4
 timestamp 1639210801
 transform 1 0 -73 0 1 -2129
 box -18 -18 119 75
-use 0  0_20
-timestamp 1639200303
-transform -1 0 -178 0 1 -2089
-box -89 43 336 566
-use 0  0_12
-timestamp 1639200303
-transform -1 0 247 0 1 -2089
-box -89 43 336 566
 use 0  0_13
-timestamp 1639200303
+timestamp 1639254092
 transform 1 0 425 0 1 -2089
 box -89 43 336 566
 use inv_customized  inv_customized_4
 timestamp 1639201766
 transform 1 0 951 0 1 -2092
 box -194 128 180 481
+use 0  0_11
+timestamp 1639254092
+transform 1 0 -425 0 1 -1566
+box -89 43 336 566
+use 0  0_2
+timestamp 1639254092
+transform -1 0 247 0 1 -1566
+box -89 43 336 566
 use pbulk  pbulk_3
 timestamp 1639210801
 transform 1 0 -82 0 1 -1610
 box -18 -18 119 75
-use 0  0_11
-timestamp 1639200303
-transform 1 0 -425 0 1 -1566
-box -89 43 336 566
-use 0  0_2
-timestamp 1639200303
-transform -1 0 247 0 1 -1566
-box -89 43 336 566
 use 0  0_7
-timestamp 1639200303
+timestamp 1639254092
 transform 1 0 425 0 1 -1566
 box -89 43 336 566
 use inv_customized  inv_customized_3
 timestamp 1639201766
 transform 1 0 951 0 1 -1569
 box -194 128 180 481
+use 0  0_10
+timestamp 1639254092
+transform 1 0 -425 0 1 -1043
+box -89 43 336 566
+use 0  0_4
+timestamp 1639254092
+transform -1 0 247 0 1 -1043
+box -89 43 336 566
 use pbulk  pbulk_2
 timestamp 1639210801
 transform 1 0 -153 0 1 -1085
 box -18 -18 119 75
-use 0  0_10
-timestamp 1639200303
-transform 1 0 -425 0 1 -1043
-box -89 43 336 566
-use 0  0_4
-timestamp 1639200303
-transform -1 0 247 0 1 -1043
-box -89 43 336 566
 use 0  0_6
-timestamp 1639200303
+timestamp 1639254092
 transform -1 0 672 0 1 -1043
 box -89 43 336 566
 use inv_customized  inv_customized_2
 timestamp 1639201766
 transform 1 0 951 0 1 -1046
 box -194 128 180 481
+use 0  0_9
+timestamp 1639254092
+transform 1 0 -425 0 1 -520
+box -89 43 336 566
+use 0  0_3
+timestamp 1639254092
+transform 1 0 0 0 1 -520
+box -89 43 336 566
 use pbulk  pbulk_1
 timestamp 1639210801
 transform 1 0 -164 0 1 -545
 box -18 -18 119 75
-use 0  0_9
-timestamp 1639200303
-transform 1 0 -425 0 1 -520
-box -89 43 336 566
-use 0  0_3
-timestamp 1639200303
-transform 1 0 0 0 1 -520
-box -89 43 336 566
 use 0  0_5
-timestamp 1639200303
+timestamp 1639254092
 transform -1 0 672 0 1 -520
 box -89 43 336 566
 use inv_customized  inv_customized_1
 timestamp 1639201766
 transform 1 0 951 0 1 -523
 box -194 128 180 481
+use 0  0_8
+timestamp 1639254092
+transform 1 0 -425 0 1 3
+box -89 43 336 566
+use 0  0_0
+timestamp 1639254092
+transform 1 0 0 0 1 3
+box -89 43 336 566
 use pbulk  pbulk_0
 timestamp 1639210801
 transform 1 0 -177 0 1 -36
 box -18 -18 119 75
-use 0  0_8
-timestamp 1639200303
-transform 1 0 -425 0 1 3
-box -89 43 336 566
-use 0  0_0
-timestamp 1639200303
-transform 1 0 0 0 1 3
-box -89 43 336 566
 use 0  0_1
-timestamp 1639200303
+timestamp 1639254092
 transform 1 0 425 0 1 3
 box -89 43 336 566
 use inv_customized  inv_customized_0
 timestamp 1639201766
 transform 1 0 951 0 1 0
 box -194 128 180 481
-<< labels >>
-rlabel via1 181 -4044 181 -4044 1 OUT
-port 1 e
-rlabel metal3 -1016 731 -1016 731 1 GND
-rlabel metal1 -659 739 -659 739 1 VDD
-rlabel space -255 -4258 -255 -4258 1 A2
-rlabel space 173 -4257 173 -4257 1 A1
-rlabel space 592 -4260 592 -4260 1 A0
-rlabel space 1122 281 1122 281 1 Sel7
-rlabel space 1124 -238 1124 -238 1 Sel6
-rlabel space 1127 -761 1127 -761 7 Sel5
-rlabel space 1127 -1288 1127 -1288 7 Sel4
-rlabel space 1126 -1810 1126 -1810 7 Sel3
-rlabel space 1127 -2334 1127 -2334 7 Sel2
-rlabel space 1127 -2857 1127 -2857 7 Sel1
-rlabel space 1127 -3380 1127 -3380 7 Sel0
 << end >>
