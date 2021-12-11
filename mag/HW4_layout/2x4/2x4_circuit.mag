@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1639208310
+timestamp 1639254519
 << nwell >>
 rect -16 483 140 519
 rect -16 333 525 483
@@ -548,64 +548,64 @@ rect -123 -2200 -73 -1914
 rect -143 -2239 -73 -2200
 rect -123 -2326 -73 -2239
 rect 336 -2332 386 -1868
-use inv_customized  inv_customized_4 ~/Desktop/BENG207_Project/cochlea_sky130/mag/HW4_layout/3x8
-timestamp 1639201766
+use inv_customized  inv_customized_4
+timestamp 1639201421
 transform 1 0 498 0 1 -2010
 box -194 128 180 481
 use inv_customized  inv_customized_5
-timestamp 1639201766
+timestamp 1639201421
 transform 1 0 35 0 1 -2010
 box -194 128 180 481
 use inv_customized  inv_customized_6
-timestamp 1639201766
+timestamp 1639201421
 transform 1 0 47 0 1 -2468
 box -194 128 180 481
 use inv_customized  inv_customized_7
-timestamp 1639201766
+timestamp 1639201421
 transform 1 0 502 0 1 -2474
 box -194 128 180 481
-use 0_unit  0_unit_2
-timestamp 1639199462
-transform 1 0 419 0 1 -1518
-box -89 47 335 561
 use 1  1_3
-timestamp 1639199554
+timestamp 1639253812
 transform 1 0 0 0 1 -1518
 box -89 47 335 561
+use 0_unit  0_unit_2
+timestamp 1639253755
+transform 1 0 419 0 1 -1518
+box -89 47 335 561
 use inv_customized  inv_customized_3
-timestamp 1639201766
+timestamp 1639201421
 transform 1 0 933 0 1 -1520
 box -194 128 180 481
 use 1  1_2
-timestamp 1639199554
+timestamp 1639253812
 transform 1 0 0 0 1 -1016
 box -89 47 335 561
 use 1  1_1
-timestamp 1639199554
+timestamp 1639253812
 transform 1 0 420 0 1 -1016
 box -89 47 335 561
 use inv_customized  inv_customized_2
-timestamp 1639201766
+timestamp 1639201421
 transform 1 0 933 0 1 -1018
 box -194 128 180 481
-use 0_unit  0_unit_1
-timestamp 1639199462
-transform 1 0 0 0 1 -512
-box -89 47 335 561
 use 1  1_0
-timestamp 1639199554
+timestamp 1639253812
 transform 1 0 420 0 1 -512
 box -89 47 335 561
+use 0_unit  0_unit_1
+timestamp 1639253755
+transform 1 0 0 0 1 -512
+box -89 47 335 561
 use inv_customized  inv_customized_1
-timestamp 1639201766
+timestamp 1639201421
 transform 1 0 937 0 1 -513
 box -194 128 180 481
 use 0_unit  0_unit_0
-timestamp 1639199462
+timestamp 1639253755
 transform 1 0 420 0 1 -1
 box -89 47 335 561
 use inv_customized  inv_customized_0
-timestamp 1639201766
+timestamp 1639201421
 transform 1 0 943 0 1 -1
 box -194 128 180 481
 << labels >>
