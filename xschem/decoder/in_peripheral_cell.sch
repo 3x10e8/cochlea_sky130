@@ -12,5 +12,5 @@ C {devices/iopin.sym} 40 85 1 0 {name=p3 lab=vdd}
 C {devices/iopin.sym} -40 85 1 0 {name=p2 lab=gnd}
 C {devices/iopin.sym} -40 -85 3 0 {name=p4 lab=gnd}
 C {devices/iopin.sym} 40 -85 3 0 {name=p6 lab=vdd}
-C {devices/iopin.sym} 95 -50 0 0 {name=p8 lab=vdd}
-C {devices/iopin.sym} 95 50 0 0 {name=p9 lab=gnd}
+C {devices/iopin.sym} 90 -50 0 0 {name=p1 lab=vdd}
+C {devices/iopin.sym} 90 50 0 0 {name=p5 lab=gnd}
