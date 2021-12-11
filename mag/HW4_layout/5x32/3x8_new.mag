@@ -1,0 +1,258 @@
+magic
+tech sky130A
+timestamp 1639212673
+<< metal1 >>
+rect 148 -3603 229 -3596
+rect -276 -3618 -202 -3614
+rect -276 -3659 -272 -3618
+rect -209 -3659 -202 -3618
+rect -276 -3666 -202 -3659
+rect 148 -3655 155 -3603
+rect 222 -3655 229 -3603
+rect 148 -3666 229 -3655
+rect 571 -3610 649 -3603
+rect 571 -3659 579 -3610
+rect 642 -3659 649 -3610
+rect 571 -3666 649 -3659
+rect 129 -3863 211 -3856
+rect 129 -3900 133 -3863
+rect 207 -3900 211 -3863
+rect 129 -3908 211 -3900
+rect 553 -3870 622 -3847
+rect 553 -3904 556 -3870
+rect 553 -3916 622 -3904
+rect 567 -4008 638 -4004
+rect -283 -4015 -202 -4008
+rect -283 -4056 -276 -4015
+rect -209 -4056 -202 -4015
+rect -283 -4067 -202 -4056
+rect 142 -4015 223 -4008
+rect 142 -4056 149 -4015
+rect 216 -4056 223 -4015
+rect 142 -4060 223 -4056
+rect 567 -4060 571 -4008
+rect 631 -4060 638 -4008
+rect 9 -4072 326 -4060
+<< via1 >>
+rect -272 -3659 -209 -3618
+rect 155 -3655 222 -3603
+rect 579 -3659 642 -3610
+rect -291 -3904 -220 -3859
+rect 133 -3900 207 -3863
+rect 556 -3904 631 -3870
+rect -276 -4056 -209 -4015
+rect 149 -4056 216 -4015
+rect 571 -4060 631 -4008
+<< metal2 >>
+rect -526 -3627 -336 -3558
+rect -60 -3562 82 -3549
+rect -276 -3618 -202 -3614
+rect -526 -3895 -427 -3627
+rect -276 -3659 -272 -3618
+rect -209 -3659 -202 -3618
+rect -276 -3666 -202 -3659
+rect -60 -3627 86 -3562
+rect 371 -3567 513 -3566
+rect 148 -3603 229 -3596
+rect -295 -3859 -213 -3852
+rect -295 -3895 -291 -3859
+rect -526 -3904 -291 -3895
+rect -220 -3874 -213 -3859
+rect -220 -3904 -205 -3874
+rect -526 -3968 -205 -3904
+rect -60 -3899 30 -3627
+rect 148 -3655 155 -3603
+rect 222 -3655 229 -3603
+rect 148 -3666 229 -3655
+rect 354 -3631 513 -3567
+rect 571 -3610 649 -3603
+rect 129 -3863 211 -3856
+rect 129 -3899 133 -3863
+rect -60 -3900 133 -3899
+rect 207 -3867 211 -3863
+rect 207 -3899 218 -3867
+rect 354 -3899 445 -3631
+rect 571 -3659 579 -3610
+rect 642 -3659 649 -3610
+rect 571 -3666 649 -3659
+rect 553 -3870 638 -3863
+rect 553 -3899 556 -3870
+rect 207 -3900 220 -3899
+rect -60 -3968 220 -3900
+rect 354 -3904 556 -3899
+rect 631 -3882 638 -3870
+rect 631 -3904 642 -3882
+rect -287 -4008 -205 -3968
+rect 136 -4008 218 -3968
+rect 354 -3994 642 -3904
+rect 354 -3998 445 -3994
+rect 564 -4008 642 -3994
+rect -287 -4015 -202 -4008
+rect -287 -4026 -276 -4015
+rect -283 -4056 -276 -4026
+rect -209 -4056 -202 -4015
+rect 136 -4015 223 -4008
+rect 136 -4019 149 -4015
+rect -283 -4067 -202 -4056
+rect 142 -4056 149 -4019
+rect 216 -4056 223 -4015
+rect 142 -4067 223 -4056
+rect 564 -4060 571 -4008
+rect 631 -4060 642 -4008
+rect 564 -4064 642 -4060
+use inv_customized_3  inv_customized_3_5
+timestamp 1639205400
+transform 0 -1 468 1 0 -4224
+box -85 128 180 481
+use inv_customized_3  inv_customized_3_3
+timestamp 1639205400
+transform 0 -1 45 1 0 -4223
+box -85 128 180 481
+use inv_customized_3  inv_customized_3_1
+timestamp 1639205400
+transform 0 -1 470 1 0 -3823
+box -85 128 180 481
+use inv_customized_3  inv_customized_3_0
+timestamp 1639205400
+transform 0 -1 45 1 0 -3823
+box -85 128 180 481
+use inv_customized_3  inv_customized_3_4
+timestamp 1639205400
+transform 0 -1 889 1 0 -4228
+box -85 128 180 481
+use inv_customized_3  inv_customized_3_2
+timestamp 1639205400
+transform 0 -1 895 1 0 -3823
+box -85 128 180 481
+use 0  0_23
+timestamp 1639200303
+transform -1 0 2957 0 1 -3795
+box -89 43 336 566
+use 0  0_18
+timestamp 1639200303
+transform 1 0 3135 0 1 -3795
+box -89 43 336 566
+use inv_customized  inv_customized_7
+timestamp 1639201766
+transform 1 0 4086 0 1 -3798
+box -194 128 180 481
+use 0  0_19
+timestamp 1639200303
+transform 1 0 3560 0 1 -3795
+box -89 43 336 566
+use 0  0_21
+timestamp 1639200303
+transform -1 0 2957 0 1 -2749
+box -89 43 336 566
+use 0  0_20
+timestamp 1639200303
+transform -1 0 2957 0 1 -2226
+box -89 43 336 566
+use 0  0_22
+timestamp 1639200303
+transform -1 0 2957 0 1 -3272
+box -89 43 336 566
+use 0  0_15
+timestamp 1639200303
+transform -1 0 3382 0 1 -2749
+box -89 43 336 566
+use 0  0_12
+timestamp 1639200303
+transform -1 0 3382 0 1 -2226
+box -89 43 336 566
+use 0  0_16
+timestamp 1639200303
+transform 1 0 3135 0 1 -3272
+box -89 43 336 566
+use inv_customized  inv_customized_5
+timestamp 1639201766
+transform 1 0 4086 0 1 -2752
+box -194 128 180 481
+use inv_customized  inv_customized_4
+timestamp 1639201766
+transform 1 0 4086 0 1 -2229
+box -194 128 180 481
+use 0  0_14
+timestamp 1639200303
+transform -1 0 3807 0 1 -2749
+box -89 43 336 566
+use 0  0_13
+timestamp 1639200303
+transform 1 0 3560 0 1 -2226
+box -89 43 336 566
+use inv_customized  inv_customized_6
+timestamp 1639201766
+transform 1 0 4086 0 1 -3275
+box -194 128 180 481
+use 0  0_17
+timestamp 1639200303
+transform -1 0 3807 0 1 -3272
+box -89 43 336 566
+use 0  0_3
+timestamp 1639200303
+transform 1 0 3135 0 1 -657
+box -89 43 336 566
+use 0  0_9
+timestamp 1639200303
+transform 1 0 2710 0 1 -657
+box -89 43 336 566
+use 0  0_2
+timestamp 1639200303
+transform -1 0 3382 0 1 -1703
+box -89 43 336 566
+use 0  0_4
+timestamp 1639200303
+transform -1 0 3382 0 1 -1180
+box -89 43 336 566
+use 0  0_11
+timestamp 1639200303
+transform 1 0 2710 0 1 -1703
+box -89 43 336 566
+use 0  0_10
+timestamp 1639200303
+transform 1 0 2710 0 1 -1180
+box -89 43 336 566
+use inv_customized  inv_customized_3
+timestamp 1639201766
+transform 1 0 4086 0 1 -1706
+box -194 128 180 481
+use inv_customized  inv_customized_2
+timestamp 1639201766
+transform 1 0 4086 0 1 -1183
+box -194 128 180 481
+use 0  0_5
+timestamp 1639200303
+transform -1 0 3807 0 1 -657
+box -89 43 336 566
+use 0  0_7
+timestamp 1639200303
+transform 1 0 3560 0 1 -1703
+box -89 43 336 566
+use 0  0_6
+timestamp 1639200303
+transform -1 0 3807 0 1 -1180
+box -89 43 336 566
+use 0  0_0
+timestamp 1639200303
+transform 1 0 3135 0 1 -134
+box -89 43 336 566
+use 0  0_8
+timestamp 1639200303
+transform 1 0 2710 0 1 -134
+box -89 43 336 566
+use inv_customized  inv_customized_0
+timestamp 1639201766
+transform 1 0 4086 0 1 -137
+box -194 128 180 481
+use 0  0_1
+timestamp 1639200303
+transform 1 0 3560 0 1 -134
+box -89 43 336 566
+use inv_customized  inv_customized_1
+timestamp 1639201766
+transform 1 0 4086 0 1 -660
+box -194 128 180 481
+<< labels >>
+rlabel via1 181 -4044 181 -4044 1 OUT
+port 1 e
+<< end >>
