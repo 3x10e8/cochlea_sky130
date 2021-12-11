@@ -116,8 +116,6 @@ N 350 320 350 470 { lab=#net4}
 N 240 330 420 330 { lab=VDD}
 N 330 390 420 390 { lab=#net9}
 N 320 450 420 450 { lab=#net9}
-N -170 60 -170 80 { lab=VDD}
-N -170 140 -170 150 { lab=GND}
 N -0 -140 0 470 { lab=VDD}
 N -20 -140 -20 470 { lab=GND}
 N -0 -120 20 -120 { lab=VDD}
@@ -136,7 +134,6 @@ N 520 -60 540 -60 { lab=SEL0}
 N 520 90 540 90 { lab=SEL1}
 N 520 240 540 240 { lab=SEL2}
 N 520 390 540 390 { lab=SEL3}
-N -200 400 -200 420 { lab=A1}
 N 150 640 150 670 { lab=NA1}
 N 350 640 350 670 { lab=NA0}
 N 350 470 350 540 { lab=#net4}
@@ -145,10 +142,6 @@ N 290 650 350 650 { lab=NA0}
 N 90 650 150 650 { lab=NA1}
 N 90 470 90 650 { lab=NA1}
 N 150 470 150 540 { lab=#net2}
-N -410 400 -410 420 { lab=A0}
-C {devices/vsource.sym} -170 110 0 0 {name=V1 value=1.6}
-C {devices/vdd.sym} -170 60 0 0 {name=l1 lab=VDD}
-C {devices/gnd.sym} -170 150 0 0 {name=l2 lab=GND}
 C {devices/vdd.sym} 0 -140 0 0 {name=l3 lab=VDD}
 C {devices/gnd.sym} -20 470 0 0 {name=l4 lab=GND}
 C {devices/lab_pin.sym} 540 -60 0 1 {name=l5 sig_type=std_logic lab=SEL0}
@@ -159,16 +152,6 @@ C {devices/lab_pin.sym} 90 470 1 1 {name=l9 sig_type=std_logic lab=NA1}
 C {devices/lab_pin.sym} 150 770 1 1 {name=l10 sig_type=std_logic lab=A1}
 C {devices/lab_pin.sym} 350 770 1 1 {name=l11 sig_type=std_logic lab=A0}
 C {devices/lab_pin.sym} 290 470 1 1 {name=l12 sig_type=std_logic lab=NA0}
-C {devices/lab_pin.sym} -200 400 2 1 {name=l18 sig_type=std_logic lab=A1}
-C {devices/vsource.sym} -200 450 0 0 {name=V5 value="PULSE(0 1 0 0 0 0.05 0.1 0)"}
-C {devices/gnd.sym} -200 480 0 0 {name=l20 lab=GND}
-C {devices/code_shown.sym} 720 60 0 0 {name=SPICE1 only_toplevel=false value="
-.lib /home/sky/sky130A/libs.tech/ngspice/sky130.lib.spice tt
-.options abstol=1e-14 reltol=1e-4
-
-.tran 100u 1
-.save all
-"}
 C {sky130_fd_pr/pfet3_01v8.sym} 90 -90 3 0 {name=M2
 L=0.15
 W=1
@@ -409,9 +392,6 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/lab_pin.sym} -410 400 2 1 {name=l13 sig_type=std_logic lab=A0}
-C {devices/vsource.sym} -410 450 0 0 {name=V2 value="PULSE(0 1 0 0 0 0.05 0.1 0)"}
-C {devices/gnd.sym} -410 480 0 0 {name=l14 lab=GND}
 C {HW4_RAM_readout/inv/inv_1.sym} 350 590 3 0 {name=X1}
 C {HW4_RAM_readout/inv/inv_1.sym} 350 720 3 0 {name=X2}
 C {HW4_RAM_readout/inv/inv_1.sym} 150 720 3 0 {name=X3}

@@ -1,0 +1,463 @@
+timestamp 1639254519
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 1e+06
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use inv_customized inv_customized_4 1 0 498 0 1 -2010
+use inv_customized inv_customized_5 1 0 35 0 1 -2010
+use inv_customized inv_customized_6 1 0 47 0 1 -2468
+use inv_customized inv_customized_7 1 0 502 0 1 -2474
+use 1 1_3 1 0 0 0 1 -1518
+use 0_unit 0_unit_2 1 0 419 0 1 -1518
+use inv_customized inv_customized_3 1 0 933 0 1 -1520
+use 1 1_2 1 0 0 0 1 -1016
+use 1 1_1 1 0 420 0 1 -1016
+use inv_customized inv_customized_2 1 0 933 0 1 -1018
+use 1 1_0 1 0 420 0 1 -512
+use 0_unit 0_unit_1 1 0 0 0 1 -512
+use inv_customized inv_customized_1 1 0 937 0 1 -513
+use 0_unit 0_unit_0 1 0 420 0 1 -1
+use inv_customized inv_customized_0 1 0 943 0 1 -1
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__pfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+port "Gate" 2 63 95 63 95 li
+port "Gate" 2 62 313 62 313 v0
+port "Gate" 1 62 508 62 508 v0
+port "Gate" 1 62 290 62 290 li
+node "S2" 1 -64.4916 162 47 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22572 1114 0 0 0 0 0 0 0 0
+equiv "S2" "N2"
+node "A0" 0 37.392 314 -2261 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1170 138 0 0 0 0 0 0 0 0 0 0
+node "m1_332_n2203#" 0 218.001 332 -2203 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1260 142 4821 292 0 0 0 0 0 0 0 0
+node "m1_n143_n2239#" 0 19.955 -143 -2239 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1170 138 0 0 0 0 0 0 0 0 0 0
+node "m1_n123_n2192#" 0 167.319 -123 -2192 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1024 128 3885 276 0 0 0 0 0 0 0 0
+node "A1" 0 0 -149 -2199 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 357 84 0 0 0 0 0 0 0 0 0 0
+node "m1_321_n1915#" 2 152.346 321 -1915 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61003 1962 0 0 0 0 0 0 0 0 0 0
+node "m1_629_n1751#" 2 396.743 629 -1751 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1209 140 23290 1098 0 0 0 0 0 0 0 0
+node "m1_336_n1736#" 2 414.384 336 -1736 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1200 140 21743 1082 0 0 0 0 0 0 0 0
+node "m1_166_n1741#" 1 239.827 166 -1741 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 992 126 14552 758 0 0 0 0 0 0 0 0
+node "m1_n142_n1743#" 6 1007.8 -142 -1743 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1928 248 48002 2804 0 0 0 0 0 0 0 0
+node "sel3" 0 0 1096 -1265 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1170 138 0 0 0 0 0 0 0 0 0 0
+node "sel2" 0 0 1096 -762 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1170 138 0 0 0 0 0 0 0 0 0 0
+node "sel1" 0 0 1096 -253 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1170 138 0 0 0 0 0 0 0 0 0 0
+node "sel0" 0 0 1111 254 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 836 126 0 0 0 0 0 0 0 0 0 0
+node "E3" 312 -65.4417 71 142 ndif 0 0 0 0 0 0 0 0 5000 300 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2592 288 8051 600 0 0 0 0 0 0 0 0 0 0
+node "E2" 467 -463.123 71 360 pdif 0 0 0 0 0 0 0 0 0 0 5000 300 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2592 288 12727 934 0 0 0 0 0 0 0 0 0 0
+equiv "E2" "W2"
+node "Gate" 1147 -268.273 62 290 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10048 964 0 0 5440 524 5031 492 8772 666 0 0 0 0 0 0 0 0
+equiv "Gate" "S1"
+equiv "Gate" "N1"
+node "w_146_n2145#" 4870 -157.452 146 -2145 nw 0 0 0 0 62100 1128 0 0 4524 272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4524 272 1647 176 0 0 0 0 0 0 0 0 0 0
+node "w_137_n1180#" 11774 -39.36 137 -1180 nw 0 0 0 0 104628 1934 0 0 4539 280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4539 280 527 96 0 0 0 0 0 0 0 0 0 0
+node "w_665_n686#" 4636 20.79 665 -686 nw 0 0 0 0 26730 738 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_245_n682#" 4428 -89.4634 245 -682 nw 0 0 0 0 72957 1194 0 0 6630 334 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6630 334 374 78 0 0 0 0 0 0 0 0 0 0
+node "w_671_n172#" 4636 20.79 671 -172 nw 0 0 0 0 26730 738 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_123_n152#" 4925 -39.4767 123 -152 nw 0 0 0 0 62100 1128 0 0 7906 370 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7906 370 476 90 0 0 0 0 0 0 0 0 0 0
+node "w_552_334#" 6027 23.1 552 334 nw 0 0 0 0 42900 1000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 16466 2071.66 -16 301 nw 0 0 0 0 157722 2646 0 0 24114 862 5000 300 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26706 1150 438167 10538 0 0 0 0 0 0 0 0 0 0
+equiv "VDD" "E1"
+equiv "VDD" "W1"
+substrate "GND" 0 0 261 -331 pw 0 0 40648 1120 0 0 0 0 5000 300 40648 1120 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43240 1408 29372 1756 27780 1636 1401490 20270 0 0 0 0 0 0
+equiv "GND" "W3"
+cap "m1_336_n1736#" "m1_321_n1915#" 14.1732
+cap "m1_629_n1751#" "m1_336_n1736#" 27.5641
+cap "w_146_n2145#" "VDD" 215.639
+cap "m1_n143_n2239#" "m1_n123_n2192#" 80.668
+cap "Gate" "E3" 28.7728
+cap "A1" "m1_n123_n2192#" 108.395
+cap "S2" "E3" 96.2688
+cap "m1_n142_n1743#" "m1_166_n1741#" 47.124
+cap "m1_n142_n1743#" "m1_n123_n2192#" 10.3015
+cap "Gate" "S2" 130.128
+cap "Gate" "VDD" 144.227
+cap "S2" "VDD" 114.326
+cap "VDD" "A0" 6.46552
+cap "m1_332_n2203#" "w_146_n2145#" 1.064
+cap "m1_n142_n1743#" "w_146_n2145#" 16.53
+cap "m1_n143_n2239#" "VDD" 8.59873
+cap "m1_321_n1915#" "VDD" 181.737
+cap "A1" "VDD" 6.04927
+cap "m1_332_n2203#" "VDD" 6.80672
+cap "m1_332_n2203#" "A0" 28.4211
+cap "m1_n142_n1743#" "VDD" 322.513
+cap "m1_336_n1736#" "m1_166_n1741#" 139.906
+cap "A1" "m1_n143_n2239#" 376.364
+cap "m1_629_n1751#" "m1_321_n1915#" 9.36242
+cap "E2" "E3" 84.8439
+cap "m1_n142_n1743#" "m1_332_n2203#" 46.6202
+cap "Gate" "E2" 99.0029
+cap "S2" "E2" 96.2688
+cap "E2" "VDD" 1212.03
+cap "m1_336_n1736#" "VDD" 103.915
+cap "m1_166_n1741#" "VDD" 140.39
+cap "m1_n123_n2192#" "VDD" 11.0823
+device msubckt sky130_fd_pr__nfet_01v8 53 142 54 143 l=18 w=100 "GND" "Gate" 36 0 "GND" 100 0 "E3" 100 0
+device msubckt sky130_fd_pr__pfet_01v8 53 360 54 361 l=18 w=100 "VDD" "Gate" 36 0 "VDD" 100 0 "E2" 100 0
+subcap "m1_n123_n2192#" -84.5541
+subcap "m1_166_n1741#" -239.827
+subcap "m1_n142_n1743#" -1025.45
+cap "inv_customized_6/w_n16_301#" "inv_customized_5/VDD" 2.93192
+cap "inv_customized_5/IN" "inv_customized_6/IN" 1.77636e-15
+cap "inv_customized_5/GND" "inv_customized_5/IN" 359.565
+cap "inv_customized_5/GND" "inv_customized_6/IN" 196.533
+cap "inv_customized_6/IN" "inv_customized_6/w_n16_301#" 8.88178e-16
+cap "inv_customized_5/IN" "inv_customized_5/VDD" 184.142
+cap "inv_customized_5/IN" "inv_customized_5/OUT" 3.55271e-15
+cap "inv_customized_6/IN" "inv_customized_5/VDD" 38.8398
+cap "inv_customized_5/GND" "inv_customized_5/VDD" 169.576
+subcap "A0" -306.029
+subcap "m1_332_n2203#" -486.638
+subcap "m1_n123_n2192#" -294.283
+subcap "m1_321_n1915#" -872.476
+subcap "m1_629_n1751#" -713.353
+subcap "m1_336_n1736#" -1134.51
+subcap "m1_166_n1741#" -574.954
+subcap "w_146_n2145#" -253.932
+cap "inv_customized_7/IN" "inv_customized_5/IN" 108.391
+cap "inv_customized_7/IN" "inv_customized_4/GND" 133.768
+cap "inv_customized_7/IN" "inv_customized_4/IN" 70.5146
+cap "inv_customized_4/VDD" "inv_customized_5/OUT" -4.42505
+cap "inv_customized_6/IN" "inv_customized_5/IN" 1.23214
+cap "inv_customized_6/VDD" "inv_customized_4/GND" 2.49903
+cap "inv_customized_6/w_n16_301#" "inv_customized_5/IN" 140.212
+cap "inv_customized_6/w_n16_301#" "inv_customized_4/GND" 80.4489
+cap "inv_customized_6/w_n16_301#" "inv_customized_4/IN" 211.882
+cap "inv_customized_4/IN" "inv_customized_4/OUT" 150.31
+cap "inv_customized_6/IN" "inv_customized_7/IN" 19.0989
+cap "inv_customized_4/IN" "inv_customized_5/OUT" 91.8487
+cap "inv_customized_5/OUT" "inv_customized_5/IN" 28.9844
+cap "inv_customized_4/VDD" "inv_customized_5/IN" 5.9718
+cap "inv_customized_4/GND" "inv_customized_4/VDD" -4.44089e-16
+cap "inv_customized_4/IN" "inv_customized_4/VDD" 1.79904
+cap "inv_customized_7/IN" "inv_customized_6/w_n16_301#" 0.828521
+cap "inv_customized_6/IN" "inv_customized_6/w_n16_301#" 13.9966
+cap "inv_customized_6/VDD" "inv_customized_6/w_n16_301#" 35.8275
+cap "inv_customized_4/IN" "inv_customized_5/IN" 9.48649
+cap "inv_customized_4/GND" "inv_customized_5/IN" 6.21725e-15
+cap "inv_customized_4/IN" "inv_customized_4/GND" 192.31
+cap "inv_customized_6/w_n16_301#" "inv_customized_5/OUT" 59.3539
+subcap "m1_629_n1751#" -396.743
+cap "inv_customized_7/IN" "inv_customized_7/OUT" 4.59424
+subcap "m1_166_n1741#" -239.827
+subcap "m1_n142_n1743#" -1087.16
+cap "1_3/E3" "inv_customized_5/VDD" 87.3571
+cap "inv_customized_5/VDD" "inv_customized_5/IN" 46.5073
+cap "inv_customized_5/IN" "GND" 74.4988
+cap "inv_customized_5/VDD" "1_3/E2" 19.7633
+cap "inv_customized_5/VDD" "inv_customized_5/GND" 172.819
+cap "1_3/E3" "inv_customized_5/OUT" 0.757979
+cap "inv_customized_5/OUT" "inv_customized_5/IN" -15.5882
+cap "1_3/E3" "inv_customized_5/IN" 54.5455
+cap "1_3/E3" "1_3/E2" 2.63073
+cap "inv_customized_5/GND" "inv_customized_5/IN" 38.37
+cap "1_2/E3" "inv_customized_5/VDD" 19.11
+subcap "m1_629_n1751#" -700.653
+subcap "m1_336_n1736#" -763.65
+subcap "m1_166_n1741#" -847.271
+subcap "w_137_n1180#" -764.79
+cap "inv_customized_4/VDD" "1_3/E2" 18.4115
+cap "inv_customized_4/VDD" "1_3/W3" 83.8012
+cap "inv_customized_5/IN" "inv_customized_4/GND" 21.8736
+cap "inv_customized_4/VDD" "1_3/E3" 36.6372
+cap "inv_customized_4/OUT" "1_3/E2" 22.1098
+cap "inv_customized_4/VDD" "inv_customized_4/OUT" 6.21725e-15
+cap "1_3/E2" "GND" 40.9765
+cap "GND" "1_3/W3" 119.819
+cap "1_3/E1" "inv_customized_4/GND" -605.653
+cap "inv_customized_5/OUT" "inv_customized_4/GND" 212.702
+cap "GND" "1_3/E3" 11.1028
+cap "inv_customized_4/VDD" "inv_customized_5/IN" 5.9718
+cap "1_3/E3" "inv_customized_5/IN" 175.876
+cap "1_2/E3" "1_3/E2" 3.09375
+cap "GND" "inv_customized_5/IN" -287.153
+cap "inv_customized_4/VDD" "inv_customized_5/OUT" 230.09
+cap "1_3/E1" "1_3/E2" 29.2867
+cap "1_3/E2" "inv_customized_5/OUT" 0.920126
+cap "inv_customized_5/OUT" "1_3/E3" 18.4069
+cap "1_3/E1" "inv_customized_4/OUT" 19.9884
+cap "inv_customized_5/OUT" "GND" 81.2351
+cap "1_2/W3" "inv_customized_4/IN" 7.44231
+cap "1_3/E1" "GND" 7.98965
+cap "1_3/E1" "inv_customized_5/IN" -155.83
+cap "inv_customized_5/OUT" "inv_customized_5/IN" -33.9744
+cap "1_2/E3" "inv_customized_5/OUT" 1.41616
+cap "1_3/E1" "1_2/E3" 10.8947
+cap "1_3/E1" "inv_customized_5/OUT" 7.37916
+cap "1_1/W3" "1_3/E1" 18.037
+cap "inv_customized_5/VDD" "inv_customized_4/GND" -1684.34
+cap "inv_customized_4/IN" "inv_customized_4/GND" 62.5216
+cap "1_3/E3" "inv_customized_5/VDD" 2.56429
+cap "inv_customized_4/VDD" "inv_customized_5/VDD" 39.9555
+cap "inv_customized_4/VDD" "inv_customized_4/IN" 40.5841
+cap "1_3/E2" "inv_customized_4/IN" 1.42109e-14
+cap "inv_customized_4/OUT" "inv_customized_4/IN" -33.8828
+cap "GND" "inv_customized_4/IN" 19.7143
+cap "inv_customized_5/OUT" "1_2/W3" 1.25113
+cap "1_3/E1" "1_2/W3" 49.6676
+cap "inv_customized_5/OUT" "inv_customized_4/IN" 11.0377
+cap "1_3/E1" "inv_customized_4/IN" 2.84217e-14
+cap "1_3/E2" "inv_customized_4/GND" 36.3625
+cap "inv_customized_4/VDD" "inv_customized_4/GND" 201.703
+cap "inv_customized_4/OUT" "inv_customized_4/GND" 225.93
+cap "1_3/E2" "1_3/W3" -1.19681
+subcap "m1_629_n1751#" -396.743
+subcap "sel3" -450.387
+cap "0_unit_2/W1" "inv_customized_3/GND" -101.354
+cap "0_unit_2/W1" "inv_customized_3/w_n16_301#" 2.7924
+cap "inv_customized_2/OUT" "inv_customized_3/OUT" 13.5446
+cap "inv_customized_2/IN" "0_unit_2/E3" 1.32692
+cap "inv_customized_3/w_n16_301#" "inv_customized_3/GND" -4.1568
+cap "0_unit_2/E3" "inv_customized_3/GND" 12.828
+cap "inv_customized_3/OUT" "0_unit_2/E3" 2.84217e-14
+cap "inv_customized_3/w_n16_301#" "0_unit_2/E3" 6.2608
+cap "1_3/E1" "1_2/E2" 22.1669
+cap "1_2/E3" "1_3/N2" 54.5455
+cap "0_unit_1/W3" "1_3/N2" 58.9332
+cap "0_unit_1/W2" "0_unit_1/W3" 0.747653
+cap "1_2/E3" "1_2/E2" 2.01324
+cap "1_3/E1" "1_2/E3" 19.11
+cap "1_3/E1" "0_unit_1/W3" 33.0129
+cap "1_3/E1" "1_3/N2" 11.7391
+cap "GND" "1_3/N2" 0.896739
+cap "0_unit_1/W3" "0_unit_1/E3" 2.94393
+cap "0_unit_1/W3" "1_3/N1" 9.23077
+cap "1_2/E3" "1_3/N1" 2.27394
+cap "1_3/N1" "1_3/N2" -2.35294
+subcap "w_665_n686#" -860.858
+subcap "w_245_n682#" -750.605
+subcap "w_671_n172#" -20.79
+cap "0_unit_2/N1" "0_unit_2/N2" -5.12821
+cap "1_2/W3" "1_3/N1" 1.25113
+cap "1_0/W3" "0_unit_1/W3" 6.46032
+cap "0_unit_2/N2" "1_3/E1" 7.11397
+cap "1_2/E1" "inv_customized_2/GND" -605.349
+cap "0_unit_2/N2" "0_unit_1/W3" 2.11538
+cap "0_unit_2/N2" "1_2/E2" 17.2149
+cap "1_0/W3" "1_0/E3" 3.85281
+cap "0_unit_2/N2" "1_0/E3" 2.79045
+cap "1_2/E3" "1_3/E2" 3.09375
+cap "1_3/N2" "1_3/N1" -5.12821
+cap "1_0/W3" "1_2/E1" 43.0517
+cap "0_unit_1/W3" "1_3/N2" -366.577
+cap "0_unit_2/N2" "1_2/E1" 14.5434
+cap "1_0/W3" "inv_customized_2/GND" -39.0227
+cap "0_unit_2/N1" "0_unit_1/W3" 20.1149
+cap "1_2/E2" "1_3/E1" 18.037
+cap "1_3/E1" "1_3/N1" 7.37916
+cap "0_unit_1/W3" "1_3/N1" 72.2991
+cap "1_2/E1" "1_3/N2" -153.547
+cap "1_0/E3" "1_3/N1" 14.6591
+cap "1_2/E2" "1_0/E3" 6.12371
+cap "0_unit_1/W3" "1_0/E3" 48.4733
+cap "1_2/E3" "1_3/N2" 175.876
+cap "0_unit_2/N1" "1_2/E1" 21.2344
+cap "1_0/W3" "0_unit_2/N2" 2.46515
+cap "1_2/E2" "1_2/E1" 25.6916
+cap "1_2/E1" "1_3/N1" 2.84217e-14
+cap "1_2/E3" "1_3/E1" 10.8947
+cap "1_2/E2" "inv_customized_2/GND" 38.7125
+cap "0_unit_2/N1" "1_2/W3" 7.44231
+cap "1_0/E3" "1_2/E1" 120.357
+cap "1_2/E3" "1_3/N1" 3.69009
+cap "1_3/N1" "1_3/E2" 0.920126
+cap "1_2/W3" "1_3/E1" 49.6676
+cap "1_2/E2" "1_2/W3" 3.48571
+subcap "sel2" -450.387
+subcap "sel1" -220.43
+subcap "w_665_n686#" -20.79
+subcap "w_671_n172#" -20.79
+cap "inv_customized_2/OUT" "inv_customized_2/w_n16_301#" 1.77636e-15
+cap "inv_customized_2/GND" "1_1/E1" -42.3356
+cap "1_1/E1" "inv_customized_2/w_n16_301#" 2.0644
+cap "inv_customized_2/GND" "1_1/W3" -5.892
+cap "1_1/W3" "inv_customized_2/w_n16_301#" 2.9848
+cap "inv_customized_3/OUT" "inv_customized_2/OUT" 13.5446
+cap "inv_customized_2/GND" "inv_customized_2/w_n16_301#" -2.1504
+cap "1_1/W3" "inv_customized_3/IN" 1.32692
+cap "1_1/W3" "1_0/W3" 2.02516
+cap "inv_customized_1/OUT" "inv_customized_2/OUT" 25.2541
+cap "inv_customized_2/GND" "1_0/W3" 11.3378
+cap "inv_customized_2/GND" "0_unit_2/W1" 18.6478
+cap "1_1/W3" "0_unit_2/N2" 5.77303
+subcap "Gate" -147.698
+subcap "VDD" -2534.35
+cap "GND" "0_unit_1/N1" 2.16542
+cap "0_unit_1/w_n16_301#" "0_unit_1/W3" 2.6808
+cap "GND" "0_unit_1/W1" 24.9284
+cap "0_unit_1/W1" "0_unit_1/W2" 21.2097
+cap "0_unit_1/N1" "0_unit_1/W1" 11.4252
+cap "0_unit_1/W3" "0_unit_1/W2" 0.747653
+cap "0_unit_1/N1" "0_unit_1/W3" 127.649
+cap "0_unit_1/N2" "0_unit_1/N1" 7.10543e-15
+cap "0_unit_1/N1" "GND" 4.66304
+subcap "S2" -73.7956
+subcap "E3" -351.193
+subcap "E2" -221.22
+subcap "w_671_n172#" -412.007
+subcap "w_123_n152#" -351.741
+subcap "w_552_334#" -600.593
+subcap "VDD" -2649.16
+cap "0_unit_1/N2" "0_unit_1/N1" 5.68434e-14
+cap "1_0/E1" "0_unit_1/N1" 2.15753
+cap "0_unit_1/N2" "0_unit_0/W1" -1.42109e-14
+cap "0_unit_0/W2" "0_unit_0/W3" -0.714286
+cap "inv_customized_1/GND" "1_0/W3" -10.883
+cap "0_unit_1/N2" "1_0/E1" 15.884
+cap "1_0/E3" "1_0/W3" -0.238095
+cap "0_unit_1/W3" "1_0/W3" 23.0625
+cap "0_unit_0/W2" "1_0/N1" 13.9209
+cap "1_0/E1" "0_unit_0/W2" 63.8188
+cap "0_unit_0/W2" "0_unit_0/W1" 6.00647
+cap "1_0/N1" "1_0/W3" 14.8729
+cap "0_unit_1/N1" "1_0/W3" 1.58364
+cap "1_0/E1" "1_0/W3" -144.214
+cap "1_0/E1" "inv_customized_1/GND" -467.004
+cap "0_unit_0/W1" "inv_customized_1/GND" -277.695
+cap "0_unit_1/W3" "1_0/N1" 16.7115
+cap "0_unit_1/W3" "1_0/N2" 10.3448
+cap "0_unit_1/N1" "0_unit_0/W3" 2.47297
+cap "0_unit_1/W3" "0_unit_1/N1" -2322.14
+cap "0_unit_1/W3" "0_unit_1/N2" 161.645
+cap "1_0/E1" "0_unit_0/W3" 30.8189
+cap "0_unit_1/W3" "1_0/E1" 7.65823
+cap "1_0/N2" "1_0/N1" -0.641026
+cap "0_unit_0/W2" "inv_customized_1/GND" -12.579
+cap "0_unit_0/W1" "1_0/N1" 10.5336
+cap "1_0/E1" "1_0/N2" 29.2288
+cap "1_0/E1" "1_0/N1" 1.05319
+subcap "sel1" -229.957
+subcap "sel0" -446.137
+subcap "w_671_n172#" -20.79
+cap "inv_customized_0/w_n16_301#" "inv_customized_1/GND" -4.7196
+cap "inv_customized_1/GND" "inv_customized_1/w_n16_301#" -2.3928
+cap "inv_customized_0/w_n16_301#" "0_unit_0/E3" 2.431
+cap "1_0/E1" "inv_customized_1/w_n16_301#" 5.4964
+cap "1_0/E1" "inv_customized_1/GND" -81.1059
+cap "0_unit_0/E3" "inv_customized_1/GND" -223.875
+cap "inv_customized_1/GND" "1_0/W3" -11.96
+cap "inv_customized_0/w_n16_301#" "0_unit_0/W1" 7.6804
+cap "1_0/E1" "0_unit_0/E3" 0.695876
+cap "1_0/N1" "1_0/W3" 5.77303
+cap "1_0/E1" "inv_customized_1/OUT" 2.84217e-14
+cap "0_unit_0/E3" "1_0/W3" 1.66265
+cap "inv_customized_0/OUT" "inv_customized_1/OUT" 18.6528
+cap "0_unit_0/W1" "inv_customized_1/GND" -60.616
+subcap "VDD" -2116.4
+subcap "w_552_334#" -68.932
+cap "0_unit_0/W2" "0_unit_0/W1" 0.251908
+cap "GND" "0_unit_0/W1" -21.2395
+cap "0_unit_0/N1" "0_unit_0/W1" -2.22045e-15
+subcap "sel0" -24.0504
+cap "0_unit_0/W1" "GND" 8.504
+cap "GND" "inv_customized_0/w_n16_301#" 0.0624
+merge "inv_customized_0/SUB" "inv_customized_0/GND" 5851.89 0 0 39980 -452 0 0 0 0 892 -300 39980 -452 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45839 -740 58493 -1264 16513 -552 -128536 -5771 0 0 0 0 0 0
+merge "inv_customized_0/GND" "0_unit_0/SUB"
+merge "0_unit_0/SUB" "inv_customized_1/SUB"
+merge "inv_customized_1/SUB" "inv_customized_1/GND"
+merge "inv_customized_1/GND" "1_0/SUB"
+merge "1_0/SUB" "0_unit_1/SUB"
+merge "0_unit_1/SUB" "0_unit_1/W3"
+merge "0_unit_1/W3" "inv_customized_2/SUB"
+merge "inv_customized_2/SUB" "inv_customized_2/GND"
+merge "inv_customized_2/GND" "1_1/SUB"
+merge "1_1/SUB" "inv_customized_3/SUB"
+merge "inv_customized_3/SUB" "inv_customized_3/GND"
+merge "inv_customized_3/GND" "1_2/SUB"
+merge "1_2/SUB" "1_2/E3"
+merge "1_2/E3" "1_3/E3"
+merge "1_3/E3" "0_unit_2/SUB"
+merge "0_unit_2/SUB" "inv_customized_7/SUB"
+merge "inv_customized_7/SUB" "inv_customized_7/GND"
+merge "inv_customized_7/GND" "inv_customized_4/SUB"
+merge "inv_customized_4/SUB" "inv_customized_4/GND"
+merge "inv_customized_4/GND" "1_3/SUB"
+merge "1_3/SUB" "inv_customized_6/SUB"
+merge "inv_customized_6/SUB" "inv_customized_6/GND"
+merge "inv_customized_6/GND" "inv_customized_5/SUB"
+merge "inv_customized_5/SUB" "inv_customized_5/GND"
+merge "inv_customized_5/GND" "GND"
+merge "0_unit_0/N1" "1_0/N2" -175.487 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -23786 -466 4248 -476 0 0 0 0 0 0 0 0
+merge "1_0/N2" "1_1/N2"
+merge "1_1/N2" "0_unit_2/N1"
+merge "0_unit_2/N1" "inv_customized_7/OUT"
+merge "inv_customized_7/OUT" "inv_customized_4/IN"
+merge "inv_customized_4/IN" "m1_321_n1915#"
+merge "m1_321_n1915#" "m1_336_n1736#"
+merge "inv_customized_0/VDD" "inv_customized_0/w_n16_301#" -130.354 0 0 0 0 -220304 -6926 0 0 -3835 0 8500 -62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1222 -40 -872941 -2367 0 0 0 0 0 0 0 0 0 0
+merge "inv_customized_0/w_n16_301#" "0_unit_0/W1"
+merge "0_unit_0/W1" "0_unit_0/w_n16_301#"
+merge "0_unit_0/w_n16_301#" "w_552_334#"
+merge "w_552_334#" "inv_customized_1/VDD"
+merge "inv_customized_1/VDD" "inv_customized_1/w_n16_301#"
+merge "inv_customized_1/w_n16_301#" "inv_customized_2/VDD"
+merge "inv_customized_2/VDD" "1_0/E1"
+merge "1_0/E1" "1_0/w_106_301#"
+merge "1_0/w_106_301#" "w_671_n172#"
+merge "w_671_n172#" "0_unit_1/w_n16_301#"
+merge "0_unit_1/w_n16_301#" "w_123_n152#"
+merge "w_123_n152#" "inv_customized_2/w_n16_301#"
+merge "inv_customized_2/w_n16_301#" "1_1/E1"
+merge "1_1/E1" "1_1/w_106_301#"
+merge "1_1/w_106_301#" "w_665_n686#"
+merge "w_665_n686#" "1_2/w_106_301#"
+merge "1_2/w_106_301#" "w_245_n682#"
+merge "w_245_n682#" "0_unit_1/W1"
+merge "0_unit_1/W1" "1_2/E1"
+merge "1_2/E1" "inv_customized_3/VDD"
+merge "inv_customized_3/VDD" "inv_customized_3/w_n16_301#"
+merge "inv_customized_3/w_n16_301#" "0_unit_2/W1"
+merge "0_unit_2/W1" "0_unit_2/w_n16_301#"
+merge "0_unit_2/w_n16_301#" "1_3/E1"
+merge "1_3/E1" "1_3/w_106_301#"
+merge "1_3/w_106_301#" "w_137_n1180#"
+merge "w_137_n1180#" "inv_customized_7/VDD"
+merge "inv_customized_7/VDD" "inv_customized_7/w_n16_301#"
+merge "inv_customized_7/w_n16_301#" "inv_customized_6/w_n16_301#"
+merge "inv_customized_6/w_n16_301#" "w_146_n2145#"
+merge "w_146_n2145#" "inv_customized_4/VDD"
+merge "inv_customized_4/VDD" "inv_customized_4/w_n16_301#"
+merge "inv_customized_4/w_n16_301#" "inv_customized_6/VDD"
+merge "inv_customized_6/VDD" "inv_customized_5/VDD"
+merge "inv_customized_5/VDD" "inv_customized_5/w_n16_301#"
+merge "inv_customized_5/w_n16_301#" "VDD"
+merge "0_unit_1/N2" "S2" -153.88 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4731 -126 -779 -732 0 0 0 0 0 0 0 0
+merge "S2" "1_2/N1"
+merge "1_2/N1" "1_3/N1"
+merge "1_3/N1" "inv_customized_5/OUT"
+merge "inv_customized_5/OUT" "m1_166_n1741#"
+merge "inv_customized_0/OUT" "sel0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -23576 -112 0 0 0 0 0 0 0 0 0 0
+merge "1_1/E3" "1_2/W3" -2.27374e-13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9625 -62 0 0 0 0 0 0 0 0 0 0
+merge "inv_customized_0/IN" "0_unit_0/E3" 11.6722 0 0 0 0 0 0 0 0 0 0 -1570 -12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4037 0 -60496 -196 0 0 0 0 0 0 0 0 0 0
+merge "0_unit_0/E3" "0_unit_0/W2"
+merge "0_unit_0/W2" "E2"
+merge "0_unit_1/N1" "Gate" -155.935 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26912 -122 0 0 31648 -100 -21961 -359 17913 -634 0 0 0 0 0 0 0 0
+merge "Gate" "1_2/N2"
+merge "1_2/N2" "1_3/N2"
+merge "1_3/N2" "inv_customized_6/OUT"
+merge "inv_customized_6/OUT" "inv_customized_5/IN"
+merge "inv_customized_5/IN" "m1_n142_n1743#"
+merge "inv_customized_3/OUT" "sel3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -663 -112 0 0 0 0 0 0 0 0 0 0
+merge "inv_customized_2/IN" "1_1/W3" -31.1922 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 230 -242 0 0 0 0 0 0 0 0 0 0
+merge "1_1/W3" "1_1/E2"
+merge "1_1/E2" "1_2/E2"
+merge "inv_customized_3/IN" "0_unit_2/E3" -35.3574 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4631 -236 0 0 0 0 0 0 0 0 0 0
+merge "0_unit_2/E3" "0_unit_2/W2"
+merge "0_unit_2/W2" "1_3/E2"
+merge "inv_customized_6/IN" "m1_n143_n2239#" -40.0183 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1365 -346 0 0 0 0 0 0 0 0 0 0
+merge "m1_n143_n2239#" "m1_n123_n2192#"
+merge "m1_n123_n2192#" "A1"
+merge "0_unit_0/N2" "1_0/N1" -97.6264 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9792 -140 7150 -478 0 0 0 0 0 0 0 0
+merge "1_0/N1" "1_1/N1"
+merge "1_1/N1" "0_unit_2/N2"
+merge "0_unit_2/N2" "inv_customized_4/OUT"
+merge "inv_customized_4/OUT" "m1_629_n1751#"
+merge "0_unit_2/W3" "1_3/W3" -1.7053e-13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -145 -68 0 0 0 0 0 0 0 0 0 0
+merge "inv_customized_7/IN" "A0" -134.509 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2235 -280 0 0 0 0 0 0 0 0 0 0
+merge "A0" "m1_332_n2203#"
+merge "inv_customized_1/OUT" "sel1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3549 -120 0 0 0 0 0 0 0 0 0 0
+merge "inv_customized_1/IN" "1_0/W3" -35.4874 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -21012 -226 0 0 0 0 0 0 0 0 0 0
+merge "1_0/W3" "0_unit_1/W2"
+merge "0_unit_1/W2" "1_0/E2"
+merge "inv_customized_2/OUT" "sel2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4857 -112 0 0 0 0 0 0 0 0 0 0
+merge "0_unit_1/E3" "1_0/E3" -2.84217e-13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 366 -60 0 0 0 0 0 0 0 0 0 0
+merge "0_unit_0/W3" "E3" -1.13687e-13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -84 -62 0 0 0 0 0 0 0 0 0 0
