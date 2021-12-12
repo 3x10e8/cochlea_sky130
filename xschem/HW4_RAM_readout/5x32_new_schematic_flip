@@ -7903,38 +7903,38 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 -2020 0 0 {name=X0}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 -1870 0 0 {name=X1}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 -1720 0 0 {name=X2}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 -1570 0 0 {name=X3}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 -1420 0 0 {name=X4}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 -1270 0 0 {name=X5}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 -1120 0 0 {name=X6}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 -970 0 0 {name=X7}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 -820 0 0 {name=X8}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 -670 0 0 {name=X9}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 -520 0 0 {name=X10}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 -370 0 0 {name=X11}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 -220 0 0 {name=X12}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 -70 0 0 {name=X13}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 80 0 0 {name=X14}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 230 0 0 {name=X15}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 380 0 0 {name=X16}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 530 0 0 {name=X17}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 680 0 0 {name=X18}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 830 0 0 {name=X19}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 980 0 0 {name=X20}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 1130 0 0 {name=X21}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 1280 0 0 {name=X22}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 1430 0 0 {name=X23}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 1580 0 0 {name=X24}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 1730 0 0 {name=X25}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 1880 0 0 {name=X26}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 2030 0 0 {name=X27}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 2180 0 0 {name=X28}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 2330 0 0 {name=X29}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 2480 0 0 {name=X30}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1170 2630 0 0 {name=X31}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 -2020 0 0 {name=X0}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 -1870 0 0 {name=X1}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 -1720 0 0 {name=X2}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 -1570 0 0 {name=X3}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 -1420 0 0 {name=X4}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 -1270 0 0 {name=X5}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 -1120 0 0 {name=X6}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 -970 0 0 {name=X7}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 -820 0 0 {name=X8}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 -670 0 0 {name=X9}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 -520 0 0 {name=X10}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 -370 0 0 {name=X11}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 -220 0 0 {name=X12}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 -70 0 0 {name=X13}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 80 0 0 {name=X14}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 230 0 0 {name=X15}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 380 0 0 {name=X16}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 530 0 0 {name=X17}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 680 0 0 {name=X18}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 830 0 0 {name=X19}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 980 0 0 {name=X20}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 1130 0 0 {name=X21}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 1280 0 0 {name=X22}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 1430 0 0 {name=X23}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 1580 0 0 {name=X24}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 1730 0 0 {name=X25}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 1880 0 0 {name=X26}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 2030 0 0 {name=X27}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 2180 0 0 {name=X28}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 2330 0 0 {name=X29}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 2480 0 0 {name=X30}
+C {HW4_RAM_readout/inv/inv_1.sym} 1170 2630 0 0 {name=X31}
 C {devices/lab_pin.sym} 1240 -1720 2 0 {name=l15 sig_type=std_logic lab=SEL29}
 C {devices/lab_pin.sym} 1240 -1870 2 0 {name=l16 sig_type=std_logic lab=SEL30}
 C {devices/lab_pin.sym} 1240 -2020 2 0 {name=l17 sig_type=std_logic lab=SEL31}
@@ -7967,16 +7967,16 @@ C {devices/lab_pin.sym} 1240 2480 2 0 {name=l43 sig_type=std_logic lab=SEL1}
 C {devices/lab_pin.sym} 1240 2330 2 0 {name=l44 sig_type=std_logic lab=SEL2}
 C {devices/lab_pin.sym} 1240 2180 2 0 {name=l45 sig_type=std_logic lab=SEL3}
 C {devices/lab_pin.sym} 1240 2630 2 0 {name=l46 sig_type=std_logic lab=SEL0}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1040 2770 3 0 {name=X32}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 1040 2900 3 0 {name=X33}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 840 2770 3 0 {name=X34}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 840 2900 3 0 {name=X35}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 640 2770 3 0 {name=X36}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 640 2900 3 0 {name=X37}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 440 2770 3 0 {name=X38}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 440 2900 3 0 {name=X39}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 240 2770 3 0 {name=X40}
-C {/home/sky/Desktop/cochlea_sky130/xschem/HW4_RAM_readout/inv/inv.sym} 240 2900 3 0 {name=X41}
+C {HW4_RAM_readout/inv/inv_1.sym} 1040 2770 3 0 {name=X32}
+C {HW4_RAM_readout/inv/inv_1.sym} 1040 2900 3 0 {name=X33}
+C {HW4_RAM_readout/inv/inv_1.sym} 840 2770 3 0 {name=X34}
+C {HW4_RAM_readout/inv/inv_1.sym} 840 2900 3 0 {name=X35}
+C {HW4_RAM_readout/inv/inv_1.sym} 640 2770 3 0 {name=X36}
+C {HW4_RAM_readout/inv/inv_1.sym} 640 2900 3 0 {name=X37}
+C {HW4_RAM_readout/inv/inv_1.sym} 440 2770 3 0 {name=X38}
+C {HW4_RAM_readout/inv/inv_1.sym} 440 2900 3 0 {name=X39}
+C {HW4_RAM_readout/inv/inv_1.sym} 240 2770 3 0 {name=X40}
+C {HW4_RAM_readout/inv/inv_1.sym} 240 2900 3 0 {name=X41}
 C {devices/lab_pin.sym} 240 2960 2 1 {name=l47 sig_type=std_logic lab=A44}
 C {devices/lab_pin.sym} 440 2960 2 1 {name=l48 sig_type=std_logic lab=A33}
 C {devices/lab_pin.sym} 640 2960 2 1 {name=l49 sig_type=std_logic lab=A22}
