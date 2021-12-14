@@ -1,0 +1,84 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit format="@name @pinlist @symname" template="name=X1"}
+V {}
+S {}
+E {}
+L 4 -260 -200 -260 260 {}
+L 4 -260 260 260 260 {}
+L 4 260 -260 260 260 {}
+L 4 -260 -260 260 -260 {}
+L 4 -260 -260 -260 -200 {}
+B 5 -262.5 37.5 -257.5 42.5 {name=West
+dir=inout}
+B 5 257.5 37.5 262.5 42.5 {name=SouthEast
+dir=inout}
+B 5 -262.5 -42.5 -257.5 -37.5 {name=Vgv
+dir=inout}
+B 5 257.5 117.5 262.5 122.5 {name=SEL
+dir=inout}
+B 5 257.5 -42.5 262.5 -37.5 {name=West
+dir=inout}
+B 5 -262.5 -202.5 -257.5 -197.5 {name=avdd
+dir=inout}
+B 5 -262.5 117.5 -257.5 122.5 {name=SEL
+dir=inout}
+B 5 -262.5 -122.5 -257.5 -117.5 {name=Vgh
+dir=inout}
+B 5 257.5 -122.5 262.5 -117.5 {name=Vgh
+dir=inout}
+B 5 257.5 -202.5 262.5 -197.5 {name=avdd
+dir=inout}
+B 5 -262.5 197.5 -257.5 202.5 {name=agnd
+dir=inout}
+B 5 257.5 197.5 262.5 202.5 {name=agnd
+dir=inout}
+B 5 37.5 -262.5 42.5 -257.5 {name=North
+dir=inout}
+B 5 -42.5 -262.5 -37.5 -257.5 {name=Vgv
+dir=inout}
+B 5 -202.5 -262.5 -197.5 -257.5 {name=avdd
+dir=inout}
+B 5 117.5 -262.5 122.5 -257.5 {name=OUT
+dir=inout}
+B 5 -122.5 -262.5 -117.5 -257.5 {name=Vgh
+dir=inout}
+B 5 197.5 -262.5 202.5 -257.5 {name=agnd
+dir=inout}
+B 5 37.5 257.5 42.5 262.5 {name=SouthEast
+dir=inout}
+B 5 -42.5 257.5 -37.5 262.5 {name=Vgv
+dir=inout}
+B 5 -202.5 257.5 -197.5 262.5 {name=avdd
+dir=inout}
+B 5 117.5 257.5 122.5 262.5 {name=OUT
+dir=inout}
+B 5 -122.5 257.5 -117.5 262.5 {name=Vgh
+dir=inout}
+B 5 197.5 257.5 202.5 262.5 {name=agnd
+dir=inout}
+T {@name} -10 -10 0 0 0.4 0.4 {}
+T {W} -240 30 0 0 0.4 0.4 {}
+T {Vgv} -240 -50 0 0 0.4 0.4 {}
+T {SE} 230 30 0 0 0.4 0.4 {}
+T {SEL} 220 110 0 0 0.4 0.4 {}
+T {Vgv} 250 -30 2 0 0.4 0.4 {}
+T {avdd} -240 -210 0 0 0.2 0.2 {}
+T {SEL} -200 130 2 0 0.4 0.4 {}
+T {Vgh} -240 -130 0 0 0.4 0.4 {}
+T {Vgh} 250 -110 2 0 0.4 0.4 {}
+T {avdd} 250 -190 2 0 0.2 0.2 {}
+T {agnd} -240 190 0 0 0.2 0.2 {}
+T {agnd} 240 210 2 0 0.2 0.2 {}
+T {North} 30 -180 3 0 0.4 0.4 {}
+T {Vgv} -50 -200 3 0 0.4 0.4 {}
+T {avdd} -200 -210 3 0 0.2 0.2 {}
+T {OUT} 130 -240 1 0 0.4 0.4 {}
+T {Vgh} -130 -200 3 0 0.4 0.4 {}
+T {agnd} 190 -210 3 0 0.2 0.2 {}
+T {SE} 50 210 1 0 0.4 0.4 {}
+T {Vgv} -30 200 1 0 0.4 0.4 {}
+T {avdd} -190 220 1 0 0.2 0.2 {}
+T {OUT} 110 240 3 0 0.4 0.4 {}
+T {Vgh} -110 200 1 0 0.4 0.4 {}
+T {agnd} 210 220 1 0 0.2 0.2 {}

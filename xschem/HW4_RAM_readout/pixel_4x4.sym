@@ -1,0 +1,57 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit format="@name @pinlist @symname" template="name=X1"}
+V {}
+S {}
+E {}
+L 4 -420 -320 -420 420 {}
+L 4 -420 420 380 420 {}
+L 4 380 -380 380 420 {}
+L 4 -420 -380 380 -380 {}
+L 4 -420 -380 -420 -320 {}
+B 5 -422.5 257.5 -417.5 262.5 {name=SEL3
+dir=inout}
+B 5 57.5 -382.5 62.5 -377.5 {name=North
+dir=inout}
+B 5 -182.5 -382.5 -177.5 -377.5 {name=Vgv
+dir=inout}
+B 5 -342.5 -382.5 -337.5 -377.5 {name=avdd
+dir=inout}
+B 5 57.5 417.5 62.5 422.5 {name=OUT2
+dir=inout}
+B 5 -262.5 -382.5 -257.5 -377.5 {name=Vgh
+dir=inout}
+B 5 297.5 -382.5 302.5 -377.5 {name=agnd
+dir=inout}
+B 5 217.5 417.5 222.5 422.5 {name=OUT3
+dir=inout}
+B 5 -262.5 417.5 -257.5 422.5 {name=OUT0
+dir=inout}
+B 5 -102.5 417.5 -97.5 422.5 {name=OUT1
+dir=inout}
+B 5 137.5 -382.5 142.5 -377.5 {name=West
+dir=inout}
+B 5 217.5 -382.5 222.5 -377.5 {name=SouthEast
+dir=inout}
+B 5 -422.5 97.5 -417.5 102.5 {name=SEL2
+dir=inout}
+B 5 -422.5 -222.5 -417.5 -217.5 {name=SEL0
+dir=inout}
+B 5 -422.5 -62.5 -417.5 -57.5 {name=SEL1
+dir=inout}
+T {@name} -50 -10 0 0 0.4 0.4 {}
+T {SEL3} -360 270 2 0 0.4 0.4 {}
+T {North} 50 -300 3 0 0.4 0.4 {}
+T {Vgv} -190 -320 3 0 0.4 0.4 {}
+T {avdd} -340 -310 3 0 0.4 0.4 {}
+T {OUT2} 50 400 3 0 0.4 0.4 {}
+T {Vgh} -270 -320 3 0 0.4 0.4 {}
+T {agnd} 290 -310 3 0 0.4 0.4 {}
+T {OUT3} 210 400 3 0 0.4 0.4 {}
+T {OUT0} -270 400 3 0 0.4 0.4 {}
+T {OUT1} -110 400 3 0 0.4 0.4 {}
+T {West} 130 -300 3 0 0.4 0.4 {}
+T {SouthEast} 210 -250 3 0 0.4 0.4 {}
+T {SEL2} -360 110 2 0 0.4 0.4 {}
+T {SEL0} -360 -210 2 0 0.4 0.4 {}
+T {SEL1} -360 -50 2 0 0.4 0.4 {}
