@@ -5,7 +5,7 @@
 ---
 
 This project implements a wavelet filterbank using switched capacitor techniques, as an extension of Tim Edwards's [dissertation work](http://opencircuitdesign.com/~tim/dissertation.html) (1999). 
-The filterbank will be embedded inside efabless's Caravel frame.
+The filterbank will be embedded inside efabless's Caravel frame in the nearest tapeout.
 
 This work began as a class project for UCSD's [BENG 207](https://isn.ucsd.edu/courses/beng207/index.html) Integrated Neuromorphic Bioelectronics (fall 2021).
 
