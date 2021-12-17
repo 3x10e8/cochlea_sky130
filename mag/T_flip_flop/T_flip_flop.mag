@@ -1,0 +1,79 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1639731822
+<< nwell >>
+rect 267 329 926 702
+<< locali >>
+rect 842 330 954 342
+rect 842 289 990 330
+rect 842 206 900 289
+rect 842 172 854 206
+rect 888 172 900 206
+rect 842 164 900 172
+<< viali >>
+rect 1864 528 1898 562
+rect 447 373 481 407
+rect -30 272 6 308
+rect 181 273 215 307
+rect 1388 322 1422 356
+rect 2978 260 3014 294
+rect 854 172 888 206
+<< metal1 >>
+rect -108 714 -9 715
+rect -108 713 1609 714
+rect -108 616 3077 713
+rect -66 615 3077 616
+rect 1852 562 1910 574
+rect -110 528 1864 562
+rect 1898 528 1910 562
+rect 1852 516 1910 528
+rect 431 407 497 421
+rect 431 373 447 407
+rect 481 373 497 407
+rect 431 362 497 373
+rect 431 354 498 362
+rect 1372 356 1438 362
+rect 1372 354 1388 356
+rect -44 308 22 324
+rect 431 322 1388 354
+rect 1422 322 1438 356
+rect -44 272 -30 308
+rect 6 272 22 308
+rect -110 240 22 272
+rect 164 307 230 322
+rect 431 318 1438 322
+rect 1374 314 1438 318
+rect 164 273 181 307
+rect 215 286 230 307
+rect 2966 294 3080 308
+rect 2966 286 2978 294
+rect 215 273 2978 286
+rect 164 260 2978 273
+rect 3014 260 3080 294
+rect 164 258 3080 260
+rect 2966 248 3080 258
+rect 840 208 900 216
+rect -110 206 900 208
+rect -110 172 854 206
+rect 888 172 900 206
+rect -110 160 900 172
+rect -111 -51 3077 48
+use sky130_fd_sc_lp__xor2_1  sky130_fd_sc_lp__xor2_1_0 ~/sky130A/libs.ref/sky130_fd_sc_lp/mag
+timestamp 1626515395
+transform 1 0 -70 0 1 -2
+box -38 -49 710 715
+use sky130_fd_sc_lp__dfrtp_1  sky130_fd_sc_lp__dfrtp_1_0 ~/sky130A/libs.ref/sky130_fd_sc_lp/mag
+timestamp 1626515395
+transform 1 0 930 0 1 -1
+box -38 -49 2150 715
+<< labels >>
+rlabel metal1 -110 184 -110 184 7 CLK
+port 2 w
+rlabel metal1 -110 546 -110 546 7 RSTB
+port 3 w
+rlabel metal1 3080 276 3080 276 3 Q
+port 4 e
+rlabel metal1 -110 256 -110 256 7 T
+port 1 w
+<< end >>

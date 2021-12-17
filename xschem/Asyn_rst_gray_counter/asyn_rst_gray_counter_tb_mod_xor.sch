@@ -30,11 +30,11 @@ C {devices/netlist.sym} 430 -1490 0 0 {name=SPICE value="
 .param f=2560k
 .param duty_cycle=0.5
 *.ic v(x1.Qb0)=0 
-.tran \{(1/100)*(1/f)\} \{256/f\}
+.tran \{(1/100)*(1/f)\} \{40/f\}
 .save all
 "}
-C {Asyn_rst_gray_counter/asyn_rst_gray_counter.sym} 6103.75 -815 0 0 {name=X1}
 C {devices/lab_pin.sym} 210 -1070 0 0 {name=l14 sig_type=std_logic lab=RST_bar}
 C {devices/vsource.sym} 210 -1040 0 1 {name=V4 value="DC 0 PWL(0 0 2u 0 2.01u 1.2 10u 1.2)"
 *DC 0 PWL(0 0 2u 0 2.01u 1.2 10u 1.2)}
 C {devices/gnd.sym} 210 -1010 0 0 {name=l16 lab=GND}
+C {Asyn_rst_gray_counter/asyn_rst_gray_counter_mod_xor.sym} 6103.75 -815 0 0 {name=X1}

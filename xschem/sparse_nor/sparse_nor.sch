@@ -45,7 +45,7 @@ N 2280 2860 2280 2920 { lab=A9}
 N 2340 2860 2340 2920 { lab=A10}
 N 2090 2810 2190 2810 { lab=out}
 C {sky130_fd_pr/pfet3_01v8.sym} 2070 2770 0 0 {name=M2
-L=0.18
+L=0.15
 W=0.5
 body=VDD
 nf=1
@@ -60,7 +60,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 2070 2860 0 0 {name=M3
-L=0.18
+L=0.15
 W=2
 body=GND
 nf=1
@@ -75,7 +75,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 1990 2860 0 0 {name=M4
-L=0.18
+L=0.15
 W=2
 body=GND
 nf=1
@@ -90,7 +90,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 1930 2860 0 0 {name=M5
-L=0.18
+L=0.15
 W=2
 body=GND
 nf=1
@@ -105,7 +105,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 1880 2860 0 0 {name=M6
-L=0.18
+L=0.15
 W=2
 body=GND
 nf=1
@@ -120,7 +120,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 1820 2860 0 0 {name=M7
-L=0.18
+L=0.15
 W=2
 body=GND
 nf=1
@@ -135,7 +135,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 1770 2860 0 0 {name=M8
-L=0.18
+L=0.15
 W=2
 body=GND
 nf=1
@@ -150,7 +150,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 2360 2860 0 0 {name=M9
-L=0.18
+L=0.15
 W=2
 body=GND
 nf=1
@@ -165,7 +165,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 2300 2860 0 0 {name=M10
-L=0.18
+L=0.15
 W=2
 body=GND
 nf=1
@@ -180,7 +180,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 2250 2860 0 0 {name=M11
-L=0.18
+L=0.15
 W=2
 body=GND
 nf=1
@@ -195,7 +195,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 2190 2860 0 0 {name=M12
-L=0.18
+L=0.15
 W=2
 body=GND
 nf=1
@@ -210,7 +210,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 2140 2860 0 0 {name=M13
-L=0.18
+L=0.15
 W=2
 body=GND
 nf=1
