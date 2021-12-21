@@ -18,7 +18,7 @@ N -680 -290 -680 -270 { lab=RST_bar}
 N -930 -270 -680 -270 { lab=RST_bar}
 N -940 -270 -930 -270 { lab=RST_bar}
 C {sky130_stdcells/dfrtp_1.sym} -590 -370 0 0 {name=x1 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_lp__ }
-C {sky130_stdcells/xor2_1.sym} -790 -370 0 0 {name=x3 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_lp__ }
+C {sky130_stdcells/xor2_1.sym} -790 -370 2 1 {name=x3 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_lp__ }
 C {devices/ipin.sym} -930 -350 0 0 {name=p1 lab=T}
 C {devices/ipin.sym} -930 -300 0 0 {name=p2 lab=CLK}
 C {devices/opin.sym} -430 -390 0 0 {name=p3 lab=Q}
