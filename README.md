@@ -4,6 +4,9 @@
 
 ---
 
+# This project has moved! 
+See https://github.com/3x10e8/fossi_cochlea
+
 This project implements a wavelet filterbank using switched capacitor techniques, as an extension of Tim Edwards's [dissertation work](http://opencircuitdesign.com/~tim/dissertation.html) (1999). 
 The filterbank will be embedded inside efabless's Caravel frame in the nearest tapeout.
 
