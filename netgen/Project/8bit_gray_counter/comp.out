@@ -1,0 +1,316 @@
+
+Flattening unmatched subcell asyn_rst_t_ff in circuit gray_counter_sch.spice (0)(8 instances)
+Equate elements:  no current cell.
+
+Equate elements:  no current cell.
+
+Equate elements:  no current cell.
+
+Class gray_counter_lay.spice(1):  Merged 48 parallel devices.
+Subcircuit summary:
+Circuit 1: gray_counter_sch.spice          |Circuit 2: gray_counter_lay.spice          
+-------------------------------------------|-------------------------------------------
+sky130_fd_sc_lp__xor2_1 (15)               |sky130_fd_sc_lp__xor2_1 (15)               
+sky130_fd_sc_lp__and2_1 (7)                |sky130_fd_sc_lp__and2_1 (7)                
+sky130_fd_sc_lp__dfrtp_1 (8)               |sky130_fd_sc_lp__dfrtp_1 (8)               
+Number of devices: 30                      |Number of devices: 30                      
+Number of nets: 35                         |Number of nets: 35                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Property errors were found.
+Netlists match uniquely.
+There were property errors.
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_0/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_0/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_0/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_6/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_6/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_6/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_2/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_2/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_2/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_5/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_5/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_5/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_4/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_4/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_4/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_3/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_3/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_3/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_1/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_1/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1asyn_gr_counter_cell_1/T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__dfrtp_1T_flip_flop_0/sky130_fd_sc_lp__dfrtp_1_3 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_0/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_0/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_0/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_6/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_6/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_6/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_2/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_2/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_2/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_5/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_5/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_5/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_4/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_4/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_4/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_3/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_3/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_3/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_1/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_1/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1asyn_gr_counter_cell_1/T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Circuit 1 parallel/series network does not match Circuit 2
+Circuit 2 instance sky130_fd_sc_lp__xor2_1T_flip_flop_0/sky130_fd_sc_lp__xor2_1_0 network:
+  M = 1
+  M = 1
+  M = 1
+  M = 1
+Cells have no pins;  pin matching not needed.
+Device classes gray_counter_sch.spice and gray_counter_lay.spice are equivalent.
+Circuits match uniquely.
+Property errors were found.
+The following cells had property errors:
+ gray_counter_sch.spice
